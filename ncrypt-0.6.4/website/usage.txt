@@ -1,0 +1,270 @@
+NCrypt - Usage Examples
+=======================
+
+Examples are provided for the following modules:
+
+- ncrypt.digest_ - *hash algorithms*
+    - `compute hash`_
+    - `compute hash for large data`_
+- ncrypt.cipher_ - *symmetric key encryption/decryption*
+    - `show cipher information`_
+    - `encrypt/decrypt`_
+    - `encrypt/decrypt large data`_
+- ncrypt.rsa_ - *public key crypto using RSA*
+    - `generate RSA key`_
+    - `convert to PEM`_
+    - `encrypt with public key`_
+    - `decrypt with private key`_
+    - `sign with private key`_
+    - `verify signature with public key`_
+- ncrypt.dh_ - *diffie-hellman key exchange*
+- ncrypt.x509_ - *create/manipulate X.509 certificates used in SSL*
+- ncrypt.ssl_ - *SSL/TLS network protocol*
+
+ncrypt.digest
+-------------
+- `compute hash`_
+- `compute hash for large data`_
+
+_`compute hash`::
+
+    from ncrypt.digest import DigestType, Digest
+    
+    sha256Type = DigestType( 'SHA256' )
+    
+    def calc_sha256( data ) :
+        d = Digest( sha256Type )
+        return d.digest( data )
+    
+_`compute hash for large data`::
+
+    md5Type = DigestType( 'MD5' )
+
+    def calc_md5( file_obj ) :
+        d = Digest( md5Type )
+        while 1 :
+            data = file_obj.read( 65536 )
+            if not data : break
+            d.update( data )
+        return d.digest()
+    
+
+ncrypt.cipher
+-------------
+- `show cipher information`_
+- `encrypt/decrypt`_
+- `encrypt/decrypt large data`_
+
+_`show cipher information`::
+    
+    from ncrypt.cipher import CipherType
+    
+    def show_info( algo, mode ) :
+        ct = CipherType( algo, mode )
+        print 'name = %s' % ct.name()
+        print 'blockSize = %d bits' % (ct.blockSize()*8)
+        print 'keyLength = %d bits' % (ct.keyLength()*8)
+        print 'ivLength = %d bits' % (ct.ivLength()*8)
+    
+    >>> show_info( 'AES-128', 'CBC' )
+    name = AES-128-CBC
+    blockSize = 128 bits
+    keyLength = 128 bits
+    ivLength = 128 bits
+
+    >>> show_info( 'AES-256', 'CBC' )
+    name = AES-256-CBC
+    blockSize = 128 bits
+    keyLength = 256 bits
+    ivLength = 128 bits
+
+    >>> show_info( 'BF', 'CBC' )
+    name = BF-CBC
+    blockSize = 64 bits
+    keyLength = 128 bits
+    ivLength = 64 bits
+
+_`encrypt/decrypt`::
+
+    from ncrypt.cipher import EncryptCipher, DecryptCipher
+
+    def do_encrypt( cipherType, key, iv, plain_text ) :
+        enc = EncryptCipher( cipherType, key, iv )
+        cipher_text = enc.finish( plain_text )
+        return cipher_text
+
+    def do_decrypt( cipherType, key, iv, cipher_text ) :
+        dec = DecryptCipher( cipherType, key, iv )
+        plain_text = dec.finish( cipher_text )
+        return plain_text
+
+    >>> from ncrypt.cipher import CipherType
+    >>> ct = CipherType( 'AES-128', 'CBC' )
+    >>> key = 'a' * ct.keyLength()   # dummy key
+    >>> iv = 'b' * ct.ivLength()     # dummy initial-vector
+    >>> plain_text = 'my secret'
+    >>> 
+    >>> enc = EncryptCipher( ct, key, iv )
+    >>> cipher_text = enc.finish( plain_text )
+    >>> cipher_text
+    '\xee\xef\xa6\xa2b\xa7\xbd\x17f\xf7HI\xbcd\xb9c'
+    >>>
+    >>> dec = DecryptCipher( ct, key, iv )
+    >>> new_plain_text = dec.finish( cipher_text )
+    >>> new_plain_text
+    'my secret'
+
+    # when trying to decrypt invalid cipher text
+    # CipherError is thrown
+
+    >>> dec = DecryptCipher( ct, key, iv )
+    >>> dec.finish( 'blah' )
+    ncrypt_cipher.CipherError: error in cipher operation (wrong final block length)
+
+_`encrypt/decrypt large data`::
+
+    from ncrypt.cipher import EncryptCipher, DecryptCipher
+
+    def encrypt_file( cipherType, key, iv, in_file, out_file ) :
+        enc = EncryptCipher( cipherType, key, iv )
+        while 1 :
+            data = in_file.read( 8192 )
+            if not data : break
+            out_data = enc.update( data )
+            out_file.write( out_data )
+        final_data = enc.finish()
+        out_file.write( final_data )
+
+    def decrypt_file( cipherType, key, iv, in_file, out_file ) :
+        dec = DecryptCipher( cipherType, key, iv )
+        while 1 :
+            data = in_file.read( 8192 )
+            if not data : break
+            out_data = dec.update( data )
+            out_file.write( out_data )
+        final_data = dec.finish()
+        out_file.write( final_data )
+
+ncrypt.rsa
+----------
+- `generate RSA key`_
+- `convert to PEM`_
+- `encrypt with public key`_
+- `decrypt with private key`_
+- `sign with private key`_
+- `verify signature with public key`_
+
+_`generate RSA key`::
+
+    >>> from ncrypt.rsa import RSAKey
+    >>> 
+    >>> key1 = RSAKey()
+    >>> key1.generate( bits=1024 )
+
+    >>> key2 = RSAKey()
+    >>> key2.generate( bits=2048 )
+
+_`convert to PEM`::
+
+    >>> public_key_data = key1.toPEM_PublicKey()
+    >>> print public_key_data
+    -----BEGIN RSA PUBLIC KEY-----
+    MIGHAoGBAMRU0a9uJviPv845ksWO4LLnxzGNhaUgAEXv0tU+q48qaPFiRQ2h0ygJ
+    0AHgSCGjslJumbZKBOaWWTChAwrdqH6bEFN10jPk4n4LlzHR/qayy68QQjQtzI9m
+    GqejD6bK1FZKw7+Weg9AiXkLKFSAtPDVdUz+IZjwO/4pGDXaLE2ZAgEF
+    -----END RSA PUBLIC KEY-----
+    
+    >>> private_key_data = key1.toPEM_PrivateKey()
+    >>> print private_key_data
+    -----BEGIN RSA PRIVATE KEY-----
+    MIICWwIBAAKBgQDEVNGvbib4j7/OOZLFjuCy58cxjYWlIABF79LVPquPKmjxYkUN
+    odMoCdAB4Egho7JSbpm2SgTmllkwoQMK3ah+mxBTddIz5OJ+C5cx0f6mssuvEEI0
+    LcyPZhqnow+mytRWSsO/lnoPQIl5CyhUgLTw1XVM/iGY8Dv+KRg12ixNmQIBBQKB
+    gQCdEKe/i1Jgcv/YLg8Eck1b7J9a154dszNrJkJEMiLY7rpatQQK59wgB9mbGdNO
+    HI6oWHr4Ozce3q3AgM875IbKRz/gO80bvb8xipcYjFj9XpRlt2A32Y+oJhprVGCf
+    e/VWjtJGS11lFvfqQ095kKuis+6eEoCeikIlngqLmJ9FHQJBAPQYdVjCprsqMaJG
+    AdE4mousFb4D27MQWnF20LIlrhh2vDo/ioQcaPE1qwS4l4E/eyc1P2/I3sxmEmPw
+    SIdd14MCQQDN6AXSTyp8iU58FFFRVs9w5hotBhKqyKLFAtDHcTFXau3d/V00KOfy
+    nekyTGUKnupNVcf3N/P3Azy/mr7UB1+zAkEAknUTNUGXPRlQ+vbN4+7DIJpzcgJQ
+    nqNpd0dKBH0CDq2kIvLstaqlXYaZz6H0gL+wSrmMdkVSeqOkolz4UThOGwJAUlzP
+    IOx3ZQO4/m6G7VXsk489q5wHd4N0Ts3tHJOtVirFi/7yFN0plD8qFB6O0QxduIi2
+    YuMuYs4YTKRMVM+/4QJAeMNAGhp4A8Cy5rg8M23YRVIaGJZVC0DKQZLptBfSiqtW
+    iZmAdozBoNU+KEn8CvIB7+NbYRb16JqxRrmjaFlkjg==
+    -----END RSA PRIVATE KEY-----
+
+_`encrypt with public key`::
+    
+    >>> key = RSAKey()
+    >>> key.fromPEM_PublicKey( public_key_data )
+    >>>
+    >>> key.maxInputSize()
+    86
+    >>> plain_text = 'my secret'
+    >>> len(plain_text)
+    9
+    >>> cipher_text = key.encrypt( plain_text )
+    >>> cipher_text
+    '\x054\x0c\xf4)7P\x99\x85\x91\xb7\xdad\xa4\x9d\xe6s\xbd\xfd\x1f\xd4\xee\x03\x04x
+    \xdc\xa7Ob\x18\xa7[\xaey\x01\xf1\xb1\xb5\xa6\xec\x89\xac\xf3\xa4x\xfdy\xc8\x98\x
+    f8\xcaj\xb3x\xe3\xab<-\xca@\xe7\xbc\xef\xe8\xbb<\x1dS\x9e<y\xa7\xe9\x81`%\xce\xa
+    5\xa98\x93\xe6O\xc6EQ\x18\xc4\x87\x84b\xf5\x0fU%\xda\xc7\x0c?\xb8C\xcaiAx$\x11A\
+    x94\x14\x175=\xd02\xd6\x08\x18d\x8aq\t\xeb</\xd6\x1c\xb1'
+    
+
+_`decrypt with private key`::
+
+    >>> key = RSAKey()
+    >>> key.fromPEM_PrivateKey( private_key_data )
+    >>>
+    >>> new_plain_text = key.decrypt( cipher_text )
+    >>> new_plain_text
+    'my secret'
+
+_`sign with private key`::
+
+    >>> from ncrypt.digest import Digest, DigestType
+    >>>
+    >>> key = RSAKey()
+    >>> key.fromPEM_PrivateKey( private_key_data )
+    >>>
+    >>> data = 'data to be signed'
+    >>>
+    >>> digestType = DigestType( 'SHA1' )
+    >>> digest = Digest( digestType ).digest( data )
+    >>>
+    >>> signature = key.sign( digest, digestType )
+    >>> signature
+    '2\xbf\xe6\x97@\xa2vx\xb4\xb5\x99\xa7w\xd6\xb7\x8fs\xf6\xda\x08\xd2\x81\xa8\xf0\
+    x80=9\xc7\xe2\x0b\xb1\x13\\)cc\xafx\x02\xf8\x95\x00\xdc\xaa\x06\x96\x1e6\xb8N\x8
+    8\xfb\xe7\xc5\xfa\x83\xf4\x81}"uK[\xbd\x03\x15\x9cE\xb0\xa1\x9cZ\x888l\x8b\x1dn(
+    \t\x8e(\x0b\r\xa4q\xd9\x14\xb1\x9c.+"\xa7\xec\x00,\x8b6\x9a\xc9E\xdd\xb3P\x16\xd
+    1\xc5\x89M\xa0\x0f\x8fP\xed\x14\xa3l\xad\xd2U\xd2z\x03\xaa\x18\xf7\xbd'
+
+_`verify signature with public key`::
+
+    >>> key = RSAKey()
+    >>> key.fromPEM_PublicKey( public_key_data )
+    >>>
+    >>> key.verify( signature, digest, digestType )
+    # throws RSAError if verification failed
+
+ncrypt.dh
+---------
+
+::
+
+    Coming soon...
+
+ncrypt.x509
+-----------
+
+::
+
+    Coming soon...
+
+ncrypt.ssl
+----------
+
+::
+
+    Coming soon...
