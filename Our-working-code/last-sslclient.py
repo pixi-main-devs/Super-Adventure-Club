@@ -22,6 +22,7 @@ while 1:
 #   sys.cls()
    input = raw_input("what message do you want to send\n\nsave  --followed by string will save the string remotely\nprnt  --will print the last saved string\ntext  --the following string is to be displayed on the remote side\n\n(q to Quit)")
    if input == 'q':
+      sendmessage("quit")
       break
    if input =="":
       break
@@ -31,7 +32,7 @@ while 1:
       file = open (inputfile,'r')
       filedata = file.read()
       stringtosend= str(input+" "+inputfile+","+filedata)
-      sendmessage(filedata)
+      sendmessage(stringtosend)
    else:
       data = input
       sendmessage(data)
