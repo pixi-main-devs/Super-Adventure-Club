@@ -11,10 +11,12 @@ def sendmessage(data):
    # naive and incomplete check to see if cert matches host
    #print c.getpeercert()
    c.write(data)
+   response = c.read()
+   print response
    c.close()
 
 while 1:
-   print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+#   print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 #   clear()
 #   sys.cls()
    input = raw_input("what message do you want to send\n\nsave  --followed by string will save the string remotely\nprnt  --will print the last saved string\ntext  --the following string is to be displayed on the remote side\n\n(q to Quit)")
