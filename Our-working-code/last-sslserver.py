@@ -25,11 +25,14 @@ while 1:
       break
    if "prnt" in column1:
       datafile = open('ssl.datafile','r')
-      prntfromfile = datafile.readlines()
-      print prntfromfile
-#   else:
-#      print "message not recieved"
-#      break
-#c.write('200 OK\r\n\r\n')
+#      prntfromfile = datafile.readlines()
+      for line in datafile.read().split('\n'):
+         c.write(line)
+   if "data" in column1:
+      filename = column2.split(',')
+#      print filename[0]
+#      print filename[1]
+      savefile = open(filename[0],'w')
+      c.write(filename[0]+" has been saved")
 c.close()
 bindsocket.close()

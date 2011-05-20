@@ -1,3 +1,4 @@
+from subprocess import call
 from socket import socket
 import ssl, sys
 rhost = "cor-laptop"
@@ -24,6 +25,13 @@ while 1:
       break
    if input =="":
       break
+   if input == 'data':
+      return_code = call("ls -l", shell=True)
+      inputfile = raw_input("please specify valid file to transfer?\n>")
+      file = open (inputfile,'r')
+      filedata = file.read()
+      stringtosend= str(input+" "+inputfile+","+filedata)
+      sendmessage(filedata)
    else:
       data = input
       sendmessage(data)
