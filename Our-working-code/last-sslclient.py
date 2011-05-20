@@ -1,6 +1,6 @@
 from socket import socket
 import ssl, sys
-rhost = "127.0.0.1"
+rhost = "cor-laptop"
 rport = 4444
 
 def sendmessage(data):
