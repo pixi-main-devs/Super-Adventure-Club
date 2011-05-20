@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,follow">
+
+<title>FrontPage - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/FrontPage?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/FrontPage?action=print">
+<link rel="Appendix" title="wiki-logo.gif" href="http://wiki.python.org/moin/FrontPage?action=AttachFile&amp;do=view&amp;target=wiki-logo.gif">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="FrontPage">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/FrontPage?action=fullsearch&amp;context=180&amp;value=linkto%3A%22FrontPage%22" rel="nofollow" title="Click to do a full-text search for this title">FrontPage</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="FrontPage">FrontPage</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink current"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="FrontPage#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/FrontPage?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/FrontPage?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="FrontPage">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/FrontPage?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867">
+<h1 id="The_Python_Wiki">The Python Wiki</h1>
+<span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line862">Python is a great object-oriented, interpreted, and interactive programming language. It is often compared (favorably of course <img alt=":-)" height="16" src="moin_static193/europython/img/smile.png" title=":-)" width="16" /> ) to Lisp, Tcl, Perl, Ruby, C#, Visual Basic, Visual Fox Pro, Scheme or Java... and it's much more fun. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line862">Python combines remarkable power with very clear syntax. It has modules, classes, exceptions, very high level dynamic data types, and dynamic typing. There are interfaces to many system calls and libraries, as well as to various windowing systems. New built-in modules are easily written in C or C++ (or other languages, depending on the chosen <a href="implementation">implementation</a>). Python is also usable as an extension language for <a href="AppsWithPythonScripting">applications written in other languages</a> that need easy-to-use scripting or automation interfaces. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867">
+<h2 id="Getting_Started">Getting Started</h2>
+<span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><div><table style="width: 100%;  table-layout:fixed"><tbody><tr>  <td style="background-color: #eeeeee; width: 50%"><p class="line862"> <a href="BeginnersGuide">Beginners Guide</a> </td>
+  <td style="width: 50%; background-color: #eeeeee"><p class="line862"> <a href="Documentation">Documentation</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-12"></span><p class="line862"> Links to tutorials, courses and resources                   </td>
+  <td><p class="line862"> Learning materials, topic guides and links to central resources </td>
+</tr>
+<tr>  <td style="background-color: #eeeeee"><span class="anchor" id="line-13"></span><p class="line862"> <a href="BeginnerErrorsWithPythonProgramming">Beginner Errors</a>    </td>
+  <td style="background-color: #eeeeee"><p class="line862"> <a href="PythonBooks">Python Books</a>                   </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-14"></span><p class="line862"> Some common pitfalls of beginners                                   </td>
+  <td><p class="line862"> Books about Python plus reviews                         </td>
+</tr>
+<tr>  <td style="background-color: #eeeeee"><span class="anchor" id="line-15"></span><p class="line862"> <a href="Asking&#32;for&#32;Help">Asking for Help</a>                                        </td>
+  <td style="background-color: #eeeeee"><p class="line862"> <a href="PythonAudioMaterial">Python Audio Materials</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-16"></span><p class="line862"> Questions asked by beginners, answered here                         </td>
+  <td><p class="line862"> A mixture of introductory and topical material          </td>
+</tr>
+<tr>  <td style="background-color: #eeeeee"><span class="anchor" id="line-17"></span><p class="line862"> <a href="Languages">Languages</a>                                              </td>
+  <td style="background-color: #eeeeee"><p class="line862"> <a href="implementation">Python Implementations</a>      </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-18"></span><p class="line862"> Resources written in languages other than English             </td>
+  <td><p class="line862"> Different software which runs programs in the Python language </td>
+</tr>
+<tr>  <td colspan="2" style="text-align: center"><span class="anchor" id="line-19"></span><p class="line862"> See also the <a href="CategoryDocumentation">documentation category</a> for all known documentation-related pages.                 </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line867">
+<h2 id="Events.2C_Courses.2C_Conferences.2C_Community">Events, Courses, Conferences, Community</h2>
+<span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><ul><li><p class="line891"><a href="PythonConferences">Python Conferences</a> - information about the Python conference scene <span class="anchor" id="line-24"></span></li><li><p class="line891"><a href="PythonEvents">Python Events</a> - covers conferences, training courses and more <span class="anchor" id="line-25"></span></li><li><p class="line891"><a href="LocalUserGroups">Local User Groups</a> - find a Python group near you <span class="anchor" id="line-26"></span></li><li><p class="line891"><a href="Community">Participating in the Community</a> - where people using and producing Python get together <span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span></li></ul><p class="line867">
+<h2 id="Python_Software">Python Software</h2>
+<span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><div><table style="width: 100%;  table-layout:fixed"><tbody><tr>  <td style="background-color: #eeeeee; width: 50%"><p class="line862"> <a href="PythonProjects">Python Projects</a> </td>
+  <td style="width: 50%; background-color: #eeeeee"><p class="line862"> <a href="DevelopmentTools">Development Tools</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-31"></span><p class="line862"> Information on finding software projects written in Python, including... </td>
+  <td><p class="line862"> Managing your code more effectively             </td>
+</tr>
+<tr>  <td style="background-color: #eeeeee"><span class="anchor" id="line-32"></span><p class="line862"> <a href="Applications">Applications</a>                                                </td>
+  <td style="background-color: #eeeeee"><p class="line862"> <a href="PythonEditors">Python Editors</a>       </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-33"></span><p class="line862"> Ready-to-run applications which use Python                               </td>
+  <td><p class="line862"> Editing your code more effectively              </td>
+</tr>
+<tr>  <td style="background-color: #eeeeee"><span class="anchor" id="line-34"></span><p class="line862"> <a href="UsefulModules">Useful Modules</a>                 </td>
+  <td style="background-color: #eeeeee"><p class="line862"> <a href="http://wiki.python.org/moin/PublishingPythonModules">Publishing Python Modules</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-35"></span><p class="line862"> Some building blocks for your own projects (including frameworks for database, GUI, Web programming) </td>
+  <td><p class="line862"> How to make others aware of your own works </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><p class="line867">
+<h2 id="Using_this_Wiki">Using this Wiki</h2>
+<span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><p class="line862">Feel free to add more useful stuff (see <a href="HelpContents">HelpContents</a> and <a href="http://wiki.python.org/moin/HelpOnEditing">HelpOnEditing</a> to learn how), but do us a favour and do tests in the <a href="http://wiki.python.org/moin/WikiSandBox">WikiSandBox</a> if you're not accustomed to Wiki technologies. If you're new to Wikis, please read <a href="http://wiki.python.org/moin/WikiWikiWeb">WikiWikiWeb</a>. <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><p class="line867"><img alt="{i}" height="16" src="moin_static193/europython/img/icon-info.png" title="{i}" width="16" /> See <a href="http://wiki.python.org/moin/WikiGuidelines">WikiGuidelines</a> for details of the policies and rules governing this Wiki. <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line867"><img alt="{i}" height="16" src="moin_static193/europython/img/icon-info.png" title="{i}" width="16" /> See <a href="http://wiki.python.org/moin/SiteImprovements">SiteImprovements</a> for a discussion of improvements to this Wiki and other related sites. <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line867"><a class="http" href="http://www.python.org/moin/?action=rss_rc"><img alt="http://www.python.org/moin/?action=rss_rc" class="external_image" src="../wiki/python/img/moin-rss.png" title="http://www.python.org/moin/?action=rss_rc" /></a> See <a href="RecentChanges">RecentChanges</a> for a history, available in <a class="http" href="http://www.python.org/moin/?action=rss_rc">RSS format</a>. To see pages which need writing, take a look at <a href="http://wiki.python.org/moin/DesiredPages">DesiredPages</a>. <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><p class="line862">To report problems or to help out, please contact the <a class="mailto" href="mailto:webmaster@python.org">python.org maintainers</a>. <span class="anchor" id="line-48"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">FrontPage  (last edited 2011-04-10 17:49:16 by <span title="PaulBoddie @ cm-84.215.174.203.getinternet.no[84.215.174.203]"><a href="http://wiki.python.org/moin/PaulBoddie" title="PaulBoddie @ cm-84.215.174.203.getinternet.no[84.215.174.203]">PaulBoddie</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>PythonConferences - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/PythonConferences?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/PythonConferences?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/PythonConferences?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/PythonConferences?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="PythonConferences">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/PythonConferences?action=fullsearch&amp;context=180&amp;value=linkto%3A%22PythonConferences%22" rel="nofollow" title="Click to do a full-text search for this title">PythonConferences</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="Asking&#32;for&#32;Help">Asking for Help</a></li><li><a href="PythonAudioMaterial">PythonAudioMaterial</a></li><li><a href="Languages">Languages</a></li><li><a href="CategoryDocumentation">CategoryDocumentation</a></li><li><a href="PythonConferences">PythonConferences</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="PythonConferences">PythonConferences</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/PythonConferences?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="PythonConferences#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/PythonConferences?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/PythonConferences?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="PythonConferences">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/PythonConferences?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Python_Conferences">Python Conferences</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line874">The Python community tends to organise regional lower-cost events  <span class="anchor" id="line-4"></span>around the world.  Established events such as <a href="http://wiki.python.org/moin/PyCon">PyCon</a> and <a href="http://wiki.python.org/moin/EuroPython">EuroPython</a> have since been joined by other regional conferences, and Python often features prominently in various open source conferences. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line862">Want to organize an event in your community?  Read <a href="http://wiki.python.org/moin/AdvocacyWritingTasks/RunningAConference">our guide to running a conference</a>. <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line867"><span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><div class="tip"><span class="anchor" id="line-1-1"></span><p class="line862">A list of conferences is also found on the <a class="http" href="http://www.pycon.org/">general PyCon site</a>. <span class="anchor" id="line-2-1"></span><span class="anchor" id="line-3-1"></span><p class="line862">See the <a href="PythonEvents">PythonEvents</a> page for schedule information. <span class="anchor" id="line-4-1"></span><span class="anchor" id="line-5-1"></span><p class="line862">If you are planing a Python conference event, please also check <a class="http" href="http://www.python-academy.com/events/python_events.html">this event list</a> for a suitable non-overlapping date. </div><span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line867">
+<h2 id="Americas">Americas</h2>
+<span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/PyCon">PyCon</a> (North America) <span class="anchor" id="line-19"></span></li><li><p class="line891"><a class="http" href="http://ar.pycon.org/">PyCon Argentina</a> (Argentina) <span class="anchor" id="line-20"></span></li><li><p class="line891"><a class="http" href="http://pyconbrasil.com.br/">PythonBrasil</a> and <a class="http" href="http://www.pythonbrasil.com.br/moin.cgi/PyConDayBrasil">PyConDayBrasil</a> (Brazil) <span class="anchor" id="line-21"></span></li><li><p class="line891"><a class="http" href="http://conference.scipy.org/index.html">SciPy conferences</a> (California, Austin) - focuses on scientific applications <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></li></ul><p class="line867">
+<h2 id="Asia">Asia</h2>
+<span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><ul><li><p class="line891"><a class="http" href="http://apac.pycon.org/">PyCon Asia Pacific</a> (Singapore) <span class="anchor" id="line-26"></span></li><li><p class="line891"><a class="http" href="http://in.pycon.org/">PyCon India</a> (India) <span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span></li></ul><p class="line867">
+<h2 id="Australasia">Australasia</h2>
+<span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><ul><li><p class="line891"><a class="http" href="http://nz.pycon.org/">Kiwi PyCon</a> (New Zealand) <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span></li></ul><p class="line867">
+<h2 id="Europe">Europe</h2>
+<span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/EuroPython">EuroPython</a> (Europe) <span class="anchor" id="line-35"></span></li><li><p class="line891"><a class="http" href="http://www.euroscipy.org">EuroSciPy conference</a> (Germany, France) - focuses on scientific applications <span class="anchor" id="line-36"></span></li><li><p class="line891"><a class="http" href="http://de.pycon.org/">PyCon DE</a> (Germany) <span class="anchor" id="line-37"></span></li><li><p class="line891"><a class="http" href="http://fr.pycon.org/">PyCon FR</a> (France) <span class="anchor" id="line-38"></span></li><li><p class="line891"><a class="http" href="http://www.pycon.it/">PyCon Italia</a> (Italy) <span class="anchor" id="line-39"></span></li><li><p class="line891"><a class="http" href="http://pl.pycon.org/">PyCon PL</a> (Poland) <span class="anchor" id="line-40"></span></li><li><p class="line891"><a class="http" href="http://www.pyconuk.org">PyCon UK</a> (United Kingdom)  <span class="anchor" id="line-41"></span></li><li><p class="line891"><a class="http" href="http://rupy.eu/">RuPy</a> (Poland) - a hybrid Ruby/Python conference <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span></li></ul><p class="line867">
+<h2 id="Open_Source_Conferences">Open Source Conferences</h2>
+<span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line874">Python has often featured in the following conference series and events: <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><ul><li><p class="line891"><a class="http" href="http://conferences.oreillynet.com/oscon/">OSCON</a> - features a Python track <span class="anchor" id="line-48"></span></li><li><p class="line891"><a class="http" href="http://conferences.oreillynet.com/eurooscon/">EuroOSCON</a> <span class="anchor" id="line-49"></span></li><li><p class="line891"><a class="http" href="http://www.osdc.com.au/">OSDC AU</a> - a very strong Python track <span class="anchor" id="line-50"></span></li></ul><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">PythonConferences  (last edited 2011-01-19 10:24:52 by <span title="MarcAndreLemburg @ ip-62-143-153-202.unitymediagroup.de[62.143.153.202]"><a href="http://wiki.python.org/moin/MarcAndreLemburg" title="MarcAndreLemburg @ ip-62-143-153-202.unitymediagroup.de[62.143.153.202]">MarcAndreLemburg</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

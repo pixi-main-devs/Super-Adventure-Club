@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Asking for Help - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/Asking%20for%20Help?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/Asking%20for%20Help?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/Asking%20for%20Help?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/Asking%20for%20Help?action=print">
+<link rel="Appendix" title="folder.txt" href="http://wiki.python.org/moin/Asking%20for%20Help?action=AttachFile&amp;do=view&amp;target=folder.txt">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="Asking&#32;for&#32;Help">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/Asking%20for%20Help?action=fullsearch&amp;context=180&amp;value=linkto%3A%22Asking+for+Help%22" rel="nofollow" title="Click to do a full-text search for this title">Asking for Help</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="BeginnersGuide">BeginnersGuide</a></li><li><a href="Documentation">Documentation</a></li><li><a href="BeginnerErrorsWithPythonProgramming">BeginnerErr...Programming</a></li><li><a href="PythonBooks">PythonBooks</a></li><li><a href="Asking&#32;for&#32;Help">Asking for Help</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="Asking&#32;for&#32;Help">Asking for Help</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/Asking%20for%20Help?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="Asking&#32;for&#32;Help#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/Asking%20for%20Help?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/Asking%20for%20Help?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="Asking&#32;for&#32;Help">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/Asking%20for%20Help?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Asking_for_Help">Asking for Help</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867"><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><div class="tip"><span class="anchor" id="line-1-1"></span><p class="line862">The most efficient way of getting help is via the <a href="http://wiki.python.org/moin/MailingListsAndNewsgroups">various mailing lists and newsgroups</a>, particularly <a href="http://wiki.python.org/moin/CompLangPython">the comp.lang.python</a> newsgroup. <span class="anchor" id="line-2-1"></span><span class="anchor" id="line-3-1"></span><p class="line862">See the <a href="Community">Community</a> page for a selection of related resources. </div><span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line874">For those of you willing to wait, and to add to the archive of problems (and solutions), enter your question in the list below. For longer questions, consider adding a new page using the button just below: write a short version of the question in the box - this will be the page name - and then write the actual question or problem description in the page editor that appears after pressing the button. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867"><form class="macro" method="POST" action="Asking&#32;for&#32;Help"><div>
+<input type="hidden" name="action" value="newpage">
+<input type="hidden" name="parent" value="Asking for Help">
+<input type="hidden" name="template" value="AskingForHelpTemplate">
+<input type="hidden" name="nametemplate" value="%s">
+<input type="text" name="pagename" size="30">
+<input type="submit" value="Add a page for a question">
+</div></form> <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">The page will be automatically added to the <a href="Asking&#32;for&#32;Help#LongerQuestions">longer questions</a> section below. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line867">
+<h2 id="Questions">Questions</h2>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><ul><li>ssl-1.14.tar.gz exists and supposedly works with Python 2.5x. Assuming I have Visual Studio .NET 2003 available on my box, how do I build the package for Windows. It currently complains about a series of openssl *.h files that aren't available. I can drag in openssl for www.openssl.org, but which version, if that is applicable, and how do I connect the two either in a directory structure or appropriate configuration files?  <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span></li><li class="gap">I'm working with embedding Python into my applications. However, the Py_Initialize() is producing an " 'import site' failed " message on non-dev computers. I was wondering if there is a way to fix this or is it just a bug with Python? Thank you. <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span></li><li class="gap">I'm trying to run the IDLE but it wont go on. i have an R52 leptop with ibm-tools installed (there is ver 2.2 there but i changed it so it wont ebe the default one). im trying to run ver 2.6. Thank <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></li><li class="gap">I'm new to python and I am just working with the idle-shell. How can I write a script without having python executing orders immediately after I type them into the shell? Follow-Up question: Having written the script, how do I run it in the interpreter? <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span></li><li class="gap"><p class="line862">I just installed <a href="http://wiki.python.org/moin/MacPython">MacPython</a>. Unfortunately it doesn't seem to include the <a class="nonexistent" href="http://wiki.python.org/moin/CoreGraphics">CoreGraphics</a>-Python Module. Where ist my old system python? How can I uninstall <a href="http://wiki.python.org/moin/MacPython">MacPython</a>? <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span></li><li class="gap">Is there any way to get the environment from a subprocess.Popen created by python?  In other words, if the new process updates it's environment, is it possible to get access to the modifications.  For example In my case I'm executing MS Visual Studio's vsvars32.bat file and would like to access the modified PATH environment variable. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span></li><li class="gap">Is there any way to determine if the C implementation under my Python uses IEEE 754 for floating point numbers? If yes, what is it? <span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span></li><li class="gap">I am trying to run Python script in ABAQUS, but there is a error "Import Error: No Module named " Tkinter"". So how can I handle the problem? Thanks <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span></li><li class="gap"><p class="line891"><a class="nonexistent" href="http://wiki.python.org/moin/Why%20do%20I%20call%20constructor%20of%20Cmd%20class%20in%20my%20Cmd%20subclass%20__init__%20method%3F">Why do I call constructor of Cmd class in my Cmd subclass __init__ method?</a> <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span></li><li class="gap"><p class="line891"><a href="http://wiki.python.org/moin/When%20I%20import%20Tkinter%2C%20Python%20exits.%20%20Why%3F">When I import Tkinter, Python exits.  Why?</a> <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span></li><li class="gap">I am new at python, I have python 2.5 and every time i open the shell python resets my moniter to 800x600.  How do I keep python from messing with my monitor settings? -Travis <span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span></li></ul><p class="line867"><span class="anchor" id="LongerQuestions"></span> <span class="anchor" id="line-40"></span>
+<h2 id="Longer_Questions">Longer Questions</h2>
+<span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line874">Pages containing longer questions should appear in this list: <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><p class="line867"><div class="searchresults">
+<ol start="1"><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20do%20you%20create%20tables%20in%20Python%3F?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How do you create tables in Python?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20to%20solve%20problem%20when%20running%20python%20from%20command%20line%3F?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How to solve problem when running python from command line?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20to%20use%20Python%20with%20MySQL%20on%20Windows?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How to use Python with MySQL on Windows</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20to%20use%20Reg.%20Exp.%20to%20capture%20data%20from%20random%20text?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How to use Reg. Exp. to capture data from random text</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20to%20utilize%20SQL%20Server%20stored%20procedure%20that%20accepts%20table%20valued%20parameter?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How to utilize SQL Server stored procedure that accepts table valued parameter</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/I%20want%20to%20right-click%20on%20data%20files%20in%20Windows%20XP%20and%20open%20them%20with%20a%20Python%20program.?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/I want to right-click on data files in Windows XP and open them with a Python program.</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Is%20there%20a%20way%20to%20use%20i%20instead%20of%20j%20for%20complex%20numbers%3F?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Is there a way to use i instead of j for complex numbers?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/What%20is%20wrong%20with%20this%20%22game%20of%20life%22%20program%3F?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/What is wrong with this "game of life" program?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/What%27s%20the%20simplest%20way%20to%20connect%20to%20a%20MSSQL%20database%20via%20Python%20v3%3F%20I%27m%20trying%20sqlite3%2C%20but%20I%20think%20I%27m%20barking%20up%20the%20wrong%20tree...?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/What's the simplest way to connect to a MSSQL database via Python v3? I'm trying sqlite3, but I think I'm barking up the wrong tree...</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Why%20do%20I%20get%20permission%20denied%20errors%20when%20using%20macostools.copy%3F?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Why do I get permission denied errors when using macostools.copy?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/remove%20escape%20characters?highlight=%28%5CbCategoryAskingForHelp%5Cb%29%7C%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/remove escape characters</a></li></ol>
+</div> <span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line862">These questions will be moved to the <a href="Asking&#32;for&#32;Help#AnsweredLongerQuestions">answered longer questions section</a> below when they are answered (having been added to the <a href="http://wiki.python.org/moin/CategoryAskingForHelpAnswered">CategoryAskingForHelpAnswered</a> category). <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line867">
+<h2 id="Answered_.28fully_or_partially.29">Answered (fully or partially)</h2>
+<span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/MultiLineStringsInDocTest">How do I write multi-line strings in doctest tests?</a> <span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span></li><li class="gap"><p class="line862">Related question to the for-a-blink question in the answered section.  When running os.system(some command) the CMD.exe window pops up and then terminates when the process terminates. <a class="nonexistent" href="http://wiki.python.org/moin/How%20do%20I%20get%20the%20contents%20of%20what%20was%20in%20that%20CMD.exe%20window%20saved%20someplace%20-%20variable%2C%20file%2C%20etc.">How do I get the contents of what was in that CMD.exe window saved someplace - variable, file, etc.</a> Variable assignment doesn't work - only the exit code is in the variable. <span class="anchor" id="line-53"></span><ul><li style="list-style-type:none">Seems to me you need to redirect the stdout. As per Python Library Reference 6.1.5., this is impossible for os.system() calls. <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span></li></ul></li><li class="gap">Does anyone know why msOffice products (using win32com return) u'dana\u2019s best' rather than u'dana's best'? <span class="anchor" id="line-56"></span><ul><li style="list-style-type:none"><p class="line862">Microsoft Office replaces apostrophes (U+0027) with "Right Single Quotation Marks" (U+2019) automatically.  While this looks correct typograpphically, it might cause some problems.  -- <a class="nonexistent" href="http://wiki.python.org/moin/IanBollinger">IanBollinger</a> <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span></li></ul></li><li class="gap"><p class="line862">I'm a total Python newbie. How do I get Python started on a Palm handheld ( <a class="http" href="http://c2.com/cgi/wiki?PalmPython">http://c2.com/cgi/wiki?PalmPython</a> ) ? Or should I focus on learning Python on a desktop PC first ? -- <a class="nonexistent" href="http://wiki.python.org/moin/DavidCary">DavidCary</a> <span class="anchor" id="line-59"></span><ul><li style="list-style-type:none"><p class="line862">I would recommend learning Python on a normal desktop system, with a recent version, a full suite of libraries, and <a class="http" href="http://ipython.scipy.org/">IPython</a> (Interactive Python) installed.  After you've learned the basics then you can probably adapt more readily to the limitations of the Palm Pilot interface, implementation, version (older), and libraries (reduced subset).  <a href="http://wiki.python.org/moin/JimD">JimD</a> <span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span></li></ul></li><li class="gap">How do you save python code and use it for anything? --elpenmaster <span class="anchor" id="line-62"></span><ul><li style="list-style-type:none"><p class="line862">Save it as "scriptName.py" and then execute it with the Python interpreter. As for choosing a purpose for the code, that's entirely up to you. -- <a class="nonexistent" href="http://wiki.python.org/moin/PeytonMcCullough">PeytonMcCullough</a> <span class="anchor" id="line-63"></span><ul><li style="list-style-type:none">How do I save it as scriptname.py? --elpenmaster <span class="anchor" id="line-64"></span><ul><li style="list-style-type:none">- it is possible to enter python commands into a text file, rather than entering them directly into the python shell. Simply create a text file containing your python instructions and save it as scriptname.py, you can then import it into a python shell session or execute it directly. <span class="anchor" id="line-65"></span></li></ul></li></ul></li></ul></li><li><p class="line891"><a href="http://wiki.python.org/moin/TestHarnessDesign">TestHarnessDesign</a> -- I've been assigned the task of designing a test harness for embedded systems, servers and software. -- <a href="http://wiki.python.org/moin/JimD">JimD</a> <span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span></li><li class="gap">How do I publish Python modules? <span class="anchor" id="line-68"></span><ul><li style="list-style-type:none"><p class="line862">See <a href="http://wiki.python.org/moin/PublishingPythonModules">PublishingPythonModules</a> - <a href="http://wiki.python.org/moin/Philip">Philip</a>, 2005-09-19 <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><p class="line891"><a href="http://wiki.python.org/moin/lwickjr">lwickjr</a>: My question, "my" page. I created that page, empty, in hopes that someone would populate it. They have, and I've read it. They hadn`t yet when I created *this* page for posting how-to questions, at about the same time, so I included the question here in the seed page. See the attachments to <a href="http://wiki.python.org/moin/lwickjr">my page</a> for my final solution to the problem. <img alt=";)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/smile4.png" title=";)" width="16" /> By the way, "How to publish Python modules" has been renamed "<a href="http://wiki.python.org/moin/PublishingPythonModules">PublishingPythonModules</a>", to be more Wiki-style. [Me, again.] 2005-11-24. <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span></li></ul></li><li class="gap"><p class="line862">i got winxp. i make a simple program like print "hello". i save it as whatever.py. then i double-click it. nothing happens just the windows cmd appears for a blink. Additionally you can go to Start -&gt; Run, type 'cmd', and hit enter. Now cd to your foo.py file, and execute it. <span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><ul><li style="list-style-type:none">The Windows command window appears "for a blink" to show the output ("hello") before going away again - your program ends and the window closes. You can, of course, run the program from the command window (type "python whatever.py") to see the output, or you could make the program pause (using time.sleep) or wait for input (raw_input) before finishing - that would at least leave the command window open. Some operating systems leave command windows open after the program has finished, by the way. <span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span></li></ul></li><li class="gap"><p class="line862">This is an actual question.  I have have a prototype for a python related website.  Right now I am just running it off old PC (<a class="http" href="http://66.32.187.134">http://66.32.187.134</a>).  Where could I host this site &amp; and do you think this site would be helpful to the advancement of Python programming knowledge? Thanks. Father Jack <span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><ul><li><p class="line862">Father Jack, you should look at the <a href="http://wiki.python.org/moin/PythonHosting">PythonHosting</a> page and consider some of the options presented there. Your site doesn't seem to be available, so it's hard to assess what its contribution to Python programming knowledge might be. -- <a href="http://wiki.python.org/moin/PaulBoddie">PaulBoddie</a> <span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span></li></ul></li><li class="gap">How can I programming the io ports (eg.: LPT) with Python? <span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><ul><li><p class="line862">Have you tried using the <a class="http" href="http://pyserial.sourceforge.net/pyparallel.html">pyParallel</a> module? -- <a href="http://wiki.python.org/moin/DavidBoddie">DavidBoddie</a> <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span></li></ul></li><li class="gap">I was browsing the Python source code, trying to find out how str.strip() is implemented as a string method. I found string.py in the Lib directory, but that didn't seem to hold the answer. Could you please help me learn where to look? <span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><ul><li style="list-style-type:none"><p class="line862">Take a look in the <tt class="backtick">Objects</tt> directory for built-in types. The <tt class="backtick">stringobject.c</tt> file contains the implementations of string methods, and the <tt class="backtick">string_strip</tt> function should provide some details of the underlying functions used to provide the <tt class="backtick">strip</tt> method's functionality. <span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span></li></ul></li><li class="gap">How (aside from reading gobs and gobs of source code) can I find out the asymptotic time behaviour of various primitive Python operations?  For example, for list xs, does xs.append(x) take amortized O(1) time or O(n) time? <span class="anchor" id="line-89"></span><ul><li><p class="line862">Perhaps the <a href="http://wiki.python.org/moin/TimeComplexity">Time Complexity</a> page might offer some indications. -- <a href="http://wiki.python.org/moin/PaulBoddie">PaulBoddie</a> 2011-03-26 23:34:53 <span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span></li></ul></li></ul><p class="line867"><span class="anchor" id="LongerQuestionsAnswered"></span> <span class="anchor" id="line-92"></span>
+<h2 id="Answered_Longer_Questions">Answered Longer Questions</h2>
+<span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line862">Pages containing <em>answered</em> longer questions should appear in this list: <span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><p class="line867"><div class="searchresults">
+<ol start="1"><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Can%20Python%20introspect%20like%20Java%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Can Python introspect like Java?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Defining%20rules%20for%20adding%20two%20different%20data%20types.?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Defining rules for adding two different data types.</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20can%20%22normal%22%20users%20report%20bugs%20in%20Python%20or%20the%20documentation%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How can "normal" users report bugs in Python or the documentation?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20can%20I%20add%20or%20substract%20two%20to%20the%20last%20digit%20of%20a%20float%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How can I add or substract two to the last digit of a float?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20can%20I%20convert%20a%20hex%20representation%20to%20an%20integer%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How can I convert a hex representation to an integer?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20can%20I%20import%20a%20module%20from%20a%20sibling%20directory%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How can I import a module from a sibling directory?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20can%20I%20run%20an%20untrusted%20Python%20script%20safely%20%28i.e.%20Sandbox%29?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How can I run an untrusted Python script safely (i.e. Sandbox)</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20can%20I%20split%20a%20string%2C%20but%20without%20breaking%20the%20quotes%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How can I split a string, but without breaking the quotes?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20come%20when%20I%20double%20click%20on%20a%20.py%20a%20black%20thing%20flashes%20and%20then%20disappears%3F%20And%20what/where%20exactly%20is%20the%20%27Python%20Interpreter%27%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How come when I double click on a .py a black thing flashes and then disappears? And what/where exactly is the 'Python Interpreter'?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20do%20I%20get%20or%20set%20the%20modification%20date%20of%20a%20file%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How do I get or set the modification date of a file?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20do%20I%20run%20Python%20based%20software%20from%20SourceForge%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How do I run Python based software from SourceForge?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20do%20I%20use%20gzip%20module%20with%20pickle%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How do I use gzip module with pickle?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20do%20I%20use%20local%20variables%20in%20methods%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How do I use local variables in methods?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20do%20you%20protect%20Python%20source%20code%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How do you protect Python source code?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20to%20have%20a%20mutable%20buffer%20with%20python%202.3%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How to have a mutable buffer with python 2.3?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/How%20to%20store%20information%20in%20variable%20arrays%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/How to store information in variable arrays?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/I%20wish%20to%20generate%20graphics%20and%20images%20directly%20into%20a%20file%2C%20but%20I%27m%20confused%20as%20to%20just%20what%20i%20need%20to%20do%20this%20with%20python?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/I wish to generate graphics and images directly into a file, but I'm confused as to just what i need to do this with python</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/I%27m%20taking%20an%20unhandled%20threading%20exception%20that%20I%27ve%20been%20unable%20to%20locate?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/I'm taking an unhandled threading exception that I've been unable to locate</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Is%20there%20a%20way%20to%20create%20a%20file%20object%20from%20text%20without%20touching%20the%20file%20system%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Is there a way to create a file object from text without touching the file system?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/PythonFramework-x.x.pkg%20installation%20fails.%20Is%20there%20a%20workaround%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/PythonFramework-x.x.pkg installation fails. Is there a workaround?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Socket%20module%20changed%20in%20Python%202.5%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Socket module changed in Python 2.5?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Stop%20%27Hello%20World%27%20from%20flashing?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Stop 'Hello World' from flashing</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/SubtractionQuestion?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/SubtractionQuestion</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Where%20can%20I%20find%20a%20tiny%20python%20installation%20%28under%202%20MB%29%20for%20an%20embedded%20linux%20system%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Where can I find a tiny python installation (under 2 MB) for an embedded linux system?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Why%20does%20IDLE%20refuse%20to%20start%20on%20Windows%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Why does IDLE refuse to start on Windows?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/Why%20don%27t%20my%20list%20and%20generator%20comprehensions%20work%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/Why don't my list and generator comprehensions work?</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/readline%20under%20MS?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/readline under MS</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/visual%20error%20message?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/visual error message</a></li><li><a href="http://wiki.python.org/moin/Asking%20for%20Help/what%20and%20how%20we%20can%20use%20server%20in%20python%20web%20development%20%3F?highlight=%28%5CbCategoryAskingForHelpAnswered%5Cb%29">Asking for Help/what and how we can use server in python web development ?</a></li></ol>
+</div> <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><p class="line862">Questions appear here when they are added to the <a href="http://wiki.python.org/moin/CategoryAskingForHelpAnswered">CategoryAskingForHelpAnswered</a> category (having been answered). <span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-101"></span><a href="http://wiki.python.org/moin/CategoryFaq">CategoryFaq</a> <span class="anchor" id="line-102"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">Asking for Help  (last edited 2011-03-26 23:34:53 by <span title="PaulBoddie @ cm-84.215.174.203.getinternet.no[84.215.174.203]"><a href="http://wiki.python.org/moin/PaulBoddie" title="PaulBoddie @ cm-84.215.174.203.getinternet.no[84.215.174.203]">PaulBoddie</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

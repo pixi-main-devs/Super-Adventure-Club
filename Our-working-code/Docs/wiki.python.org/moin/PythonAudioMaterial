@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>PythonAudioMaterial - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/PythonAudioMaterial?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/PythonAudioMaterial?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/PythonAudioMaterial?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/PythonAudioMaterial?action=print">
+<link rel="Appendix" title="Advanced_Python_programming.pdf" href="http://wiki.python.org/moin/PythonAudioMaterial?action=AttachFile&amp;do=view&amp;target=Advanced_Python_programming.pdf">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="PythonAudioMaterial">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/PythonAudioMaterial?action=fullsearch&amp;context=180&amp;value=linkto%3A%22PythonAudioMaterial%22" rel="nofollow" title="Click to do a full-text search for this title">PythonAudioMaterial</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="Documentation">Documentation</a></li><li><a href="BeginnerErrorsWithPythonProgramming">BeginnerErr...Programming</a></li><li><a href="PythonBooks">PythonBooks</a></li><li><a href="Asking&#32;for&#32;Help">Asking for Help</a></li><li><a href="PythonAudioMaterial">PythonAudioMaterial</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="PythonAudioMaterial">PythonAudioMaterial</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/PythonAudioMaterial?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="PythonAudioMaterial#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/PythonAudioMaterial?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/PythonAudioMaterial?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="PythonAudioMaterial">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/PythonAudioMaterial?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line874">Collects links to Python-related podcasts, conference recordings, and other audio materials. <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867">
+<h2 id="Python_Conferences">Python Conferences</h2>
+<span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line867"><span class="anchor" id="line-7"></span><p class="line867"><span class="anchor" id="line-8"></span><p class="line867"><span class="anchor" id="line-9"></span><ul><li><p class="line891"><a class="http" href="http://us2.pycon.org/talks/talksRoster?year%3Alist=2005&amp;flags%3Alist=audio-yes&amp;order=Sequence">PyCon 2005</a> <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span></li></ul><p class="line867"><span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><ul><li><p class="line891"><a class="http" href="http://advocacy.python.org/podcasts/">PyCon 2009 Podcast Feed</a> <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span></li></ul><p class="line867">
+<h2 id="Other_Recordings">Other Recordings</h2>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><ul><li><p class="line891"><a class="http" href="http://frompythonimportpodcast.com/">From Python Import Podcast</a> <span class="anchor" id="line-18"></span><ul><li><p class="line862">From Python Import Podcast is a roundtable podcast from several guys in Ohio. Make sure you check out the two part special (Episodes 002 and 003) on <a class="http" href="http://www.awaretek.com/zen.html">The Zen of Python</a>!  <span class="anchor" id="line-19"></span></li></ul></li><li><p class="line891"><a class="http" href="http://bitofpython.com">A Little Bit of Python</a> <span class="anchor" id="line-20"></span><ul><li>Commentary from some of the leading figures in the Python community on the current issues of interest. <span class="anchor" id="line-21"></span></li></ul></li><li><p class="line891"><a class="http" href="http://djangodose.com/">Django Dose</a> <span class="anchor" id="line-22"></span><ul><li>Podcast about the Django web framework. <span class="anchor" id="line-23"></span></li></ul></li><li><p class="line891"><a class="http" href="http://www.awaretek.com/python/">Python411</a> (<a class="http" href="http://www.awaretek.com/python/index.xml">podcast RSS</a>) <span class="anchor" id="line-24"></span></li><li><p class="line891"><a class="http" href="http://www.jythonpodcast.com">Jython Podcast</a> <span class="anchor" id="line-25"></span></li><li><p class="line891"><a class="http" href="http://www.ics.mq.edu.au/~cassidy/2007/06/08/screencasts-in-teaching-web-technology/">Python and other screencasts from COMP249 course</a> by Steve Cassidy at Macquarie University, Australia. <span class="anchor" id="line-26"></span></li><li><p class="line891"><a class="http" href="http://plope.com/zopecast">Zopecast</a> <span class="anchor" id="line-27"></span><ul><li><p class="line862">Zopecast is a show recorded every so often by Chris Mc<tt class="backtick"></tt>Donough and Tres Seaver with the aim of jawing about things in the Zope world. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span></li></ul></li></ul><p class="line867">
+<h2 id="Other_Conferences">Other Conferences</h2>
+<span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><p class="line867">
+<h3 id="SDForum_Distinguished_Speaker_Series">SDForum Distinguished Speaker Series</h3>
+<span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><ul><li><p class="line891"><a class="http" href="http://www.itconversations.com/shows/detail545.html">IT Conversations: Guido van Rossum (part 1) - Building an Open Source Project and Community</a> <span class="anchor" id="line-34"></span><ul><li>Recorded 2005-02-17 <span class="anchor" id="line-35"></span></li></ul></li><li><p class="line891"><a class="http" href="http://www.itconversations.com/shows/detail559.html">IT Conversations: Guido van Rossum (part 2) - Building an Open Source Project and Community</a> <span class="anchor" id="line-36"></span><ul><li>Recorded 2005-02-17 <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></li></ul></li></ul><p class="line867">
+<h3 id="Talking_Portraits_Podcasts_with_Tom_Parish">Talking Portraits Podcasts with Tom Parish</h3>
+<span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><ul><li><p class="line891"><a class="http" href="http://www.talkingportraits.com/interviews/tpquintagroup050410.mp3/view">Myroslav Opyr on Zope and Plone - Quintagroup.com in the Ukraine</a> <span class="anchor" id="line-41"></span><ul><li>Recorded 2005-04-10 <span class="anchor" id="line-42"></span></li></ul></li><li><p class="line891"><a class="http" href="http://www.talkingportraits.com/interviews/RobMillerBurningManPlone.mp3/view">Rob Miller of Burning Man IT Group Talks about Plone</a> <span class="anchor" id="line-43"></span></li></ul><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">PythonAudioMaterial  (last edited 2011-04-21 22:02:28 by <span title="shmore @ dhcp-0-12-17-51-3b-2d.cpe.mountaincable.net[24.215.24.30]"><a class="nonexistent" href="http://wiki.python.org/moin/shmore" title="shmore @ dhcp-0-12-17-51-3b-2d.cpe.mountaincable.net[24.215.24.30]">shmore</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,952 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>PythonEditors - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/PythonEditors?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/PythonEditors?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/PythonEditors?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/PythonEditors?action=print">
+<link rel="Appendix" title="pye" href="http://wiki.python.org/moin/PythonEditors?action=AttachFile&amp;do=view&amp;target=pye">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="PythonEditors">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/PythonEditors?action=fullsearch&amp;context=180&amp;value=linkto%3A%22PythonEditors%22" rel="nofollow" title="Click to do a full-text search for this title">PythonEditors</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="Community">Community</a></li><li><a href="PythonProjects">PythonProjects</a></li><li><a href="DevelopmentTools">DevelopmentTools</a></li><li><a href="Applications">Applications</a></li><li><a href="PythonEditors">PythonEditors</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="PythonEditors">PythonEditors</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/PythonEditors?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="PythonEditors#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/PythonEditors?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/PythonEditors?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="PythonEditors">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/PythonEditors?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">If you have anything to contribute -- e.g. configurations for editors, new editors, or opinion -- don't hesitate to edit or create pages. <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line862">There's an <a href="http://wiki.python.org/moin/EditorConfigurationHowto">EditorConfigurationHowto</a> available. <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="PythonEditors#Multiplatform_Editors">Multiplatform Editors</a></li><li>
+<a href="PythonEditors#Unix-Only_Editors">Unix-Only Editors</a></li><li>
+<a href="PythonEditors#Windows-Only_Editors">Windows-Only Editors</a></li><li>
+<a href="PythonEditors#Macintosh-Only_Editors">Macintosh-Only Editors</a></li><li>
+<a href="PythonEditors#Glorified_Editors">Glorified Editors</a></li><li>
+<a href="PythonEditors#Enhanced_Python_shells">Enhanced Python shells</a></li><li>
+<a href="PythonEditors#Other_Resources">Other Resources</a></li><li>
+<a href="PythonEditors#Never_ending_debate">Never ending debate</a></li></ol></li></ol></li></ol></div> <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867"><img alt="(!)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/idea.png" title="(!)" width="16" /> Please keep wiki links as wiki links, use external links only if there is no existing page for the editor. Please add pages like <a href="http://wiki.python.org/moin/BoaConstructor">BoaConstructor</a> also to page <a href="http://wiki.python.org/moin/IntegratedDevelopmentEnvironments">IntegratedDevelopmentEnvironments</a>. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867">
+<h3 id="Multiplatform_Editors">Multiplatform Editors</h3>
+<span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><div><table><tbody><tr>  <td><p class="line862"> <strong>Name</strong> </td>
+  <td><p class="line862"> <strong>Platform</strong> </td>
+  <td><p class="line862"> <strong>Language </strong> </td>
+  <td><p class="line862"> <strong>License</strong> </td>
+  <td><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-12"></span><p class="line862"> <a class="http" href="http://www.purl.org/net/alphatk/about.html">Alphatk</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Tcl/Tk </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Extensible in Tcl, Tk; Can interact with python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-13"></span><p class="line862"> <a class="http" href="http://www.codeblocks.org/features">Code::Blocks</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862"> C++, wxWidgets </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> class browser does not currently work for .py files, but it's still a nice IDE to use for python projects </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-14"></span><p class="line862"> <a class="http" href="http://bluefish.openoffice.nl/features.html">Bluefish</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862"> C, GTK+ </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> The link points to the features page. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-15"></span><p class="line862"> <a class="http" href="http://cream.sourceforge.net">Cream</a> </td>
+  <td><p class="line862"> Linux, Windows, FreeBSD </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Cream is a free and easy-to-use configuration of the powerful and famous <a class="http" href="http://www.vim.org">Vim</a> text editor for both Microsoft Windows and GNU/Linux. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-16"></span><p class="line862"> <a class="http" href="http://cssed.sourceforge.net">Cssed</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> C, GTK+ </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> CSS editor with syntax highlighting for Python, and embeded Python interpreter. Extensible through a Python API. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-17"></span><p class="line862"> <a class="http" href="http://wiki.wxpython.org/index.cgi/PythonCardEditor">codeEditor</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> BSD </td>
+  <td><p class="line862"> Extensible in Python; part of <a class="http" href="http://www.pythoncard.org/">PythonCard</a>. Includes <a href="http://wiki.python.org/moin/PyCrust">PyCrust</a> shell. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-18"></span><p class="line862"> <a class="http" href="http://eric-ide.python-projects.org/index.html">eric4 and eric5</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, <a href="http://wiki.python.org/moin/PyQt">PyQt</a> </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Complete IDE, very well integrated with PyQT development, but usable for any kind of project. Supports projects, debugging, auto-complete, syntax coloring, etc. It is extensible via plug-in system. It has interfaces to Subversion and Mercurial. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-19"></span><p class="line862"> <a class="http" href="http://www.crisp.demon.co.uk/">CRiSP</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> BRIEF-compatible, supports Python syntax, in-buffer Python interpreter, supports lots of languages. Powerful macro language. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-20"></span><p class="line862"> <a class="http" href="http://dreampie.sourceforge.net/">DreamPie</a> </td>
+  <td><p class="line862"> Windows, Linux and Mac/<a class="http" href="http://MacPorts.com/">MacPorts</a> </td>
+  <td><p class="line862"> Python, PyGTK </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Interactive shell with history box and code box, auto-completion of attributes and file names, auto-display of function arguments and documentation.  Keeps your recent results, provides session history saving (optionally in HTML), interactive plotting with matplotlib. Extremely fast and responsive. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-21"></span><p class="line862"> <a href="http://wiki.python.org/moin/DrPython">DrPython</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> GPL </td>
+  <td><p class="line862"> Simple, Highly Customizable Editor/Environment. A Tribute to <a href="http://wiki.python.org/moin/DrScheme">DrScheme</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-22"></span><p class="line862"> <a class="http" href="http://www.eclipse.org/">Eclipse</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> EPL </td>
+  <td><p class="line862"> Eclipse is ... an open extensible IDE for anything and nothing in particular." Support for Python can be obtained via the <a class="http" href="http://pydev.org//">PyDEV</a> plugin. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-23"></span><p class="line862"> <a class="http" href="http://www.editpadpro.com/editpython.html">EditPad Pro</a> </td>
+  <td><p class="line862"> Linux, Windows </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Built-in Python syntax highlighting, Python class browsing, Python-compatible regular expressions, code folding, and extensive options for running external tools such as Python scripts. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-24"></span><p class="line862"> <a class="http" href="http://www.editra.org">Editra</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> wxWindows </td>
+  <td><p class="line862"> A general purpose developer's text editor written in Python/wxPython. It supports python syntax highlighting, auto-ident, auto-completion, classbrowser, and can run scripts from inside the editor. Extensible with plugins written in python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-25"></span><p class="line862"> <a href="http://wiki.python.org/moin/EmacsEditor">EmacsEditor</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS </td>
+  <td><p class="line862"> C, Lisp </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Python support with <a href="http://wiki.python.org/moin/EmacsPythonMode">EmacsPythonMode</a>. Extensible in Python using <a class="http" href="http://www.iro.umontreal.ca/~pinard/pymacs/">pymacs</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-26"></span><p class="line862"> <a class="http" href="http://www.lugaru.com/">Epsilon</a> </td>
+  <td><p class="line862"> Linux, Windows, FreeBSD and OS/2 </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Customizable Python mode, syntax coloring, function tagging. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-27"></span><p class="line862"> <a class="http" href="http://fte.sourceforge.net/">FTE Text Editor</a> </td>
+  <td><p class="line862"> Unix/X, Windows, DOS, OS/2 </td>
+  <td><p class="line862"> C++ </td>
+  <td><p class="line862"> GPL </td>
+  <td><p class="line862"> Supports lots of languages, including Python; doesn't seem programmable </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-28"></span><p class="line862"> <a class="http" href="http://www.geany.org/">Geany</a> </td>
+  <td><p class="line862"> Unix/X, Windows </td>
+  <td><p class="line862"> C, GTK+ </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> A small and lightweight GTK+ IDE that supports lots of languages, including Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-29"></span><p class="line862"> <a class="http" href="http://www.gnome.org/projects/gedit/">gedit</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS </td>
+  <td><p class="line862"> C, Python </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> gedit is the official text editor of the GNOME desktop environment, with Python syntax highlighting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-30"></span><p class="line862"> <a class="http" href="http://armedbear-j.sf.net/">J</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> syntax coloring for python, extensible with jython, supports many file formats, has folding, fully customisable, has sidebar for class and functions, fast for a Java application </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-31"></span><p class="line862"> <a class="http" href="http://projects.hepforge.org/jhepwork/">jHepWork</a> </td>
+  <td><p class="line862"> Unix, Windows, Mac OS </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> IDE with Jython Shell. Syntax coloring for python, extensible with jython, supports many file formats, fully customisable, has sidebar for class and functions </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-32"></span><p class="line862"> <a class="http" href="http://www.jasspa.com/">Jasspa's MicroEmacs</a> </td>
+  <td><p class="line862"> Unix, Windows </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> Supports Python syntax and a Python-specific menu. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-33"></span><p class="line862"> <a class="http" href="http://www.jedsoft.org/jed/">JED</a> </td>
+  <td><p class="line862"> Unix, VMS, MSDOS, OS/2, BeOS, QNX, and Windows. </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> Syntax highlighting and indenting, (optional) emacs keybindings, programmable with s-lang. <em>Note: comment out "msw_help(..." line in pymode.sl if you are having problems on Windows.</em> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-34"></span><p class="line862"> <a class="http" href="http://www.jedit.org/">JEdit</a> </td>
+  <td><p class="line862"> Unix, Windows, Mac OS </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> Has three plugins - one for Jython and one for Python/Jython <a class="http" href="http://jpydbg.sourceforge.net/">JpyDbg</a> - interactive editing debugging, code browsing, highlighting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-35"></span><p class="line862"> <a class="http" href="http://jpydbg.sourceforge.net/">JpyDbg</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS </td>
+  <td><p class="line862"> Java, Python </td>
+  <td><p class="line862"> GPL </td>
+  <td><p class="line862"> <a class="http" href="http://www.netbeans.org/">Netbeans</a> <a class="http" href="http://www.jedit.org/">jEdit</a> cross IDE plugin </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-36"></span><p class="line862"> <a class="http" href="http://www.mirbsd.org/jupp.htm">Jupp</a> </td>
+  <td><p class="line862"> Unix/OSX/Cygwin/Interix (curses), MS-DOS (DR DOS, FreeDOS, Win, OS/2 DOS-Box) </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> GPL </td>
+  <td><p class="line862"> Versatile <a class="nonexistent" href="http://wiki.python.org/moin/WordStar">WordStar</a>-like editor (JOE fork) with many colourised syntax-highlighting modes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-37"></span><p class="line862"> <a class="http" href="http://www.kdevelop.org/">kdevelop</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS </td>
+  <td><p class="line862"> C++ </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> Kde main developping app. Code folding, syntax highlighting, navigator. projects, class browser, version control, customizable keybindings. Comes also with some typical python project models: pyton Qt app, Tkinter app and simple script. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-38"></span><p class="line862"> <a class="http" href="http://www.activestate.com/komodo-ide">Komodo IDE</a> </td>
+  <td><p class="line862"> Unix, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Komodo is an award winning <a class="http" href="http://www.activestate.com/komodo-ide/python-editor">Python IDE</a> from <a href="http://wiki.python.org/moin/ActiveState">ActiveState</a>. Fully-integrated Python <a class="http" href="http://www.activestate.com/activepython">Python 2.x</a> and <a class="http" href="http://www.activestate.com/activepython-3">Python 3</a> support featuring code intelligence with autocomplete and calltips, Python debugger (includes remote debugging), interactive shell, remote file support, macros, templating, emacs command support and great help documentation. There is also an open-source version called <a class="http" href="http://www.activestate.com/komodo-edit">Komodo Edit</a> (Source), as part of the <a class="http" href="http://www.openkomodo.com">Open Komodo</a> project started November 2007. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-39"></span><p class="line862"> <a class="http" href="http://www.activestate.com/komodo-edit">Komodo Edit</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> <a class="http" href="http://www.activestate.com/komodo-edit/compare-with-komodo-ide" title="Compare Komodo IDE to Edit">scaled-down version of Komodo IDE</a> which also supports Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-40"></span><p class="line862"> <a class="http" href="http://sourceforge.net/projects/gecrit/">gEcrit</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Python IDE with focus is on simplicity and ease of use. It is fast and lightweight. It features Python indentation, line numbers, code folding, syntax highlighting, shell access, code completion, a program runner, a source browser, indentation guides, a white space indicator, autosaving, an edge line, multiple tabs, printing, jumping to a specific line, word searching, word replacement, zooming undo/redo, pastebin.com code submission, Python syntax checking, the ability to change the indentation of many lines at once, autocompletiton, and bad brace checking. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-41"></span><p class="line862"> <a class="http" href="http://webpages.charter.net/edreamleo/front.html">Leo</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, Tkinter or <a href="http://wiki.python.org/moin/PyQt">PyQt</a> </td>
+  <td><p class="line862"> MIT </td>
+  <td><p class="line862"> Outlining editor, fully scriptable and extensible, supporting <a class="http" href="http://www.literateprogramming.com">literate programming</a>. 100% pure Python code. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-42"></span><p class="line862"> <a class="http" href="http://mooedit.sourceforge.net/">medit</a> </td>
+  <td><p class="line862"> Unix, Windows </td>
+  <td><p class="line862"> C, GTK+ </td>
+  <td><p class="line862"> LGPL </td>
+  <td><p class="line862"> Gtk editor with python bindings, allows plugins written in python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-43"></span><p class="line862"> <a class="http" href="http://ne.dsi.unimi.it/">ne</a> </td>
+  <td><p class="line862"> Unix, Windows, Mac OS X </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Easy to use, small, powerful, fast, terminal-based editor. Supports UTF-8, syntax highlighting, undo, autocomplete, macros, regexes, bookmarks. v2.2 released 2011-03-10 </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-44"></span><p class="line862"> <a class="http" href="http://nedit.org/">NEdit</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> X-Based, Python support builtin. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-45"></span><p class="line862"> <a class="http" href="http://www.netbeans.org/">Netbeans</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X, others </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> Netbeans is an open extensible cross platform IDE ; Support for Python can be obtained via the <a class="http" href="http://jpydbg.sourceforge.net/">JpyDbg</a> plugin. A new plugin exists for Netbeans 6.5 or newer - <a class="http" href="http://wiki.netbeans.org/Python">info</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-46"></span><p class="line862"> <a class="http" href="http://code.google.com/p/ulipad/">UliPad</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> wxPython based editor. Can be easily extended with mixins and plugins, and has many features. Seems to be biased towards Python web development as contains FTP GUI, RSS aggregator and HTML preview. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-47"></span><p class="line862"> <a class="http" href="http://www.quickmediasolutions.com/software/powerpad/">PowerPad</a> </td>
+  <td><p class="line862"> Windows NT, Linux (with GTK+ 2) </td>
+  <td><p class="line862"> C++, wxWidgets </td>
+  <td><p class="line862"> Freeware </td>
+  <td><p class="line862"> Easy to use text editor with syntax highlighting for Python. Embeds the Python interpreter to extend functionality of the application </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-48"></span><p class="line862"> <a class="http" href="http://jetbrains.com/pycharm/">PyCharm</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Full-featured IDE for Python, Django and Google App Engine. Under active development. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-49"></span><p class="line862"> <a class="http" href="http://pydev.org/">PyDev</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862"> Java, Eclipse </td>
+  <td><p class="line862"> EPL </td>
+  <td><p class="line862"> <a class="http" href="http://www.eclipse.org/">Eclipse</a> plugin. Code-completion. Debugger. Under active development. (<a class="http" href="http://showmedo.com/videos/series?name=PyDevEclipseList">ShowMeDo Videos</a>) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-50"></span><p class="line862"> <a class="attachment" href="http://wiki.python.org/moin/PythonEditors?action=AttachFile&amp;do=view&amp;target=pye" title="Pye">Pye</a> </td>
+  <td><p class="line862"> Linux, Windows </td>
+  <td><p class="line862"> Python, Tk </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Ultra-lightweight Python/text editor made in Python with Tk. Emphasis on easy customization and no-bloat attitude. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-51"></span><p class="line862"> <a class="http" href="http://pype.sourceforge.net/">PyPE</a> </td>
+  <td><p class="line862"> Unix, Windows, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> GPLv2 </td>
+  <td><p class="line862"> Written in Python - code folding, snippets, unicode, multiple documents, code completion, several languages, macros. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-52"></span><p class="line862"> <a class="http" href="http://dashingsoft.com/products/pyshield.html">Pyshield</a> </td>
+  <td><p class="line862"> Linux, Windows </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> An IDE tool used to edit, debug Python scripts, publish encrypted scripts, build a standalone executable file, and make installation in various forms(.msi, .tar.gz, .rpm, .zip, .tar.bz2).  It includes an editor simulating Emacs python-mode, a GUI debugger simulating GDB, a project view used to manage scripts, modules, extensions, packages and platform specific data files. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-53"></span><p class="line862"> <a class="http" href="http://pythontoolkit.sourceforge.net/">PythonToolkit (PTK)</a> </td>
+  <td><p class="line862"> Windows/Linux/Mac (wxPython) </td>
+  <td><p class="line862"> Python </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> An interactive environment for python features include: Multiple independent python interpreters. Interactively program with different GUI toolkits (wxPython, <a href="http://wiki.python.org/moin/TkInter">TkInter</a>, pyGTK, pyQT4 and <a href="http://wiki.python.org/moin/PySide">PySide</a>). Matlab style namespace/workspace browser. Object auto-completions, calltips and multi-line command editing in the console. Object inspection and python path management. Simple code editor and integrated debugger. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-54"></span><p class="line862"> SciTE </td>
+  <td><p class="line862"> Windows, Linux (GTK+) </td>
+  <td><p class="line862"> C++ </td>
+  <td><p class="line862"> MIT-Like </td>
+  <td><p class="line862"> A highly configurable light-weight source code editor (about 50 file formats) based on widely-used Scintilla rich text widget/control. Features: sytax highlighting, code folding, auto-indent, brace matching, codepage/unicode support, multiple documents, context help, code execution, output pane, external tools support, <a class="nonexistent" href="http://wiki.python.org/moin/RegExp">RegExp</a> find/replace, text export (HTML, RTF, PDF, LaTeX, XML). <a class="http" href="http://scintilla.sourceforge.net/gen_python_api.zip">Python API</a> for calltips and autocompletion available. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-55"></span><p class="line862"> <a class="http" href="http://wiki.python.org/moin/SPE">SPE</a> </td>
+  <td><p class="line862"> Windows, Linux, Mac OS X </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> GPLv3 </td>
+  <td><p class="line862"> Stani's Python Editor. Auto indentation, auto completion, call tips, syntax coloring/highlighting, UML viewer, class explorer, source index, auto todo list, sticky notes, integrated <a href="http://wiki.python.org/moin/PyCrust">PyCrust</a> shell, Python file browser, recent file browser, drag&amp;drop, context help. <a class="http" href="http://www.blender3d.org">Blender</a> support with a Blender 3D object browser, runs interactively inside Blender. Ships with <a href="http://wiki.python.org/moin/WxGlade">WxGlade</a> (GUI designer), <a href="http://wiki.python.org/moin/PyChecker">PyChecker</a> (source code doctor) and <a class="http" href="http://project5.freezope.org/kiki/">Kiki</a> (regular expression console). Extensible with <a href="http://wiki.python.org/moin/WxGlade">WxGlade</a>. (<a class="http" href="http://showmedo.com/videos/series?name=PythonDevelopmentWithSPE">ShowMeDo Videos</a>) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-56"></span><p class="line862"> <a class="http" href="http://code.google.com/p/spyderlib/">Spyder</a> </td>
+  <td><p class="line862"> Windows, Linux, Mac OS X </td>
+  <td><p class="line862"> Python, <a href="http://wiki.python.org/moin/PyQt4">PyQt4</a> </td>
+  <td><p class="line862"> MIT </td>
+  <td><p class="line862"> Highly active IDE project based on PyQT4. It offers pretty much everything: syntax highlighting, auto-indentation, code browser, debugging with breakpoints, project browser, code completion, refactoring and tooltips (with <a class="http" href="http://rope.sourceforge.net/">rope</a> library installed; for a local installation on Linux, just add unpacked folder to the Pythonpath with the integrated path manager in the tools menu). Especially suitable for scientific programming as it offers an interface similar to Matlab, with integrated consoles, variable browsing and manipulation. For Windows it is conveniently integrated in the <a class="http" href="http://www.pythonxy.com/">Python(x,y)</a> distribution. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-57"></span><p class="line862"> <a class="http" href="http://www.slickedit.com/">SlickEdit</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Syntax coloring, popup function arguments, class hierarchy browser, graphical debugger, and other nice Python features. Context tagging with class/module namespaces, code navigation, and smart indenting are also supported. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-58"></span><p class="line862"> <a class="http" href="http://www.sublimetext.com/">Sublime Text</a> </td>
+  <td><p class="line862"> Linux, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Beautiful interface, Python syntax highlighting, Python plugins. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-59"></span><p class="line862"> <a href="http://wiki.python.org/moin/Vim">Vim</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS </td>
+  <td><p class="line862"> C </td>
+  <td><p class="line862"> Charityware </td>
+  <td><p class="line862"> Highly configurable text editor built to enable efficient text editing. Syntax coloring, indenting, autocompletion, and source-navigation tools for Python. Can be scripted in Python. See also <a class="http" href="http://cream.sourceforge.net">Cream</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-60"></span><p class="line862"> <a class="http" href="http://wingware.com/wingide">Wing IDE</a> </td>
+  <td><p class="line862"> Unix/X, Windows, Mac OS X </td>
+  <td><p class="line862">  </td>
+  <td><p class="line862"> Proprietary </td>
+  <td><p class="line862"> Powerful commercial IDE designed for specifically for Python. Auto-completion, call tips, syntax highlighting, goto-definition, keyboard modes for emulating Visual Studio, VI/Vim, Emacs, &amp; Brief, graphical debugger, code browser, integrated shell, scriptable in Python, and much more. (<a class="http" href="http://showmedo.com/videos/video?name=pythonOzsvaldWingIDEIntro">ShowMeDo Videos</a>) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-61"></span><p class="line862"> <a class="http" href="http://soft.kaworu.it/wxKonTEXTen.htm">wxKonTEXT</a> </td>
+  <td><p class="line862"> Linux, Windows </td>
+  <td><p class="line862"> Python, wxPython </td>
+  <td><p class="line862"> GPL </td>
+  <td><p class="line862"> Simple text editor written in python. Syntax highlighter, Code fold, Export code in HTML.... </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line867">
+<h3 id="Unix-Only_Editors">Unix-Only Editors</h3>
+<span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><div><table><tbody><tr>  <td><p class="line862"> <strong>Name</strong> </td>
+  <td><p class="line862"> <strong>Platform</strong> </td>
+  <td><p class="line862"> <strong><a href="http://wiki.python.org/moin/FreeSoftware">FreeSoftware</a></strong>? </td>
+  <td><p class="line862"> <strong><a href="http://wiki.python.org/moin/ZeroPrice">ZeroPrice</a></strong>? </td>
+  <td><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-66"></span><p class="line862"> <a class="http" href="http://beaver-editor.sourceforge.net/">Beaver</a> </td>
+  <td><p class="line862"> Unix + GTK </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Beaver is an Early <a class="nonexistent" href="http://wiki.python.org/moin/AdVanced">AdVanced</a> EditoR. Beaver is a GTK+2 editor designed to be light-weight, modular and stylish </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-67"></span><p class="line862"> <a class="http" href="http://cooledit.sourceforge.net/">Cooledit</a> </td>
+  <td><p class="line862"> Unix/X </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> Extensible in Python </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-68"></span><p class="line862"> <a class="http" href="http://cute.sourceforge.net/">CUTE</a> </td>
+  <td><p class="line862"> Unix + QT </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> scintilla based, with python scriptable text editor. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-69"></span><p class="line862"> <a class="http" href="http://launchpad.net/deditor/">Deditor</a> </td>
+  <td><p class="line862"> Unix + Wx </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> folding, syntax highlighting, networking, debugging, python-specific features,... </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-70"></span><p class="line862"> <a class="http" href="http://glimmer.sourceforge.net/">Glimmer</a> </td>
+  <td><p class="line862"> Unix + Gnome </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> Editor written in C with Python bindings. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-71"></span><p class="line862"> <a class="http" href="http://www.goincompany.com/goinedit.php">goinedit</a> </td>
+  <td><p class="line862"> Unix + GTK </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <a href="http://wiki.python.org/moin/GoInEdit">GoInEdit</a> is a text editor, IDE, that integrates a shell terminal and a powerful scripts to helps you to compile, debug and execute, it has Python syntax highlighting.</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-72"></span><p class="line862"> <a class="http" href="http://www.nano-editor.org">GNU nano</a> </td>
+  <td><p class="line862"> ncurses </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Tiny, fast, compatible but enhanced pico clone. nano can do syntax highlighting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-73"></span><p class="line862"> <a class="http" href="http://sourceforge.net/projects/joe-editor/">JOE</a> </td>
+  <td><p class="line862"> Unix </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Color-highlighting <a class="nonexistent" href="http://wiki.python.org/moin/WordStar">WordStar</a>-like editor supports many highlight modes </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-74"></span><p class="line862"> <a class="http" href="http://www.kde.org/">KWrite</a> </td>
+  <td><p class="line862"> Unix </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Advanced editor for the KDE environment - supports Python syntax (uses Kate component). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-75"></span><p class="line862"> <a class="http" href="http://www.kate-editor.org/">Kate</a> </td>
+  <td><p class="line862"> Unix </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> KDE Advanced Text Editor - supports Python syntax. Now has a plugin to browse Python classes and globals.</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-76"></span><p class="line862"> <a class="http" href="http://micampe.it/projects/moleskine">Moleskine</a> </td>
+  <td><p class="line862"> Linux/FreeBSD </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> Written in Python, so should be extensible using Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-77"></span><p class="line862"> <a class="http" href="http://quanta.sourceforge.net/">Quanta KDE</a> </td>
+  <td><p class="line862"> Linux + KDE </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Full-featured web development environment that also supports Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-78"></span><p class="line862"> <a class="http" href="http://scribes.sourceforge.net/">Scribes</a> </td>
+  <td><p class="line862"> Unix + Gnome </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Scribes is a simple, slim and sleek text editor for GNOME, with Python syntax highlighting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-79"></span><p class="line862"> <a class="http" href="http://www.cs.yorku.ca/~oz/wily/">Wily</a> </td>
+  <td><p class="line862"> Unix </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Acme clone for Unix. Can connect to it (and control it) from Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-80"></span><p class="line862"> <a class="http" href="http://sourceforge.net/projects/xrope/">xrope</a> </td>
+  <td><p class="line862"> Python Tkinter </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> GUI, class browser, file manager, with code completion. Licensed under the GPL. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-81"></span><p class="line862"> <a class="http" href="http://eggy.yolky.org/">eggy</a> </td>
+  <td><p class="line862"> Unix </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> IDE with autocompletion, syntax highlighting, templates, project support, options for running code, integrated bash shell and support for group projects over the lan or internet. Also supports ruby, C, C++, Java, Perl, Web development and other languages. Easily extendable in python by writing a plugin. Uses <a href="http://wiki.python.org/moin/PyQt">PyQt</a>, lincensed under the GPL. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><p class="line867">
+<h3 id="Windows-Only_Editors">Windows-Only Editors</h3>
+<span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><div><table><tbody><tr>  <td><p class="line862"> <strong>Name</strong> </td>
+  <td><p class="line862"> <strong>Syntax Highlighting</strong> </td>
+  <td><p class="line862"> <strong><a href="http://wiki.python.org/moin/FreeSoftware">FreeSoftware</a></strong>? </td>
+  <td><p class="line862"> <strong><a href="http://wiki.python.org/moin/ZeroPrice">ZeroPrice</a></strong>? </td>
+  <td><p class="line862"> <strong>Python-specific notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-86"></span><p class="line862"> <a class="http" href="http://www.boxersoftware.com/">Boxer Text Editor</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Add Python syntax highlighting by downloading free support file from Downloads page. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-87"></span><p class="line862"> <a class="http" href="http://www.code-genie.com/">Code-Genie</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-88"></span><p class="line862"> <a class="http" href="http://www.codewright.com/">CodeWright</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Pull the appropriate file from <a class="http" href="http://www.codewright.com/support/addons.asp">http://www.codewright.com/support/addons.asp</a> for Python support. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-89"></span><p class="line862"> <a class="http" href="http://www.crimsoneditor.com/">Crimson</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-90"></span><p class="line862"> <a class="http" href="http://www.e-texteditor.com/">e</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Comes with the Python bundle from <a class="nonexistent" href="http://wiki.python.org/moin/TextMate">TextMate</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-91"></span><p class="line862"> <a class="http" href="http://www.studioware.com/">Editeur</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-92"></span><p class="line862"> <a class="http" href="http://www.editpadpro.com/">EditPadPro</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-93"></span><p class="line862"> <a class="http" href="http://www.editplus.com/">EditPlus</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Autocompletion via user-defined description files (manual setup required). Doesn't dynamically do autocompletion for classes.</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-94"></span><p class="line862"> <a class="http" href="http://www.emurasoft.com/">EmEditor</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> <strong>Unicode</strong> and multibyte languages support. Extremely fast. Find/Replace in Files. Supports JavaScript/VBScript scripting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-95"></span><p class="line862"> <a class="http" href="http://farmanager.com">FAR</a>+<a class="http" href="http://colorer.sf.net">colorer</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Automatic (no wordlist) <a class="http" href="http://plugring.farmanager.com/cgi-bin/downld.cgi?Lang=Eng&amp;Draw=List&amp;Sort=Date&amp;SelectCateg=Addons&amp;Select=PlugIn&amp;SelectPlugIn=98&amp;SelectAuthor=0&amp;SelectOther=1&amp;SearchText=">autocompletion</a>. Also there are <a class="http" href="http://plugring.farmanager.com/index_e.html">lots of plugins</a> including even <a class="http" href="http://scrhostplugin.sf.net">any windows scripting host (including python) scripting</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-96"></span><p class="line862"> <a class="http" href="http://hapdebugger.sourceforge.net/">HAP Debugger</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Editor built on <a href="http://wiki.python.org/moin/SciTe">SciTe</a>; main claim to fame is a robust debugger that has remote capabilities. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-97"></span><p class="line862"> <a class="http" href="http://www.hippoedit.com/">HippoEDIT</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Very light and fast code editor with a great range of features. Supports multiple documents and multiple views of the same document. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-98"></span><p class="line862"> <a class="http" href="http://www.hurricanesoft.com/">Hurricane Editor</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Syntax coloring customizable. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-99"></span><p class="line862"> <a class="http" href="http://www.multiedit.com/">Multi-Edit</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Builtin support for Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-100"></span><p class="line862"> <a class="http" href="http://notepad-plus.sourceforge.net/">NotePad++</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> This project, based on Scintilla edit component (a very powerful editor component) and written in C++ with pure win32 api and STL. Supports auto-completion, code folding, etc for C, C++, Java, Javascript, Python, C#, XML, HTML, VBScript, PHP, and plenty more! Can run Python scripts directly, using the Python Script plugin. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-101"></span><p class="line862"> <a class="http" href="http://www.flos-freeware.ch/notepad2.html">NotePad2</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Supports Python Syntax highlighting by default. Great Notepad replacement for windows. Source available for download.</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-102"></span><p class="line862"> <a class="http" href="http://sapien.com/">PrimalScript</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> <a class="http" href="http://support.sapien.com/forum/forum_posts.asp?TID=1107">Auto-Complete not available as of Mar-22-2009</a>  </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-103"></span><p class="line862"> <a class="http" href="http://www.programmerstudio.com/">Programmer Studio</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Auto-completion, class browser, parameter tips, ... </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-104"></span><p class="line862"> <a class="http" href="http://www.pnotepad.org/">Programmer's Notepad</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Python syntax highlighting, quick code navigation, scripting in development, open source. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-105"></span><p class="line862"> <a class="http" href="http://www.pspad.com/">PSPad</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Class browser, auto-completion, syntax highlighting, ftp client, project files, hex editor, file differences. Scriptable with Python (requires Windows Scripting Host and Python win32). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-106"></span><p class="line862"> <a href="http://wiki.python.org/moin/PyScripter">PyScripter</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Auto-completion, call-tips, syntax highlighting, class browser, debugger, very fast (build with Delphi &amp; Python for Delphi (P4D)) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-107"></span><p class="line862"> <a class="http" href="http://sourceforge.net/project/showfiles.php?group_id=78018">PythonWin</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Auto-completion, call-tips, syntax highlighting, part of win32 .. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-108"></span><p class="line862"> <a class="http" href="http://www.sourcedyn.com/">Source Insight</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Symbol database support for Python if you get the Python.CLF file provided by the Source Insight folks. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-109"></span><p class="line862"> <a class="http" href="http://syn.sourceforge.net/">Syn</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Incremental Search, support Python scripting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-110"></span><p class="line862"> <a class="http" href="http://www.textpad.com/">TextPad</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Add Python with a free download from the Textpad site. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-111"></span><p class="line862"> <a class="http" href="http://www.ultraedit.com/">UltraEdit</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Supports syntax coloring and autocompletion using a <a class="http" href="http://www.ultraedit.com/index.php?name=Content&amp;pa=showpage&amp;pid=40">wordfile</a>. An <a class="http" href="http://gurno.com/adam/py-ue.shtml">updated version</a> that supports Python 2.x is also available. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-112"></span><p class="line862"> <a class="http" href="http://www.visualpython.org/">Visual Python</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> Visual Tkinter, the Python language and visual graphic interface designed for program developers. Write programs were tailored to the needs of visual GUI top-level support. Since December 2008 we project growth continues Visual Tkinter saves time and mistakes. Fast fault detection system and directs you to the appropriate line. Scintilla class library is used for coloring paper. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-113"></span><p class="line862"> <a class="http" href="http://www.zeusedit.com/python.html">Zeus</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Class browsing, code folding, auto-completion, integrated CVS, project management, Python aware smart indenting, syntax coloring and builtin Python scripting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-114"></span><p class="line862"> <a class="http" href="http://www.scriptdevelop.com">ScriptDev</a> </td>
+  <td><p class="line862"> <img alt="(./)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/checkmark.png" title="(./)" width="16" /> </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> X </td>
+  <td><p class="line862"> Supports debugging Python, Tcl, Ruby, Perl, Lua scripts. Code intelligence (Code completion, folding, auto-complete, code snippets, syntax highlighting matching tags, show keyword or variable information when mouse over...). Keyword help and improved script document. Integrated commonly-used scripting libraries (Tk, wxPython, Pygame, Pmw, Numeric...). Supports compiling python scripts to Windows EXE files. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><p class="line867">
+<h3 id="Macintosh-Only_Editors">Macintosh-Only Editors</h3>
+<span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><div><table><tbody><tr>  <td><p class="line862"> <strong>Name</strong> </td>
+  <td><p class="line862"> <strong>Platform</strong> </td>
+  <td><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-120"></span><p class="line862"> <a class="http" href="http://alphatcl.sf.net">AlphaTcl</a> </td>
+  <td><p class="line862"> MacOS </td>
+  <td><p class="line862"> Python-mode extensible in Tcl </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-121"></span><p class="line862"> <a class="http" href="http://www.barebones.com/products/bbedit/">BBEdit</a> </td>
+  <td><p class="line862"> MacOS X 10.4 or later</td>
+  <td><p class="line862"> Full-featured text editor; includes Python support. <a class="nonexistent" href="http://wiki.python.org/moin/TextWrangler">TextWrangler</a> is the free version (see below). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-122"></span><p class="line862"> <a class="http" href="http://www.panic.com/coda/">Coda</a> </td>
+  <td><p class="line862"> MacOS X 10.4 or later </td>
+  <td><p class="line862"> "text editor + file transfer + svn + css + terminal + books + more = whoah. welcome to coda. grow beautiful code." </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-123"></span><p class="line862"> <a class="http" href="http://editxt.org/">EditXT</a> </td>
+  <td><p class="line862"> Mac OS X (Cocoa) </td>
+  <td><p class="line862"> Programmer's text editor with Python syntax highlighting. Written in Python with PyObjC. Open-source (GPL). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-124"></span><p class="line862"> <a class="http" href="http://github.com/jfmoy/Fraise">Fraise</a> </td>
+  <td><p class="line862"> OS X (Cocoa) </td>
+  <td><p class="line862"> Fork of Smultron. Actively-maintained. Apache license. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-125"></span><p class="line862"> <a class="http" href="http://www.cwi.nl/~jack/macpython.html">MacPython IDE</a> </td>
+  <td><p class="line862"> MacOS </td>
+  <td><p class="line862"> Included in <a href="http://wiki.python.org/moin/MacPython">MacPython</a> distribution. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-126"></span><p class="line862"> <a class="http" href="http://www.mimikaki.net/en/mimi/download.html">mi</a> </td>
+  <td><p class="line862"> MacOS 68k MaOS 9 MacOS X </td>
+  <td><p class="line862"> Does not initially include Python support but new language modes can be created. One available here <a class="http" href="http://francois.granger.free.fr/MacPython/Mi%20Python.sit">Mi_Python</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-127"></span><p class="line862"> <a class="http" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> </td>
+  <td><p class="line862"> MacOS X </td>
+  <td><p class="line862"> Python syntax coloring. Allow multiple author to edit the same file collaborativelly over the network using "Bonjour" (previously Rendezvous). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-128"></span><p class="line862"> <a class="http" href="http://www.barebones.com/products/textwrangler/">TextWrangler</a> </td>
+  <td><p class="line862"> MacOS X 10.4 or later</td>
+  <td><p class="line862"> Free and full-featured text editor based on BBEdit. Includes Python syntax highlighting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-129"></span><p class="line862"> <a class="http" href="http://developer.apple.com/tools/xcode/">Xcode</a> </td>
+  <td><p class="line862"> MacOS X </td>
+  <td><p class="line862"> Free IDE and text editor. Includes Python syntax coloring. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-130"></span><p class="line862"> <a class="http" href="http://macromates.com/">TextMate</a> </td>
+  <td><p class="line862"> Mac OS X 10.3.9+ </td>
+  <td><p class="line862"> Great Cocoa editor with Python support including syntax coloring, integrated documentation, and a runtime wrapper with hyperlinked tracebacks. Note that code-folding of classes is currently broken for PEP 8 compliant code. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-131"></span><p class="line862"> <a class="http" href="http://smultron.sourceforge.net/">Smultron</a> </td>
+  <td><p class="line862"> Mac OS X 10.3 or later </td>
+  <td><p class="line862"> Open-source (GPL) text editor, with Python syntax highlighting. No longer under development -- now, see *Fraise*. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-132"></span><p class="line862"> <a class="http" href="http://projects.gandreas.com/scride/">ScrIDE</a> </td>
+  <td><p class="line862"> Mac OS X 10.3 or later </td>
+  <td><p class="line862"> Free OS X based IDE for the Python (and other) programming language (replaces discontinued PyOXIDE), with syntax coloring, completion, tool tips, source level debugger, help browser, etc... </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><p class="line867">
+<h3 id="Glorified_Editors">Glorified Editors</h3>
+<span class="anchor" id="line-135"></span><p class="line874">"IDEs" that don't integrate anything Python-specific go here. <span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><div><table><tbody><tr>  <td><p class="line862"> <strong>Name</strong> </td>
+  <td><p class="line862"> <strong>Platform</strong> </td>
+  <td><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-138"></span><p class="line862"> <a class="http" href="http://anjuta.sourceforge.net/">Anjuta</a> </td>
+  <td><p class="line862"> Unix + GNOME </td>
+  <td><p class="line862"> Cross-language IDE; syntax coloring &amp; folding for Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-139"></span><p class="line862"> <a class="http" href="http://www.newplanetsoftware.com/jcc/jcc.php">Code Crusader</a> </td>
+  <td><p class="line862"> Linux x86 </td>
+  <td><p class="line862"> Commercial IDE with support to 30 other languages. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-140"></span><p class="line862"> <a class="http" href="http://www.codeforge.com/">CodeForge</a> </td>
+  <td><p class="line862"> Unix </td>
+  <td><p class="line862"> Commercial cross-language IDE; nice multi-user project manager. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-141"></span><p class="line862"> <a class="http" href="http://drpython.sourceforge.net/">DrPython</a> </td>
+  <td><p class="line862"> Python + wxPython </td>
+  <td><p class="line862"> Simple, Highly Customizable Editor/Environment. A Tribute to <a href="http://wiki.python.org/moin/DrScheme">DrScheme</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-142"></span><p class="line862"> <a class="nonexistent" href="http://wiki.python.org/moin/Genie%20Jython">Genie Jython</a> </td>
+  <td><p class="line862"> Java + Jython + Python </td>
+  <td><p class="line862"> An <a href="http://wiki.python.org/moin/OpenSource">OpenSource</a> IDE for Python, Jython, and Java. Supports Syntax highlighting, Code Completion and many more. Developed in <a class="nonexistent" href="http://wiki.python.org/moin/Java">Java</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-143"></span><p class="line862"> <a href="http://wiki.python.org/moin/IDEStudio">IDEStudio</a> </td>
+  <td><p class="line862"> Python + Tkinter + Tix </td>
+  <td><p class="line862"> An extended version of IDLE using <a href="http://wiki.python.org/moin/Tix">Tix</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-144"></span><p class="line862"> <a class="http" href="http://jetbrains.com/">IntelliJ IDEA</a> </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> Java IDE with Python support through <a class="http" href="http://plugins.intellij.net/plugin/?id=631">Pythonid plugin</a> - includes code completion, syntax &amp; error highlighting, intra-file refactoring </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-145"></span><p class="line862"> <a class="http" href="http://www.kdevelop.org/">KDevelop</a> </td>
+  <td><p class="line862"> Unix + KDE </td>
+  <td><p class="line862"> Cross-language IDE for KDE - supports Python syntax/projects. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-146"></span><p class="line862"> <a class="http" href="http://netbeans.org">Netbeans</a> </td>
+  <td><p class="line862"> Java </td>
+  <td><p class="line862"> A Java IDE with an optional plugin for Jython. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-147"></span><p class="line862"> <a class="http" href="http://pype.sourceforge.net/">PyPE</a> </td>
+  <td><p class="line862"> Windows/X (Python+wxPython) </td>
+  <td><p class="line862"> Written in Python - code folding, snippets, unicode, multiple documents, code completion, several languages, macros. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-148"></span><p class="line862"> <a href="http://wiki.python.org/moin/PythonWin">PythonWin</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> Available either as part of <a href="http://wiki.python.org/moin/ActiveState">ActiveState</a>'s <a href="http://wiki.python.org/moin/ActivePython">ActivePython</a> distribution (which is not open source) or as part of the <a href="http://wiki.python.org/moin/Win32All">Win32All</a> extensions from Mark's pages (which is open source). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-149"></span><p class="line862"> <a class="http" href="http://rope.sf.net/">rope</a> </td>
+  <td><p class="line862"> Unix/Windows/Mac </td>
+  <td><p class="line862"> rope is a python IDE aimed at providing a rich set of software refactorings. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-150"></span><p class="line862"> <a class="http" href="http://sourcenav.sf.net/">SourceNavigator</a> </td>
+  <td><p class="line862"> Unix/Windows with Tcl/Tk </td>
+  <td><p class="line862"> Cross-language IDE &amp; Source code analysis tool. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-151"></span><p class="line862"> <a class="http" href="http://www.xored.com/trustudio">TruStudio</a> </td>
+  <td><p class="line862"> Eclipse </td>
+  <td><p class="line862"> Python and PHP IDE; available in commercial Professional and open-source Foundation versions </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-152"></span><p class="line862"> <a href="http://wiki.python.org/moin/VisualWx">VisualWx</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> GUI designer for wxPython. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-153"></span><p class="line862"> <a class="http" href="http://activegrid.sourceforge.net/">WaveMaker</a> </td>
+  <td><p class="line862"> Linux/Windows/Mac </td>
+  <td><p class="line862"> Full featured, free (Affero GPL licensed) IDE bundled with wxPython, features projects, scintilla, and debugging </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-154"></span><p class="line862"> <a href="http://wiki.python.org/moin/WxDesigner">WxDesigner</a> </td>
+  <td><p class="line862"> Unix/Windows/Mac </td>
+  <td><p class="line862">Non-free Cross-language GUI dialog designer with integrated support for editing your Python callback functions. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-155"></span><p class="line862"> <a href="http://wiki.python.org/moin/WxGlade">WxGlade</a> </td>
+  <td><p class="line862"> Unix/Windows/Mac </td>
+  <td><p class="line862"> A "designer" for <a href="http://wiki.python.org/moin/WxPython">WxPython</a> (requires wxPython) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-156"></span><p class="line862"> <a class="http" href="http://code.google.com/p/ulipad">Ulipad</a> </td>
+  <td><p class="line862"> Unix/Windows/Mac </td>
+  <td><p class="line862"> Multi-language editor that support python autocomplete, Direcotry/class browser, tags/multi-views editing, unicode, and Django wizard(requires wxPython) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-157"></span><p class="line862"> <a class="http" href="http://sourceforge.net/projects/xrope/">xrope</a> </td>
+  <td><p class="line862"> Python Tkinter </td>
+  <td><p class="line862"> GUI, class browser, file manager, with code completion. Licensed under the GPL. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><p class="line867">
+<h3 id="Enhanced_Python_shells">Enhanced Python shells</h3>
+<span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span><div><table><tbody><tr>  <td><p class="line862"> <strong>Name</strong> </td>
+  <td><p class="line862"> <strong>Platform</strong> </td>
+  <td><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-163"></span><p class="line862"> <a class="http" href="http://wxpython.org/py.php">PyCrust</a> </td>
+  <td><p class="line862"> Python + <a href="http://wiki.python.org/moin/PyCrust">PyCrust</a> </td>
+  <td><p class="line862"> Interactive Python shell included in wxPython. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-164"></span><p class="line862"> <a class="http" href="http://code.google.com/p/wxpysuite/">PySlices</a> </td>
+  <td><p class="line862"> Python + <a class="nonexistent" href="http://wiki.python.org/moin/PySlices">PySlices</a> </td>
+  <td><p class="line862"> New "notebook" version of <a href="http://wiki.python.org/moin/PyCrust">PyCrust</a> with save/load features and the ability to run blocks of code in separate "slices".</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-165"></span><p class="line862"> <a class="http" href="http://ipython.scipy.org/">IPython</a> </td>
+  <td><p class="line862"> Unix, MacOS X, Windows </td>
+  <td><p class="line862"> Enhanced interactive Python shell. Also usable as pythonic system shell (bash/cmd.exe) replacement. Supports autocompletion. (<a class="http" href="http://showmedo.com/videos/series?name=PythonIPythonSeries">ShowMeDo Videos</a>) </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-166"></span><p class="line862"> <a class="http" href="http://dev.artenum.com/projects/jyconsole">JyConsole</a> </td>
+  <td><p class="line862"> Java, at least 1.4 </td>
+  <td><p class="line862"> Interactive, embeddable Jython shell with code completion. Licensed under the QPL. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-167"></span><p class="line862"> </td>
+  <td><p class="line862"> win32 </td>
+  <td><p class="line862"> Interactive python shell using wxPython. py script and exe for win. Data plotting capability from within the shell. Free.</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-168"></span><p class="line862"> <a class="http" href="http://www.boddie.org.uk/david/Projects/Python/KDE/khpython/">khpython</a> </td>
+  <td><p class="line862"> KDE </td>
+  <td><p class="line862"> An interactive Python shell using PyKDE and a KHTMLPart (for HTML rendering). </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-169"></span><p class="line862"> <a class="http" href="http://www.boddie.org.uk/david/Projects/Python/Qt/">PEEQ</a> </td>
+  <td><p class="line862"> Python 2.3 (or higher) and <a href="http://wiki.python.org/moin/PyQt">PyQt</a> </td>
+  <td><p class="line862"> An interactive Python shell using <a href="http://wiki.python.org/moin/PyQt">PyQt</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-170"></span><p class="line862"> <a class="http" href="http://bpython-interpreter.org/">bpython</a> </td>
+  <td><p class="line862"> Unix, MacOS X </td>
+  <td><p class="line862"> Interactive shell with highlighting and autocomplete. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-171"></span><span class="anchor" id="line-172"></span><p class="line867">
+<h3 id="Other_Resources">Other Resources</h3>
+<span class="anchor" id="line-173"></span><span class="anchor" id="line-174"></span><ul><li><p class="line862">Vaults of Parnassus <a class="http" href="http://www.vex.net/parnassus/apyllo.py?i=979528604">Editor/IDE page.</a> <span class="anchor" id="line-175"></span></li><li><p class="line862">Open Directory Project's <a class="http" href="http://dmoz.org/Computers/Programming/Languages/Python/Development_Tools/">Python Tools page.</a> <span class="anchor" id="line-176"></span></li><li><p class="line891"><a class="http" href="http://code.google.com/p/pysmell">PySmell</a> provides autocompletion for Vim, Emacs and TextMate <span class="anchor" id="line-177"></span><span class="anchor" id="line-178"></span></li></ul><p class="line867">
+<h3 id="Never_ending_debate">Never ending debate</h3>
+<span class="anchor" id="line-179"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/EmacsVsVi">EmacsVsVi</a> <span class="anchor" id="line-180"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-181"></span><a href="http://wiki.python.org/moin/CategoryEditors">CategoryEditors</a> <span class="anchor" id="line-182"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">PythonEditors  (last edited 2011-05-17 15:49:51 by <span title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]">SkipMontanaro</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

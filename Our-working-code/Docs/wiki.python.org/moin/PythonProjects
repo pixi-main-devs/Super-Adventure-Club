@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>PythonProjects - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/PythonProjects?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/PythonProjects?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/PythonProjects?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/PythonProjects?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="PythonProjects">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/PythonProjects?action=fullsearch&amp;context=180&amp;value=linkto%3A%22PythonProjects%22" rel="nofollow" title="Click to do a full-text search for this title">PythonProjects</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="PythonConferences">PythonConferences</a></li><li><a href="PythonEvents">PythonEvents</a></li><li><a href="LocalUserGroups">LocalUserGroups</a></li><li><a href="Community">Community</a></li><li><a href="PythonProjects">PythonProjects</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="PythonProjects">PythonProjects</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/PythonProjects?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="PythonProjects#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/PythonProjects?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/PythonProjects?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="PythonProjects">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/PythonProjects?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Python_Projects">Python Projects</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line874">As a programming language, Python is the foundation of many software projects producing things like applications, libraries, modules and packages. Since so many projects exist, it can be difficult to find one which is concentrating on a particular topic of interest, but there are several starting points: <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><ul><li><p class="line891"><a href="Applications">Applications</a> - a list of Python-based applications <span class="anchor" id="line-6"></span></li><li><p class="line891"><a href="UsefulModules">UsefulModules</a> - libraries, modules and packages <span class="anchor" id="line-7"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PublishingPythonModules">PublishingPythonModules</a> - places where modules are often publicised <span class="anchor" id="line-8"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonMed">PythonMed</a> - Python Med (along the lines of <a class="http" href="http://wiki.debian.org/DebianMed">DebianMed</a>) presents packages that are associated with medicine, pre-clinical research, life science and bio-informatics. <span class="anchor" id="line-9"></span></li><li><p class="line891"><a class="http" href="http://www.sourceforge.net/">SourceForge</a> hosts open source Python-based software projects: <span class="anchor" id="line-10"></span><ul><li><p class="line862">Browse for projects written on <a class="http" href="http://sourceforge.net/softwaremap/trove_list.php?form_cat=178">Python</a> <span class="anchor" id="line-11"></span></li></ul></li><li><p class="line891"><a class="http" href="http://pythonsource.com">Python Source</a> is a directory of open source python projects. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span></li></ul><p class="line867">
+<h2 id="Code_Fragments">Code Fragments</h2>
+<span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line874">Useful code does not always exist in the context of a project - smaller fragments may be published in various places: <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/Code">Code</a> - a list of small code fragments <span class="anchor" id="line-18"></span></li><li><p class="line891"><a class="http" href="http://aspn.activestate.com/ASPN/Python/Cookbook/">The Python Cookbook</a> - a site with pieces of code, rated and commented <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span></li></ul><p class="line867">
+<h2 id="Ideas_for_New_Projects">Ideas for New Projects</h2>
+<span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><p class="line874">Sometimes there is no project addressing a certain need, or perhaps a project has been started and requires help to reach its objectives. <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/CodingProjectIdeas">CodingProjectIdeas</a> - a list of ideas for projects of various sizes <span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span></li></ul><p class="line867">
+<h2 id="Statistics_on_Projects">Statistics on Projects</h2>
+<span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><p class="line874">For those who like statistics, some resources exist cataloguing the size and popularity of some Python projects: <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/LargePythonProjects">LargePythonProjects</a> <span class="anchor" id="line-31"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/MostPopularPythonProjects">MostPopularPythonProjects</a> <span class="anchor" id="line-32"></span></li></ul><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">PythonProjects  (last edited 2011-02-06 19:59:14 by <span title="PaulBoddie @ cm-84.215.174.203.getinternet.no[84.215.174.203]"><a href="http://wiki.python.org/moin/PaulBoddie" title="PaulBoddie @ cm-84.215.174.203.getinternet.no[84.215.174.203]">PaulBoddie</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

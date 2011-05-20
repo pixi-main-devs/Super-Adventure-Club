@@ -1,0 +1,432 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>LocalUserGroups - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/LocalUserGroups?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/LocalUserGroups?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="LocalUserGroups">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/LocalUserGroups?action=fullsearch&amp;context=180&amp;value=linkto%3A%22LocalUserGroups%22" rel="nofollow" title="Click to do a full-text search for this title">LocalUserGroups</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="Languages">Languages</a></li><li><a href="CategoryDocumentation">CategoryDocumentation</a></li><li><a href="PythonConferences">PythonConferences</a></li><li><a href="PythonEvents">PythonEvents</a></li><li><a href="LocalUserGroups">LocalUserGroups</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="LocalUserGroups">LocalUserGroups</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="LocalUserGroups#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/LocalUserGroups?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/LocalUserGroups?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="LocalUserGroups">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/LocalUserGroups?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line874">Python User Groups are sometimes called PIGgies, for Python Interest Group meetings.  The term PIGgies was coined by the Bay Area PIGgies group. <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line862">If there isn't an organized user group for your area listed on this page, check the list of <a class="http" href="http://python.meetup.com/">Python Meetups</a> and see if there's a Meetup in your area. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="LocalUserGroups#Starting_and_Running_a_User_Group">Starting and Running a User Group</a></li><li>
+<a href="LocalUserGroups#Geographical_Breakdown_of_User_Groups">Geographical Breakdown of User Groups</a><ol><li>
+<a href="LocalUserGroups#Asia">Asia</a><ol><li>
+<a href="LocalUserGroups#Cambodia.28.2BF58XuBeb_.3E.3E.3E_.2BF58XmBe2F5IXtw_.3E.3E.3E_.2BF5QXiRfSF4kXtg.29">Cambodia(សីល &gt;&gt;&gt; សមាធិ &gt;&gt;&gt; បញ្ញា)</a></li><li>
+<a href="LocalUserGroups#China">China</a></li><li>
+<a href="LocalUserGroups#India">India</a></li><li>
+<a href="LocalUserGroups#Indonesia">Indonesia</a></li><li>
+<a href="LocalUserGroups#Japan">Japan</a></li><li>
+<a href="LocalUserGroups#Korea">Korea</a></li><li>
+<a href="LocalUserGroups#Malaysia">Malaysia</a></li><li>
+<a href="LocalUserGroups#Singapore">Singapore</a></li><li>
+<a href="LocalUserGroups#Taiwan">Taiwan</a></li><li>
+<a href="LocalUserGroups#Philippines">Philippines</a></li><li>
+<a href="LocalUserGroups#Thailand.2BAC8OGw4jDjAOQA4XDigORA4XDiI-">Thailand/ประเทศไทย</a></li></ol></li><li>
+<a href="LocalUserGroups#Oceania">Oceania</a><ol><li>
+<a href="LocalUserGroups#Australia">Australia</a></li><li>
+<a href="LocalUserGroups#New_Zealand">New Zealand</a></li></ol></li><li>
+<a href="LocalUserGroups#Canada">Canada</a></li><li>
+<a href="LocalUserGroups#Caribbean">Caribbean</a></li><li>
+<a href="LocalUserGroups#Europe">Europe</a><ol><li>
+<a href="LocalUserGroups#Austria">Austria</a></li><li>
+<a href="LocalUserGroups#Belgium">Belgium</a></li><li>
+<a href="LocalUserGroups#France">France</a></li><li>
+<a href="LocalUserGroups#Croatia">Croatia</a></li><li>
+<a href="LocalUserGroups#Czech_and_Slovak">Czech and Slovak</a></li><li>
+<a href="LocalUserGroups#Finland">Finland</a></li><li>
+<a href="LocalUserGroups#Germany">Germany</a></li><li>
+<a href="LocalUserGroups#Greece">Greece</a></li><li>
+<a href="LocalUserGroups#Denmark">Denmark</a></li><li>
+<a href="LocalUserGroups#Hungary">Hungary</a></li><li>
+<a href="LocalUserGroups#Iceland">Iceland</a></li><li>
+<a href="LocalUserGroups#Ireland">Ireland</a></li><li>
+<a href="LocalUserGroups#Italy">Italy</a></li><li>
+<a href="LocalUserGroups#The_Netherlands">The Netherlands</a></li><li>
+<a href="LocalUserGroups#Republic_of_Macedonia">Republic of Macedonia</a></li><li>
+<a href="LocalUserGroups#Norway">Norway</a></li><li>
+<a href="LocalUserGroups#Poland">Poland</a></li><li>
+<a href="LocalUserGroups#Portugal">Portugal</a></li><li>
+<a href="LocalUserGroups#Romania">Romania</a></li><li>
+<a href="LocalUserGroups#Russian_Federation">Russian Federation</a></li><li>
+<a href="LocalUserGroups#Serbia">Serbia</a></li><li>
+<a href="LocalUserGroups#Slovenia">Slovenia</a></li><li>
+<a href="LocalUserGroups#Spain">Spain</a></li><li>
+<a href="LocalUserGroups#Sweden">Sweden</a></li><li>
+<a href="LocalUserGroups#Turkey">Turkey</a></li><li>
+<a href="LocalUserGroups#Ukraine">Ukraine</a></li><li>
+<a href="LocalUserGroups#United_Kingdom">United Kingdom</a></li><li>
+<a href="LocalUserGroups#Kosovo">Kosovo</a></li></ol></li><li>
+<a href="LocalUserGroups#Latin_America">Latin America</a><ol><li>
+<a href="LocalUserGroups#Argentina">Argentina</a></li><li>
+<a href="LocalUserGroups#Brazil">Brazil</a></li><li>
+<a href="LocalUserGroups#Colombia">Colombia</a></li><li>
+<a href="LocalUserGroups#Mexico">Mexico</a></li><li>
+<a href="LocalUserGroups#Peru">Peru</a></li><li>
+<a href="LocalUserGroups#Venezuela">Venezuela</a></li></ol></li><li>
+<a href="LocalUserGroups#Middle_East">Middle East</a></li><li>
+<a href="LocalUserGroups#Africa">Africa</a></li><li>
+<a href="LocalUserGroups#New_Zealand-1">New Zealand</a></li><li>
+<a href="LocalUserGroups#USA">USA</a><ol><li>
+<a href="LocalUserGroups#Alabama">Alabama</a></li><li>
+<a href="LocalUserGroups#Arizona">Arizona</a></li><li>
+<a href="LocalUserGroups#Arkansas">Arkansas</a></li><li>
+<a href="LocalUserGroups#California">California</a></li><li>
+<a href="LocalUserGroups#Colorado">Colorado</a></li><li>
+<a href="LocalUserGroups#Florida">Florida</a></li><li>
+<a href="LocalUserGroups#Georgia">Georgia</a></li><li>
+<a href="LocalUserGroups#Illinois">Illinois</a></li><li>
+<a href="LocalUserGroups#Indiana">Indiana</a></li><li>
+<a href="LocalUserGroups#Iowa">Iowa</a></li><li>
+<a href="LocalUserGroups#Kansas">Kansas</a></li><li>
+<a href="LocalUserGroups#Maryland">Maryland</a></li><li>
+<a href="LocalUserGroups#Massachusetts">Massachusetts</a></li><li>
+<a href="LocalUserGroups#Michigan">Michigan</a></li><li>
+<a href="LocalUserGroups#Minnesota">Minnesota</a></li><li>
+<a href="LocalUserGroups#Missouri">Missouri</a></li><li>
+<a href="LocalUserGroups#Nebraska">Nebraska</a></li><li>
+<a href="LocalUserGroups#New_Hampshire">New Hampshire</a></li><li>
+<a href="LocalUserGroups#New_Jersey">New Jersey</a></li><li>
+<a href="LocalUserGroups#New_York">New York</a></li><li>
+<a href="LocalUserGroups#North_Carolina">North Carolina</a></li><li>
+<a href="LocalUserGroups#Ohio">Ohio</a></li><li>
+<a href="LocalUserGroups#Oklahoma">Oklahoma</a></li><li>
+<a href="LocalUserGroups#Oregon">Oregon</a></li><li>
+<a href="LocalUserGroups#Pennsylvania">Pennsylvania</a></li><li>
+<a href="LocalUserGroups#Tennessee">Tennessee</a></li><li>
+<a href="LocalUserGroups#Texas">Texas</a></li><li>
+<a href="LocalUserGroups#Utah">Utah</a></li><li>
+<a href="LocalUserGroups#Virginia">Virginia</a></li><li>
+<a href="LocalUserGroups#Washington.2C_DC">Washington, DC</a></li><li>
+<a href="LocalUserGroups#Washington">Washington</a></li><li>
+<a href="LocalUserGroups#Wisconsin">Wisconsin</a></li></ol></li></ol></li></ol></div> <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line867">
+<h1 id="Starting_and_Running_a_User_Group">Starting and Running a User Group</h1>
+<span class="anchor" id="line-9"></span><p class="line862">Information on starting a user group is available at <a href="http://wiki.python.org/moin/StartingYourUsersGroup">StartingYourUsersGroup</a>. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line862">The <a class="http" href="http://mail.python.org/mailman/listinfo/group-organizers">Group-organizers</a> mailing list supports people starting and running user groups. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">Also, please consider posting news from your user group on the <a class="http" href="http://python-groups.blogspot.com/">Python User Group Blog</a>! <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line862">You may draw on the <a href="http://wiki.python.org/moin/PythonSpeakers">PythonSpeakers</a> page to help find speakers. <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line867">
+<h1 id="Geographical_Breakdown_of_User_Groups">Geographical Breakdown of User Groups</h1>
+<span class="anchor" id="line-18"></span><p class="line867">
+<h2 id="Asia">Asia</h2>
+<span class="anchor" id="line-19"></span><p class="line867">
+<h3 id="Cambodia.28.2BF58XuBeb_.3E.3E.3E_.2BF58XmBe2F5IXtw_.3E.3E.3E_.2BF5QXiRfSF4kXtg.29">Cambodia(សីល &gt;&gt;&gt; សមាធិ &gt;&gt;&gt; បញ្ញា)</h3>
+<span class="anchor" id="line-20"></span><ul><li><p class="line891"><a class="http" href="http://pykhmer.org/">Python Cambodian User Group</a> - Cambodian Python User Group <span class="anchor" id="line-21"></span></li><li><p class="line891"><a class="http" href="http://docs.pykhmer.org">http://docs.pykhmer.org</a> - wiki of  <a class="nonexistent" href="http://wiki.python.org/moin/PyKhmer">PyKhmer</a> <span class="anchor" id="line-22"></span></li><li><p class="line862">pythonkhmer[at]google[dot]com- Mailing lists for <a class="nonexistent" href="http://wiki.python.org/moin/PyKhmer">PyKhmer</a>(cambodian user group) <span class="anchor" id="line-23"></span></li></ul><p class="line867">
+<h3 id="China">China</h3>
+<span class="anchor" id="line-24"></span><ul><li><p class="line891"><a class="http" href="http://python.cn/">Python Chinese User Group</a> - Chinese Python User Group <a class="http" href="http://wiki.woodpecker.org.cn/moin/CPUG">CPUG wiki</a> <span class="anchor" id="line-25"></span></li><li><p class="line891"><a class="http" href="http://wiki.woodpecker.org.cn/moin/BPUG">BPUG</a> - Beijing Python User Group (subgroup of CPUG) <span class="anchor" id="line-26"></span></li><li><p class="line891"><a class="http" href="http://www.zeuux.org">ZEUUX</a> - ZEUUX is a free software community that has a Python user group. <span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span></li></ul><p class="line867">
+<h3 id="India">India</h3>
+<span class="anchor" id="line-29"></span><ul><li><p class="line891"><a class="http" href="http://mail.python.org/mailman/listinfo/bangpypers">BangPypers (Bangalore Python Users Group)</a>  - India (<a href="http://wiki.python.org/moin/BangPypers">BangPypers</a> wiki) <span class="anchor" id="line-30"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/chennaipy?pli=1">ChennaiPy (Chennai Python User Group)</a> - India <span class="anchor" id="line-31"></span></li><li><p class="line891"><a class="http" href="http://kpug.zwiki.org">KPUG</a> - Kerala Python User Group <span class="anchor" id="line-32"></span></li><li><p class="line891"><a class="http" href="http://mumpy.org/wiki">MumPy</a> - Mumbai Python User Group <span class="anchor" id="line-33"></span></li><li><p class="line891"><a class="http" href="http://mail.python.org/mailman/listinfo/ncr-python.in">Ncr-Python.in (Ncr Python Users Group)</a>  - India <span class="anchor" id="line-34"></span></li><li><p class="line891"><a class="http" href="http://lifeofpy.com/">LifeofPy</a> - Pune Python User Group <span class="anchor" id="line-35"></span></li><li><p class="line891"><a class="http" href="http://www.lug-iitd.org/">IITD Lug</a> - IIT Delhi Lug has active Python users  <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span></li></ul><p class="line867">
+<h3 id="Indonesia">Indonesia</h3>
+<span class="anchor" id="line-38"></span><ul><li><p class="line891"><a class="http" href="http://python.or.id">id-python</a> - Python User Group in Indonesia <span class="anchor" id="line-39"></span></li></ul><p class="line867">
+<h3 id="Japan">Japan</h3>
+<span class="anchor" id="line-40"></span><ul><li><p class="line891"><a class="http" href="http://www.python.jp">PyJUG</a> - Python Japan User Group. Japanese mailing list: <a class="http" href="http://www.python.jp/mailman/listinfo/python-ml-jp">python-ml-jp</a> <span class="anchor" id="line-41"></span></li></ul><p class="line867">
+<h3 id="Korea">Korea</h3>
+<span class="anchor" id="line-42"></span><ul><li><p class="line891"><a class="http" href="http://www.python.or.kr">PyKUG</a> - Python Users Group in Korea <span class="anchor" id="line-43"></span></li></ul><p class="line867">
+<h3 id="Malaysia">Malaysia</h3>
+<span class="anchor" id="line-44"></span><ul><li><p class="line891"><a class="http" href="http://www.python.my/">Malaysia PUG</a> - Malaysia Python User Group <span class="anchor" id="line-45"></span></li></ul><p class="line867">
+<h3 id="Singapore">Singapore</h3>
+<span class="anchor" id="line-46"></span><ul><li><p class="line891"><a class="http" href="http://www.pugs.org.sg/">Singapore PUG</a> - Singapore Python User Group <span class="anchor" id="line-47"></span></li></ul><p class="line867">
+<h3 id="Taiwan">Taiwan</h3>
+<span class="anchor" id="line-48"></span><ul><li><p class="line891"><a class="http" href="http://wiki.python.org.tw/">PyTUG Wiki</a> - Taiwan Python User Group <span class="anchor" id="line-49"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/pythontw">PyTUG Groups</a> - Taiwan Python User Group <span class="anchor" id="line-50"></span></li></ul><p class="line867">
+<h3 id="Philippines">Philippines</h3>
+<span class="anchor" id="line-51"></span><p class="line867"><a class="http" href="http://groups.google.com/group/pinoy-python-users">PyPUG</a> - Philippine Python User Group <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line867">
+<h3 id="Thailand.2BAC8OGw4jDjAOQA4XDigORA4XDiI-">Thailand/ประเทศไทย</h3>
+<span class="anchor" id="line-54"></span><p class="line867"><a class="http" href="http://www.codenone.com">PyTPUG</a> - Thailand Python User Group <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><p class="line867">
+<h2 id="Oceania">Oceania</h2>
+<span class="anchor" id="line-57"></span><p class="line867">
+<h3 id="Australia">Australia</h3>
+<span class="anchor" id="line-58"></span><ul><li><p class="line891"><a class="http" href="http://starship.python.net/mailman/listinfo/python-au">Mailing list for Australian Python users.</a> <span class="anchor" id="line-59"></span></li><li><p class="line891"><a class="https" href="https://sites.google.com/site/brisbanepy/">BrisbanePy</a> - A monthly meeting of food, drink and Python. <span class="anchor" id="line-60"></span></li><li><p class="line891"><a class="http" href="http://trac.proams.org/index.fcgi/wiki/Pysig">Canberra</a> - active since March 2007 <span class="anchor" id="line-61"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/MelbournePUG">MelbournePUG</a> - <a class="mailto" href="mailto:anthony.briggs@gmail.com">Anthony Briggs</a> has started a new user group in Melbourne. <span class="anchor" id="line-62"></span></li><li><p class="line891"><a class="http" href="http://www.sypy.org/">Sydney Python Users Group</a> - A group of Python users who meet in Sydney for discussions and drinks every couple of months. See also <a class="http" href="http://groups.google.com/group/sydneypython/">our maillist</a>. <span class="anchor" id="line-63"></span></li></ul><p class="line867">
+<h3 id="New_Zealand">New Zealand</h3>
+<span class="anchor" id="line-64"></span><ul><li><p class="line891"><a class="http" href="http://nzpug.org">New Zealand Python User Group (NZPUG)</a> - web site and mailing list <span class="anchor" id="line-65"></span></li><li><p class="line891"><a class="http" href="http://nzpug.org/MeetingsAuckland">NZPUG Auckland</a> - monthly meetings <span class="anchor" id="line-66"></span></li><li><p class="line891"><a class="http" href="http://nzpug.org/MeetingsChristchurch">NZPUG Christchurch</a> - bi-monthly meetings <span class="anchor" id="line-67"></span></li></ul><p class="line867">
+<h2 id="Canada">Canada</h2>
+<span class="anchor" id="line-68"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.ca/group/django-toronto">TorontoDjangoPython</a> - Toronto Python/Django User group. <span class="anchor" id="line-69"></span></li><li><p class="line891"><a class="http" href="http://montrealpython.org">MontrealPython</a> - Montreal's Python community. <span class="anchor" id="line-70"></span></li><li><p class="line891"><a class="http" href="http://opag.ca/">OPAG</a> - Ottawa Python Authors Group. A group devoted to learning, using and providing resources for Python. OPAG also serves as a general gathering place for Python programmers from the Ottawa region and beyond. <span class="anchor" id="line-71"></span></li><li><p class="line891"><a class="http" href="http://www.engcorp.com/pygta">PyGTA</a> - the Toronto Python/Zope User Group meets regularly to explore the expanding world of Python and Zope. <span class="anchor" id="line-72"></span></li><li><p class="line891"><a class="http" href="http://www.kwpug.org">KWPUG</a> - the Kitchener/Waterloo Python User Group - just starting July 17, 2006. <span class="anchor" id="line-73"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/WinniPUG">WinniPUG - Winnipeg Python Users Group</a> - active since December 2005. <span class="anchor" id="line-74"></span></li><li><p class="line891"><a class="http" href="http://www.vanpyz.org/">VanPyZ</a> - The Vancouver Python and Zope User Group discusses Python and various uses of the language. <span class="anchor" id="line-75"></span></li></ul><p class="line867">
+<h2 id="Caribbean">Caribbean</h2>
+<span class="anchor" id="line-76"></span><ul><li><p class="line891"><a class="mailto" href="mailto:jamaicanpy@zope.com.jm?Subject=subscribe">JamaicanPy</a>: <a class="nonexistent" href="http://wiki.python.org/moin/JamaicanPy">JamaicanPy</a>, Jamaican Python Community Mailing List, Programming Opportunities etc.... <span class="anchor" id="line-77"></span></li><li><p class="line891"><a class="http" href="http://www.ttpug.org">TTPUG</a> - Trinidad and Tobago Python Users Group <span class="anchor" id="line-78"></span></li></ul><p class="line867">
+<h2 id="Europe">Europe</h2>
+<span class="anchor" id="line-79"></span><p class="line867">
+<h3 id="Austria">Austria</h3>
+<span class="anchor" id="line-80"></span><ul><li><p class="line891"><a class="http" href="http://metalab.at/wiki/PYUGAT">PyUGAT</a> - Python User Group Austria <span class="anchor" id="line-81"></span></li><li><p class="line891"><a class="http" href="http://pygraz.org">pyGraz</a> - Python User Group Graz <span class="anchor" id="line-82"></span></li></ul><p class="line867">
+<h3 id="Belgium">Belgium</h3>
+<span class="anchor" id="line-83"></span><ul><li><p class="line891"><a class="http" href="http://www.linkedin.com/groupInvitation?groupID=3679088">PythonInBelgium</a> - Python in Belgium group on Linkedin <span class="anchor" id="line-84"></span></li></ul><p class="line867">
+<h3 id="France">France</h3>
+<span class="anchor" id="line-85"></span><ul><li><p class="line891"><a class="http" href="http://www.afpy.org">AFPY</a> Association Python Francophone, French Speaking Python &amp; Zope User Group <span class="anchor" id="line-86"></span></li></ul><p class="line867">
+<h3 id="Croatia">Croatia</h3>
+<span class="anchor" id="line-87"></span><ul><li><p class="line891"><a class="http" href="http://python-zg.vdekovic.net/">Croatian Python user group</a> - Zagreb Python User Group <span class="anchor" id="line-88"></span></li></ul><p class="line867">
+<h3 id="Czech_and_Slovak">Czech and Slovak</h3>
+<span class="anchor" id="line-89"></span><ul><li><p class="line891"><a class="http" href="http://www.py.cz/">PyCZ</a> - Czech and Slovak User Group covers both Python and Zope. <span class="anchor" id="line-90"></span></li></ul><p class="line867">
+<h3 id="Finland">Finland</h3>
+<span class="anchor" id="line-91"></span><ul><li><p class="line891"><a class="http" href="http://python.fi">http://python.fi</a> -- Python Interest Group Finland <span class="anchor" id="line-92"></span></li></ul><p class="line867">
+<h3 id="Germany">Germany</h3>
+<span class="anchor" id="line-93"></span><ul><li><p class="line891"><a class="http" href="http://wiki.python.de/User_Group_Berlin">http://wiki.python.de/User_Group_Berlin</a> PUB -- Python Users Berlin <span class="anchor" id="line-94"></span></li><li><p class="line891"><a class="http" href="http://www.pycologne.de">pyCologne</a>, the Python User Group Köln - Cologne, Germany <span class="anchor" id="line-95"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/hamburg-pythoneers">Hamburg Python User Group</a> - Hamburg, Germany <span class="anchor" id="line-96"></span></li><li><p class="line891"><a class="http" href="http://www.python-academy.de/User-Group/index.html">Leipzig Python User Group</a> - Leipzig, Germany <span class="anchor" id="line-97"></span></li><li><p class="line891"><a class="http" href="http://wiki.python-forum.de/User%20Group%20M%C3%BCnchen">User Group München</a>, the Python User Group in Munich <span class="anchor" id="line-98"></span></li><li><p class="line891"><a class="http" href="http://wiki.python.de/">wiki.python.de</a> German Python Wiki <span class="anchor" id="line-99"></span></li><li><p class="line891"><a class="http" href="http://www.python-forum.de/">Python-Forum.de</a> German Python Forum <span class="anchor" id="line-100"></span></li><li><p class="line891"><a class="http" href="http://python.net/mailman/listinfo/python-de">python-de</a> German Python mailing list <span class="anchor" id="line-101"></span></li><li><p class="line891"><a class="http" href="http://www.python.de/">German Python Site</a> containing links to the most important German Python sites and mailing lists. <span class="anchor" id="line-102"></span></li></ul><p class="line867">
+<h3 id="Greece">Greece</h3>
+<span class="anchor" id="line-103"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/AthensPUG">AthensPUG</a> - Created on September 2009 <span class="anchor" id="line-104"></span></li><li><p class="line891"><a class="http" href="http://taspython.eu/">TasPython</a> A PUG with dual nature. There are introductory guides + some projects to get hands on experience. Located in Patras. <span class="anchor" id="line-105"></span></li></ul><p class="line867">
+<h3 id="Denmark">Denmark</h3>
+<span class="anchor" id="line-106"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-dk">http://groups.google.com/group/python-dk</a> Danish Python user group <span class="anchor" id="line-107"></span></li></ul><p class="line867">
+<h3 id="Hungary">Hungary</h3>
+<span class="anchor" id="line-108"></span><ul><li><p class="line891"><a class="http" href="http://www.python.hu/">Hungarian Python Site</a> Contains Hungarian translations of Python tutorials and manual and much more. Good starting point for new Hungarian Python users. <span class="anchor" id="line-109"></span></li></ul><p class="line867">
+<h3 id="Iceland">Iceland</h3>
+<span class="anchor" id="line-110"></span><ul><li><p class="line891"><a class="http" href="http://rpug.net/">Reykjavík Python User Group</a> <span class="anchor" id="line-111"></span></li></ul><p class="line867">
+<h3 id="Ireland">Ireland</h3>
+<span class="anchor" id="line-112"></span><ul><li><p class="line891"><a class="http" href="http://python.ie/">Python Ireland</a> - Irish Python Users Group <span class="anchor" id="line-113"></span></li></ul><p class="line867">
+<h3 id="Italy">Italy</h3>
+<span class="anchor" id="line-114"></span><ul><li><p class="line891"><a class="http" href="http://www.python.it">Python.it</a> - Italian Python Website <span class="anchor" id="line-115"></span></li><li><p class="line891"><a class="http" href="http://chatterbox.pydinner.org">Pydinner</a> - Python dinners (and beers!) <span class="anchor" id="line-116"></span></li><li><p class="line891"><a class="http" href="http://www.pypg.org">PyPg</a> - Python Local User Group Perugia <span class="anchor" id="line-117"></span></li></ul><p class="line867">
+<h3 id="The_Netherlands">The Netherlands</h3>
+<span class="anchor" id="line-118"></span><ul><li><p class="line891"><a class="http" href="http://nl.python.org/">PUN</a> - Python Users Nederland. <span class="anchor" id="line-119"></span></li></ul><p class="line867">
+<h3 id="Republic_of_Macedonia">Republic of Macedonia</h3>
+<span class="anchor" id="line-120"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-mk">http://groups.google.com/group/python-mk</a> Python users group in Macedonia, meetings in the <a class="http" href="http://hackerspaces.org/wiki/KIKA">KIKA</a> hackerspace <span class="anchor" id="line-121"></span></li></ul><p class="line867">
+<h3 id="Norway">Norway</h3>
+<span class="anchor" id="line-122"></span><ul><li><p class="line891"><a class="http" href="http://groups.yahoo.com/group/grimpypers/">GrimPypers</a> - Python User Group - Grimstad, Norway <span class="anchor" id="line-123"></span></li><li><p class="line891"><a class="http" href="http://www.norpig.org">Norwegian Python Interest Group</a> - Python User Group - Norway <span class="anchor" id="line-124"></span></li><li><p class="line891"><a class="http" href="http://www.itlosjen.no">itlosjen</a> - Python Users - Kristiansand <span class="anchor" id="line-125"></span></li></ul><p class="line867">
+<h3 id="Poland">Poland</h3>
+<span class="anchor" id="line-126"></span><ul><li><p class="line891"><a class="http" href="http://pl.python.org">pl.python.org</a> - Polish Python Community (Polish Python Coders Group) <span class="anchor" id="line-127"></span></li><li><p class="line891"><a class="http" href="http://www.pykonik.org/">Pykonik</a> - Cracow's Python Users Group <span class="anchor" id="line-128"></span></li></ul><p class="line867">
+<h3 id="Portugal">Portugal</h3>
+<span class="anchor" id="line-129"></span><ul><li><p class="line891"><a class="http" href="http://www.python.pt">Python Portugal</a> - Portuguese Python User Group <span class="anchor" id="line-130"></span></li></ul><p class="line867">
+<h3 id="Romania">Romania</h3>
+<span class="anchor" id="line-131"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-romania">Romania Python User Group</a> - 'Romania Python User Group' <span class="anchor" id="line-132"></span></li></ul><p class="line867">
+<h3 id="Russian_Federation">Russian Federation</h3>
+<span class="anchor" id="line-133"></span><ul><li><p class="line891"><a class="http" href="http://zope.phdru.name/">Russian-speaking Python &amp; Zope User Group</a>, the oldest and popular user group. See also their <a class="http" href="http://zope.phdru.name/About/mail-list/">mailing list</a>, including archive and search. <span class="anchor" id="line-134"></span></li><li><p class="line891"><a class="http" href="http://plone.org.ru">Russian Plone/Zope User Group</a> - Russian Zope/Plone/Python user group. Most popular community site for russian speaking users. <span class="anchor" id="line-135"></span></li><li><p class="line891"><a class="http" href="http://pydev.ru">Russian Python Site</a> contains forums for discussing Python in Russian, list of Russian python sites and python news aggregator. <span class="anchor" id="line-136"></span></li></ul><p class="line867">
+<h3 id="Serbia">Serbia</h3>
+<span class="anchor" id="line-137"></span><ul><li><p class="line891"><a class="http" href="http://python-serbia.org/">Python Interests Group of Serbia</a>  Serbian speaking Python user group. <span class="anchor" id="line-138"></span></li></ul><p class="line867">
+<h3 id="Slovenia">Slovenia</h3>
+<span class="anchor" id="line-139"></span><ul><li><p class="line891"><a class="http" href="http://soup.zen.si">Slovenski Ortodoksni Uporabniki Pythona ;)</a> <span class="anchor" id="line-140"></span></li></ul><p class="line867">
+<h3 id="Spain">Spain</h3>
+<span class="anchor" id="line-141"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-cat">Python en català</a> Catalan Python user group. <span class="anchor" id="line-142"></span></li><li><p class="line891"><a class="http" href="http://python.meetup.com/185/">The Barcelona Python Meetup Group</a> Barcelona Python user group. <span class="anchor" id="line-143"></span></li></ul><p class="line867">
+<h3 id="Sweden">Sweden</h3>
+<span class="anchor" id="line-144"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/gothpy">GothPy</a> Gothenburg Python User Group. <span class="anchor" id="line-145"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-stockholm">PySthlm</a> Stockholm Python User Group. <span class="anchor" id="line-146"></span></li></ul><p class="line867">
+<h3 id="Turkey">Turkey</h3>
+<span class="anchor" id="line-147"></span><ul><li><p class="line891"><a class="http" href="http://liste.linux.org.tr/mailman/listinfo/python">Turkey Python Users Group</a> <span class="anchor" id="line-148"></span></li></ul><p class="line867">
+<h3 id="Ukraine">Ukraine</h3>
+<span class="anchor" id="line-149"></span><ul><li><p class="line891"><a class="http" href="http://exception.org.ua">Exception</a> - Python seminar in Kiev - Ukraine <span class="anchor" id="line-150"></span></li><li><p class="line891"><a class="http" href="http://python.com.ua">PythonUA</a> - Community portal - Ukraine <span class="anchor" id="line-151"></span></li><li><p class="line891"><a class="http" href="http://www.plug.org.ua">Plone Ukraine</a> - Plone Users Group - Ukraine <span class="anchor" id="line-152"></span></li></ul><p class="line867">
+<h3 id="United_Kingdom">United Kingdom</h3>
+<span class="anchor" id="line-153"></span><ul><li><p class="line891"><a class="http" href="http://announce.londonpython.org.uk/">London Python</a> <span class="anchor" id="line-154"></span></li><li><p class="line891"><a class="http" href="http://pywm.eu/">Python West Midlands</a> - UK <span class="anchor" id="line-155"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-north-west">Python North West</a> <span class="anchor" id="line-156"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/campug">Cambridge and East Anglia</a> <span class="anchor" id="line-157"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-yorks-humber">Yorkshire</a> <span class="anchor" id="line-158"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-sheffield">Python Sheffield</a> <span class="anchor" id="line-159"></span></li><li><p class="line891"><a class="http" href="http://groups.google.co.uk/group/python-north-east">Python North East</a> - Python North East is a Python user group for the North East of UK covering areas from Northumberland, Tyne &amp; Wear, Teesside to Yorkshire <span class="anchor" id="line-160"></span></li><li><p class="line891"><a class="http" href="http://brightonpy.org/">Brighton and Hove Python User Group</a> <span class="anchor" id="line-161"></span></li><li><p class="line891"><a class="http" href="http://www.pythonedinburgh.org/">Python Edinburgh</a> <span class="anchor" id="line-162"></span></li></ul><p class="line867">
+<h3 id="Kosovo">Kosovo</h3>
+<span class="anchor" id="line-163"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/prishtina-python">Prishtina Python Group</a> <span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span></li></ul><p class="line867">
+<h2 id="Latin_America">Latin America</h2>
+<span class="anchor" id="line-166"></span><p class="line867">
+<h3 id="Argentina">Argentina</h3>
+<span class="anchor" id="line-167"></span><ul><li><p class="line891"><a class="http" href="http://python.org.ar/">PyAr - Python Argentina</a>: Community portal, <a class="http" href="http://python.org.ar/pyar/ListaDeCorreo">mailing list</a>, <a class="http" href="http://python.org.ar/pyar/Trabajos">job list</a>, <a class="http" href="http://python.org.ar/pyar/Eventos#reuniones">meetings</a>, sprints, etc. <span class="anchor" id="line-168"></span></li></ul><p class="line867">
+<h3 id="Brazil">Brazil</h3>
+<span class="anchor" id="line-169"></span><ul><li><p class="line891"><a class="http" href="http://www.python.org.br">Python Brasil</a> - National - Python Brazilian Community. <span class="anchor" id="line-170"></span></li><li><p class="line891"><a class="http" href="http://www.pythonbrasil.org.br">Conference PythonBrasil</a> - National Conference  - Python Brazilian Community. <span class="anchor" id="line-171"></span><ul><li>Regional (by State) <span class="anchor" id="line-172"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/grupy-ba">Grupy-BA</a> - Bahia <span class="anchor" id="line-173"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/grupy-df">GrUPy-DF</a> - Brasília <span class="anchor" id="line-174"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/grupy-pr">GrUPy-PR</a> - Paraná <span class="anchor" id="line-175"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/pug-pe">PUG-PE</a> - Pernambuco <span class="anchor" id="line-176"></span></li><li><p class="line891"><a class="http" href="http://yahoogrupos.com.br/pythonrio">PythOnRio</a> - Rio de Janeiro - <a class="http" href="http://www.pythonrio.org">Official Site</a>, <a class="http" href="http://www.twitter.com/pythonrio">Twitter</a> and <a class="http" href="http://www.flickr.com/pythonrio">Photos</a> <span class="anchor" id="line-177"></span></li><li><p class="line891"><a class="http" href="http://br.groups.yahoo.com/group/pug-sc/">PUG-SC</a> - Santa Catarina <span class="anchor" id="line-178"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/grupy-sp">Grupy-SP</a> - São Paulo - <a class="http" href="http://www.flickr.com/photos/tags/grupysp/">Photos</a> and <a class="http" href="http://video.google.com/videosearch?q=grupy-sp">Videos</a> <span class="anchor" id="line-179"></span></li></ul></li></ul></li></ul><p class="line867">
+<h3 id="Colombia">Colombia</h3>
+<span class="anchor" id="line-180"></span><ul><li><p class="line891"><a class="http" href="http://www.el-directorio.org/PythonColombia">- Python Colombia</a> Grupo de usuarios y desarrolladores de aplicaciones en Python. <span class="anchor" id="line-181"></span></li></ul><p class="line867">
+<h3 id="Mexico">Mexico</h3>
+<span class="anchor" id="line-182"></span><ul><li><p class="line891"><a class="http" href="http://mx.groups.yahoo.com/group/pythonmexico/">- Python México</a> Python Community in México. <span class="anchor" id="line-183"></span></li></ul><p class="line867">
+<h3 id="Peru">Peru</h3>
+<span class="anchor" id="line-184"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com.pe/group/python-peru">- Python Perú</a> Python User Community in Perú. <span class="anchor" id="line-185"></span></li><li><p class="line891"><a class="http" href="http://www.python.pe/">- Python Perú</a>: Community Portal of Python in Perú. <span class="anchor" id="line-186"></span></li><li><p class="line862">Python Peru. Peruvian Python User Comunity. Send e-mail to <a class="mailto" href="mailto:python-pe-subscribe@aqpglug.org.pe">python-pe-subscribe@aqpglug.org.pe</a> <span class="anchor" id="line-187"></span></li></ul><p class="line867">
+<h3 id="Venezuela">Venezuela</h3>
+<span class="anchor" id="line-188"></span><ul><li><p class="line891"><a class="http" href="http://pyve.org.ve/">- Python Venezuela (PyVE)</a> <span class="anchor" id="line-189"></span><ul><li>Regional (by State) <span class="anchor" id="line-190"></span><ul><li><p class="line891"><a class="http" href="http://sites.google.com/site/pythoncaracas/">- python-caracas</a> : Website of Python Community in Caracas - Grupo de usuarios Python en Caracas, lista de correo. <span class="anchor" id="line-191"></span><span class="anchor" id="line-192"></span></li></ul></li></ul></li></ul><p class="line867">
+<h2 id="Middle_East">Middle East</h2>
+<span class="anchor" id="line-193"></span><ul><li><p class="line891"><a class="http" href="http://www.pylearn.com">Iranian Community</a> - Python Users' Community in Iran <span class="anchor" id="line-194"></span></li><li><p class="line891"><a class="http" href="http://wiki.python.org.il/Main_Page">Python Israel</a> - Python users community in Israel <span class="anchor" id="line-195"></span><span class="anchor" id="line-196"></span></li></ul><p class="line867">
+<h2 id="Africa">Africa</h2>
+<span class="anchor" id="line-197"></span><ul><li><p class="line891"><a class="http" href="http://ctpug.org.za/">Cape Town Python Users Group</a> - South Africa <span class="anchor" id="line-198"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-eg">Python Egypt</a> - Egypt and Arab World <span class="anchor" id="line-199"></span></li><li><p class="line891"><a class="http" href="http://groups.google.co.ma/group/python-ma">Python Maroc</a> - Maroc et Maghreb <span class="anchor" id="line-200"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/python-tunisia">Python Tunisia</a> - Tunisia <span class="anchor" id="line-201"></span><span class="anchor" id="line-202"></span></li></ul><p class="line867">
+<h2 id="New_Zealand-1">New Zealand</h2>
+<span class="anchor" id="line-203"></span><ul><li><p class="line891"><a class="http" href="http://www.nzpug.org/">New Zealand Python User Group</a> <span class="anchor" id="line-204"></span></li><li><p class="line891"><a class="http" href="http://www.nzzug.org/">Python, Zope and Plone Users Group of New Zealand</a> <span class="anchor" id="line-205"></span></li></ul><p class="line867">
+<h2 id="USA">USA</h2>
+<span class="anchor" id="line-206"></span><p class="line867">
+<h3 id="Alabama">Alabama</h3>
+<span class="anchor" id="line-207"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/pyham">PyHam</a> - Birmingham Area Python Users Group. <span class="anchor" id="line-208"></span></li></ul><p class="line867">
+<h3 id="Arizona">Arizona</h3>
+<span class="anchor" id="line-209"></span><ul><li><p class="line862">[<a href="http://wiki.python.org/moin/PhoenixPythonUserGroup">PhoenixPythonUserGroup</a>] - The Phoenix Python User Group. <span class="anchor" id="line-210"></span></li><li><p class="line862">[<a href="http://wiki.python.org/moin/PhoenixGeoPythonGroup">PhoenixGeoPythonGroup</a>] - New Phoenix Geo/Python User Group - [<a class="http" href="http://phxgeo.org">http://phxgeo.org</a>] <span class="anchor" id="line-211"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/TucsonPythonUserGroup">TuPLE</a> - Tucson Python Language Enthusiasts. <a class="http" href="http://groups.google.com/group/TuPLEgroup">Mailing list</a> <span class="anchor" id="line-212"></span></li></ul><p class="line867">
+<h3 id="Arkansas">Arkansas</h3>
+<span class="anchor" id="line-213"></span><ul><li><p class="line891"><a class="http" href="http://mail.python.org/mailman/listinfo/pyar2">PyAR^2</a> - Python Artists of Arkansas <span class="anchor" id="line-214"></span></li></ul><p class="line867">
+<h3 id="California">California</h3>
+<span class="anchor" id="line-215"></span><ul><li><p class="line891"><a class="http" href="http://www.baypiggies.net/">BayPiggies</a> - San Francisco Bay Area Python Interest Group. <span class="anchor" id="line-216"></span></li><li><p class="line891"><a class="http" href="http://sypug.blogspot.com/">SYPUG</a> - <a class="nonexistent" href="http://wiki.python.org/moin/SoCal">SoCal</a> Youth Python User Group. <span class="anchor" id="line-217"></span></li><li><p class="line891"><a class="http" href="http://socal-piggies.org/scp">SoCal Piggies</a> - Southern California Python Interest Group. <span class="anchor" id="line-218"></span></li><li><p class="line862">San Diego Python Users' Group was merged into the <a class="http" href="http://www.kernel-panic.org/meetings/lpsg">LPSG</a> <span class="anchor" id="line-219"></span></li><li><p class="line891"><a class="http" href="http://www.meetup.com/Orange-County-CA-Python-User-Group/">OCPUG</a> - Orange County Python User Group <span class="anchor" id="line-220"></span></li><li><p class="line891"><a class="http" href="http://www.pyladies.com/">PyLadies</a> - Women in Los Angeles <span class="anchor" id="line-221"></span></li></ul><p class="line867">
+<h3 id="Colorado">Colorado</h3>
+<span class="anchor" id="line-222"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/FrontRangePythoneers">FrontRangePythoneers</a> - We meet every third Wednesday, 6-8 PM, in Boulder, Colorado. <span class="anchor" id="line-223"></span></li><li><p class="line891"><a class="http" href="http://www.fort-collins.co.us.pythoneers.org/">Fort Collins, Colorado Pythoneers</a>.  Meeting the first Thursday of every month in Fort Collins, Colorado. <span class="anchor" id="line-224"></span></li></ul><p class="line867">
+<h3 id="Florida">Florida</h3>
+<span class="anchor" id="line-225"></span><ul><li><p class="line891"><a class="http" href="http://python.meetup.com/178/">Tampa Bay PUG</a> - Meeting every 2nd Wednesday, in Clearwater, FL <span class="anchor" id="line-226"></span></li><li><p class="line891"><a class="http" href="http://orlandopython.com/">Orlando PUG</a> - Meeting times and locations available at website. <span class="anchor" id="line-227"></span></li></ul><p class="line867">
+<h3 id="Georgia">Georgia</h3>
+<span class="anchor" id="line-228"></span><ul><li><p class="line891"><a class="http" href="http://www.pyatl.org/">PyAtl</a> Atlanta, Georgia Python User Group <span class="anchor" id="line-229"></span></li></ul><p class="line867">
+<h3 id="Illinois">Illinois</h3>
+<span class="anchor" id="line-230"></span><ul><li><p class="line891"><a class="http" href="http://www.chipy.org/">ChiPy - The Chicago Python Users Group</a> <span class="anchor" id="line-231"></span></li><li><p class="line891"><a class="http" href="http://illipy.tautology.net/">IlliPy - The Champaign-Urbana Python Users Group</a> <span class="anchor" id="line-232"></span><ul><li><p class="line862">Visit the <a class="http" href="http://groups.google.com/group/illipy-announce">illipy-announce</a> Google Group site to subscribe for user group announcements. <span class="anchor" id="line-233"></span></li><li><p class="line862">Visit the <a class="http" href="http://groups.google.com/group/illipy-discuss">illipy-discuss</a> Google Group site to subscribe for user group discussions. <span class="anchor" id="line-234"></span></li></ul></li></ul><p class="line867">
+<h3 id="Indiana">Indiana</h3>
+<span class="anchor" id="line-235"></span><ul><li><p class="line891"><a class="http" href="http://python.meetup.com/182">Indianapolis, IN</a> The <a class="nonexistent" href="http://wiki.python.org/moin/IndyPy">IndyPy</a> User Group <span class="anchor" id="line-236"></span></li></ul><p class="line867">
+<h3 id="Iowa">Iowa</h3>
+<span class="anchor" id="line-237"></span><ul><li><p class="line891"><a class="http" href="http://www.pyowa.org/">Iowa Python Users Group</a> <span class="anchor" id="line-238"></span></li></ul><p class="line867">
+<h3 id="Kansas">Kansas</h3>
+<span class="anchor" id="line-239"></span><ul><li><p class="line891"><a class="http" href="http://caneypuggies.alwaysreformed.com/">CaneyPUGgies - Caney Python Users Group</a> - Meets every Tuesday to learn web development using <a href="http://wiki.python.org/moin/TurboGears">TurboGears</a>. Remote attendees welcome! <span class="anchor" id="line-240"></span></li><li><p class="line891"><a class="https" href="https://groups.google.com/group/kc-python">KCPy</a> - Kansas City Python Users Group <span class="anchor" id="line-241"></span></li></ul><p class="line867">
+<h3 id="Maryland">Maryland</h3>
+<span class="anchor" id="line-242"></span><ul><li><p class="line891"><a class="http" href="http://pangalactic.us/bacon-pig">BACON-PIG</a> - The Baltimore, Annapolis, Columbia, and Other Northern DC suburbs Python Interest Group. <span class="anchor" id="line-243"></span></li></ul><p class="line867">
+<h3 id="Massachusetts">Massachusetts</h3>
+<span class="anchor" id="line-244"></span><ul><li><p class="line891"><a class="http" href="http://python.meetup.com/181/">Boston / Cambridge Python Users Group</a> will be meeting in Boston, MA. <span class="anchor" id="line-245"></span></li><li><p class="line891"><a class="http" href="http://developer.nervestaple.com/">Springfield/Northampton/Amherst MA Developer's Group</a> Meets 1-2 times per month. <span class="anchor" id="line-246"></span></li></ul><p class="line867">
+<h3 id="Michigan">Michigan</h3>
+<span class="anchor" id="line-247"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/michipug">Michipug</a> - Michigan (Detroit / Ann Arbor) Python group is just starting up <span class="anchor" id="line-248"></span></li><li><p class="line891"><a class="http" href="http://grpug.org">GRPUG</a> - A Python Users Group in Grand Rapids, Michigan <span class="anchor" id="line-249"></span></li></ul><p class="line867">
+<h3 id="Minnesota">Minnesota</h3>
+<span class="anchor" id="line-250"></span><ul><li><p class="line891"><a class="http" href="http://groups.google.com/group/pymntos">PyMNtos</a> - Minnesota Python Users Group, meets the 2nd Thursday of the month. <span class="anchor" id="line-251"></span></li></ul><p class="line867">
+<h3 id="Missouri">Missouri</h3>
+<span class="anchor" id="line-252"></span><ul><li><p class="line891"><a class="http" href="http://www.somopig.org">Southern Missouri Python Interest Group</a> <span class="anchor" id="line-253"></span></li><li><p class="line891"><a class="https" href="https://groups.google.com/group/kc-python">KCPy</a> - Kansas City Python Users Group <span class="anchor" id="line-254"></span></li></ul><p class="line867">
+<h3 id="Nebraska">Nebraska</h3>
+<span class="anchor" id="line-255"></span><ul><li><p class="line891"><a class="http" href="http://mail.python.org/mailman/listinfo/omaha">Omaha Python Users Group</a> -- Meetings on the 2nd Thursday of the month.  Check the <a class="http" href="http://www.OmahaPython.org">wiki</a> more details. <span class="anchor" id="line-256"></span></li></ul><p class="line867">
+<h3 id="New_Hampshire">New Hampshire</h3>
+<span class="anchor" id="line-257"></span><ul><li><p class="line891"><a class="http" href="http://www.pysig.org">Python SIG</a> of the <a class="http" href="http://www.gnhlug.org">Greater New Hampshire Linux User Group</a> meets the 4th Thursday in Manchester, NH. <a class="http" href="http://www.dlslug.org/mailman/listinfo/python-talk">Mailing list</a> courtesy of the <a class="http" href="http://www.dlslug.org">Dartmouth-Lake Sunapee Linux User Group</a>. <span class="anchor" id="line-258"></span></li></ul><p class="line867">
+<h3 id="New_Jersey">New Jersey</h3>
+<span class="anchor" id="line-259"></span><ul><li><p class="line891"><a class="http" href="http://www.pigip.org/">PIGIP NJ</a>: Python Interest Group In Princeton, NJ. <span class="anchor" id="line-260"></span></li></ul><p class="line867">
+<h3 id="New_York">New York</h3>
+<span class="anchor" id="line-261"></span><ul><li><p class="line891"><a class="http" href="http://nycpython.org/">NYC Python</a>: Python Users Group In New York City, NY <span class="anchor" id="line-262"></span></li><li><p class="line891"><a class="http" href="http://tighturl.com/fp">NYLUG Python Workshop</a> Python study/discussion/project group in New York City.  <a class="http" href="http://nylug.org/mailman/listinfo/nylug-workshop">Mailing list</a> Meets every other week. <span class="anchor" id="line-263"></span></li></ul><p class="line867">
+<h3 id="North_Carolina">North Carolina</h3>
+<span class="anchor" id="line-264"></span><ul><li><p class="line891"><a class="http" href="http://trizpug.org/">TriZPUG</a>: The Triangle Zope and Python User Group in the Raleigh-Durham-Chapel Hill (Research Triangle) area of North Carolina, USA. <span class="anchor" id="line-265"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/charpy">CharPy</a>: The Charlotte Python Group. Seeking members and ideas for the location of our first meetup. Join and discuss! <span class="anchor" id="line-266"></span></li></ul><p class="line867">
+<h3 id="Ohio">Ohio</h3>
+<span class="anchor" id="line-267"></span><ul><li><p class="line891"><a class="http" href="http://www.clepy.org">Clepy</a>: The Cleveland Area Python Interest Group. New members welcome! <span class="anchor" id="line-268"></span></li><li><p class="line891"><a class="http" href="http://www.meetup.com/Central-Ohio-Python-Users-Group">Central Ohio Python User Group</a> <span class="anchor" id="line-269"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/cincypy">CincyPy</a> <span class="anchor" id="line-270"></span></li></ul><p class="line867">
+<h3 id="Oklahoma">Oklahoma</h3>
+<span class="anchor" id="line-271"></span><ul><li><p class="line891"><a class="http" href="http://opy.sixquickrun.com">OPy</a>: Oklahoma's first Python User Group.  Located in Norman, OK. <span class="anchor" id="line-272"></span></li><li><p class="line862">Tulsa Python Users Group - <a class="http" href="http://tulsapython.com">Website</a>, <a class="http" href="http://groups.google.com/group/tulsapython">Mailing list</a> <span class="anchor" id="line-273"></span></li></ul><p class="line867">
+<h3 id="Oregon">Oregon</h3>
+<span class="anchor" id="line-274"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/PortlandPythonUserGroup">Portland</a> - Portland Python Users Group <span class="anchor" id="line-275"></span></li></ul><p class="line867">
+<h3 id="Pennsylvania">Pennsylvania</h3>
+<span class="anchor" id="line-276"></span><ul><li><p class="line891"><a class="http" href="http://www.meetup.com/phillypug/">The Philadelphia Python Users Group (PhillyPUG)</a>. <span class="anchor" id="line-277"></span></li><li><p class="line891"><a class="http" href="http://www.altoonapython.org">Altoona Python</a>.  Altoona Python Users Group <span class="anchor" id="line-278"></span></li><li><p class="line891"><a class="http" href="http://pghpython.org">Pgh Py</a>  Pittsburgh Python User Group <span class="anchor" id="line-279"></span></li></ul><p class="line867">
+<h3 id="Tennessee">Tennessee</h3>
+<span class="anchor" id="line-280"></span><ul><li><p class="line891"><a class="mailto" href="mailto:pig@chatta.us">Chattanooga, TN</a> user group <span class="anchor" id="line-281"></span></li><li><p class="line891"><a class="mailto" href="mailto:connorkasaitis@gmail.com">Memphis, TN</a> online user group <span class="anchor" id="line-282"></span></li><li><p class="line891"><a class="http" href="http://www.knoxpy.org">Knoxville, TN</a> user group <span class="anchor" id="line-283"></span></li></ul><p class="line867">
+<h3 id="Texas">Texas</h3>
+<span class="anchor" id="line-284"></span><ul><li><p class="line891"><a class="http" href="http://pytexas.org/">Texas-wide organization</a> <span class="anchor" id="line-285"></span></li><li><p class="line891"><a class="http" href="http://www.dfwpython.org">Dallas-Ft. Worth (Texas) Pythoneers</a> (w/wiki and local mailing lists) <span class="anchor" id="line-286"></span></li><li><p class="line891"><a class="http" href="http://wiki.python.org/moin/AustinPythonUserGroup">APUG</a> - Austin (Texas) Python User Group. <span class="anchor" id="line-287"></span></li><li><p class="line891"><a class="http" href="http://www.meetup.com/python-14">Houston Python Meetup site</a> <span class="anchor" id="line-288"></span></li></ul><p class="line867">
+<h3 id="Utah">Utah</h3>
+<span class="anchor" id="line-289"></span><ul><li><p class="line891"><a class="http" href="http://www.utahpython.org/">Utah Python User Group</a>. <span class="anchor" id="line-290"></span></li></ul><p class="line867">
+<h3 id="Virginia">Virginia</h3>
+<span class="anchor" id="line-291"></span><ul><li><p class="line891"><a class="http" href="http://www.zope.org/Members/poster/zpug_info">Fredericksburg ZPUG</a>: Meets at the <a class="http" href="http://www.zope.com">Zope Corporation</a> building in Fredericksburg, Virginia. <span class="anchor" id="line-292"></span></li><li><p class="line891"><a class="http" href="http://pycho.us/">Charlottesville</a> - Charlottesville Python User Group (Richmond and Central Va. should start here.) <span class="anchor" id="line-293"></span></li><li><p class="line891"><a class="http" href="http://www.meetup.com/757-Python-Users-Group/">757 Python User Group</a> - Hampton Roads and northeastern NC <span class="anchor" id="line-294"></span></li></ul><p class="line867">
+<h3 id="Washington.2C_DC">Washington, DC</h3>
+<span class="anchor" id="line-295"></span><ul><li><p class="line891"><a class="http" href="http://www.zpugdc.org/">ZPUGDC</a>: Zope/Python Users Group - Washington, DC. <span class="anchor" id="line-296"></span></li><li><p class="line891"><a class="http" href="http://www.django-district.org/">django-district</a>: a group for Django users in the Washington, D.C. area <span class="anchor" id="line-297"></span></li></ul><p class="line867">
+<h3 id="Washington">Washington</h3>
+<span class="anchor" id="line-298"></span><ul><li><p class="line891"><a class="http" href="http://www.seapig.org">Seattle Python Interest Group</a>. <span class="anchor" id="line-299"></span></li><li><p class="line891"><a class="http" href="http://groups.google.com/group/whatcom-python/">Whatcom County Python Users</a> <span class="anchor" id="line-300"></span></li></ul><p class="line867">
+<h3 id="Wisconsin">Wisconsin</h3>
+<span class="anchor" id="line-301"></span><ul><li><p class="line891"><a class="http" href="http://mail.python.org/mailman/listinfo/madison">Madison</a> Python Users' Group <span class="anchor" id="line-302"></span></li></ul><p class="line867"><hr /><p class="line874"> <span class="anchor" id="line-303"></span><a href="http://wiki.python.org/moin/CategoryUsergroups">CategoryUsergroups</a> <a href="http://wiki.python.org/moin/CategoryUsergroups">CategoryUsergroups</a> <span class="anchor" id="line-304"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">LocalUserGroups  (last edited 2011-05-20 05:42:51 by <span title="Juan Gomez @ mta-70-94-220-39.new.res.rr.com[70.94.220.39]"><a class="nonexistent" href="http://wiki.python.org/moin/Juan%20Gomez" title="Juan Gomez @ mta-70-94-220-39.new.res.rr.com[70.94.220.39]">Juan Gomez</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
