@@ -14,6 +14,7 @@ def sendmessage(data):
    c.write(data)
    response = c.read()
    print response
+   print 'error'
    c.close()
 
 while 1:
@@ -31,7 +32,7 @@ while 1:
       file = open (inputfile,'r')
       filedata = file.read()
       stringtosend= str(input+" "+inputfile+","+filedata)
-      sendmessage(filedata)
+      sendmessage(stringtosend)
    else:
       data = input
       sendmessage(data)
