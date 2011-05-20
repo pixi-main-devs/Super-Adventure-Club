@@ -21,8 +21,9 @@ while 1:
 #   print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 #   clear()
 #   sys.cls()
-   input = raw_input("what message do you want to send\n\nsave  --followed by string will save the string remotely\nprnt  --will print the last saved string\ntext  --the following string is to be displayed on the remote side\n\n(q to Quit)")
+   input = raw_input("what message do you want to send\n\nsave  --followed by string will save the string remotely\nprnt  --will print the last saved string\ntext  --the following string is to be displayed on the remote side\ndata  --begin a file transfer and choose a file (reletive path required\ncmnd  --followed by a command be executed on the remote node and out printed on screen\n\n(q to Quit)")
    if input == 'q':
+      sendmessage("quit")
       break
    if input =="":
       break
