@@ -687,7 +687,7 @@ def main() :
     try :
         nodeAddr = readAddr( sys.argv[1] )
     except :
-        nodeAddr = ('210.210.1.102',10001)
+    	 nodeAddr = ('210.210.1.102',10001)
     seedNodes = [nodeAddr]
     app = QApplication( sys.argv )
     icon = QIcon()
