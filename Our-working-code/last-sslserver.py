@@ -1,8 +1,10 @@
-from subprocess import Popen, PIPE
+from shellmisc import ShellExec
 import socket, ssl, os
 lport = 4444
 rhost = ""
 rport = 4444
+column1 = 0
+column2 = 0
 try:
 #   bindsocket.close()
    bindsocket = socket.socket()
@@ -22,36 +24,39 @@ while 1:
 #   print fromaddr
    readdata = c.read()
    column1 = readdata[0:4]
-   column2 = readdata[5:]
+   column2 = readdata[4:]
 #testing stuff
 #   print ("column1 is "+column1+". and column2 is "+column2)
 #   cmdanargs = column2.split(' ')
 #   for index, item in enumerate(cmdanargs):
 #     print index, item
 
-   if "save" in column1:
-      print ("message saved to datafile!\n"+ column2)
+#blank responder
+#   if "" in column1:
+#      c.write("ok")
+
+   if "sav" in column1:
+#      print ("message saved to datafile!\n"+ column2)
       datafile = open('ssl.datafile', 'a')
       datafile.write(column2+"\n")
       datafile.close()
       c.write("message saved!")
       c.close()
 
-   if "quit" in column1:
+   if "qit" in column1:
       print "Quit command recieved from remote peer."
       c.write("server stopped")
       c.close()
       bindsocket.close()
       break
 
-   if "prnt" in column1:
+   if "prt" in column1:
       datafile = open('ssl.datafile','r')
-#      prntfromfile = datafile.readlines()
-      for line in datafile.read().split('\n'):
-         c.write(line)
-         c.close()
+      prntfromfile = datafile.readlines()
+      c.write(str(prntfromfile))
+      c.close()
 
-   if "data" in column1:
+   if "dta" in column1:
       filename = column2.split(',')
 #      print filename[0]
 #      print filename[1]
@@ -61,19 +66,19 @@ while 1:
       c.write(response)
       c.close()
 
-   if "text" in column1:
-      print (str(str(fromaddr[0]))+" says> "+column2)
+   if "txt" in column1:
+      print (str(fromaddr[0])+" says> "+column2)
       c.write("message sent\n")
       c.close()
+
 # Command reciever for remote node
-   if "cmnd" in column1:
-#      cmdcall = os.system(column2)
-#      response = []
-#      response.append(cmdcall)
-#      print response[0[0]]
-      (stdout,stderr) = Popen([column2], stdout=PIPE).communicate()
-      response = stdout
-      c.write(response)
+   if "cmd" in column1:
+      cmds = column2.split(' ')
+      print cmds
+      aShell = ShellExec(cmds[0])
+      shl = aShell.GetStdout()
+#      print shl
+      c.write(shl)
       c.close()
 
 c.close()

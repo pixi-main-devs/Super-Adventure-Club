@@ -14,20 +14,21 @@ def sendmessage(data):
    c.write(data)
    response = c.read()
    print response
-   print 'error'
+#   print 'error'
    c.close()
 
+print "what do you want to send?"
 while 1:
 #   print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 #   clear()
 #   sys.cls()
-   input = raw_input("what message do you want to send\n\nsave  --followed by string will save the string remotely\nprnt  --will print the last saved string\ntext  --the following string is to be displayed on the remote side\ndata  --begin a file transfer and choose a file (reletive path required\ncmnd  --followed by a command be executed on the remote node and out printed on screen\n\n(q to Quit)")
+   input = raw_input("**************************************************\n\nsav   --followed by string will save the string remotely\nprt   --will print the last saved string\ntxt   --the following string is to be displayed on the remote side\ndta   --begin a file transfer and choose a file (reletive path required\ncmd   --followed by a command be executed on the remote node and out printed on screen\n\n(q to Quit)\n\n************************************************************************************\n\n>>")
    if input == 'q':
-      sendmessage("quit")
+      sendmessage('qit')
       break
    if input =="":
-      break
-   if input == 'data':
+      sendmessage('blk')
+   if input == 'dta':
       return_code = call("ls -l", shell=True)
       inputfile = raw_input("please specify valid file to transfer?\n>")
       file = open (inputfile,'r')
