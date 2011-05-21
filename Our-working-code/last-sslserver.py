@@ -20,8 +20,8 @@ while 1:
    newsocket, fromaddr = bindsocket.accept()
    c = ssl.wrap_socket(newsocket, server_side=True, certfile="server.pem",
                     keyfile="server.key", ssl_version=ssl.PROTOCOL_SSLv3)
-#   print newsocket
-#   print fromaddr
+   print newsocket
+   print fromaddr
    readdata = c.read()
    column1 = readdata[0:4]
    column2 = readdata[4:]
@@ -77,7 +77,7 @@ while 1:
 #      print cmds
       aShell = ShellExec(column2)
       shl = aShell.GetStdout()
-#      print shl
+      print shl
       c.write(shl)
       c.close()
 
