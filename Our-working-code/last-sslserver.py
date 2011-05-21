@@ -73,9 +73,9 @@ while 1:
 
 # Command reciever for remote node
    if "cmd" in column1:
-      cmds = column2.split(' ')
-      print cmds
-      aShell = ShellExec(cmds[0])
+#      cmds = column2.split(' ')
+#      print cmds
+      aShell = ShellExec(column2)
       shl = aShell.GetStdout()
 #      print shl
       c.write(shl)
