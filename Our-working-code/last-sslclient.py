@@ -24,10 +24,10 @@ while 1:
 #   sys.cls()
    input = raw_input("**************************************************\n\nsav   --followed by string will save the string remotely\nprt   --will print the last saved string\ntxt   --the following string is to be displayed on the remote side\ndta   --begin a file transfer and choose a file (reletive path required\ncmd   --followed by a command be executed on the remote node and out printed on screen\n\n(q to Quit)\n\n************************************************************************************\n\n>>")
    if input == 'q':
-      sendmessage("qit")
+      sendmessage('qit')
       break
    if input =="":
-      break
+      sendmessage('blk')
    if input == 'dta':
       return_code = call("ls -l", shell=True)
       inputfile = raw_input("please specify valid file to transfer?\n>")

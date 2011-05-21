@@ -31,6 +31,10 @@ while 1:
 #   for index, item in enumerate(cmdanargs):
 #     print index, item
 
+#blank responder
+#   if "" in column1:
+#      c.write("ok")
+
    if "sav" in column1:
 #      print ("message saved to datafile!\n"+ column2)
       datafile = open('ssl.datafile', 'a')
