@@ -1,3 +1,0 @@
-'''
-SSL Tests for PyNCrypt
-'''

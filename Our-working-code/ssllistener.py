@@ -7,16 +7,22 @@ class SSLlistener:
       self.laddr = laddr
       self.timeout = timeout
 
-   def CreateSocket(self):
+#Creates a socket binds and listens for connections (5) of them
+   def CreateServer Socket(self):
       try:
          self.s = socket.socket()
          self.s.bind((self.laddr, self.lport))
          self.s.listen(self.timeout)
          self.newsocket, self.fromaddr = self.s.accept()
+         return self.newsocket
+
+#wraps socket in ssl
+   def WrapSocketinssl(self, socket)
+      self.c = socket
+      try:   
          self.c = ssl.wrap_socket(self.newsocket, server_side=True, certfile="server.pem", keyfile="server.key", ssl_version=ssl.PROTOCOL_SSLv3)
-#         print(self.c())
          print(str(self.newsocket) +' '+ str(self.fromaddr[0:]))
-         return True
+         return self.c
       except :
          return False
 
@@ -27,25 +33,25 @@ class SSLlistener:
       return  self.data
 
 
-   def WriteToSocket(self,data):
+   def WriteToSocket(self,data, socket):
+      self.writesocket = socket
       try:
-         print(self.c.write(data))
+         print(self.writesocket.write(data))
          return True
       except :
          return False
 
 
-   def CloseSocket(self):
+   def CloseSocket(self, socket):
+      self.c = socket
       try:
          self.c.close()
-         self.s.close()
          return True
       except :
          return False
 
 
    def StartupServer(self):
-<<<<<<< HEAD
       if self.CreateSocket() == True:
          readdata = self.ReadFromSocket()
          print readdata
@@ -67,7 +73,6 @@ class SSLlistener:
 		self.CloseSocket()
 		self.StartupServer()
           
-=======
       while self.CreateSocket() == True:
          socketdata = self.ReadFromSocket()
          print(socketdata)
@@ -77,17 +82,10 @@ class SSLlistener:
            pass
       print "connection dropped"
                 
->>>>>>> e9274c23e31177ed8ad1ec2026d0289adbaa1544
      
 if __name__ == '__main__':
    sslear = SSLlistener()
    sslear.CloseSocket()
    sslear.StartupServer()
-<<<<<<< HEAD
    while 1:
 	sslear.WaitForData()	 	 
-	
-
-=======
-   
->>>>>>> e9274c23e31177ed8ad1ec2026d0289adbaa1544

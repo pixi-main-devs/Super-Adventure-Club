@@ -1,1 +1,0 @@
-from _ncrypt.bignum import *
