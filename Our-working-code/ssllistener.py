@@ -7,7 +7,6 @@ class SSLlistener:
       self.laddr = laddr
       self.timeout = timeout
 
-
    def CreateSocket(self):
       try:
          self.s = socket.socket()
@@ -15,10 +14,11 @@ class SSLlistener:
          self.s.listen(self.timeout)
          self.newsocket, self.fromaddr = self.s.accept()
          self.c = ssl.wrap_socket(self.newsocket, server_side=True, certfile="server.pem", keyfile="server.key", ssl_version=ssl.PROTOCOL_SSLv3)
+#         print(self.c())
+         print(str(self.newsocket) +' '+ str(self.fromaddr[0:]))
          return True
       except :
          return False
-
 
 
    def ReadFromSocket(self):
@@ -44,19 +44,18 @@ class SSLlistener:
 
 
    def StartupServer(self):
-      if self.CreateSocket() == True:
-         readdata = self.ReadFromSocket()
-         print readdata
-         return True
-      else:   
-         print "socket creation failed"
-         return False
-          
+      while self.CreateSocket() == True:
+         socketdata = self.ReadFromSocket()
+         print(socketdata)
+         if socketdata == "exit":
+            break
+         else:
+           pass
+      print "connection dropped"
+                
      
 if __name__ == '__main__':
    sslear = SSLlistener()
+   sslear.CloseSocket()
    sslear.StartupServer()
-   while 1:
-      while sslear.ReadFromSocket() != '':
-         print(sslear.data)
-
+   
