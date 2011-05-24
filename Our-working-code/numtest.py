@@ -1,5 +1,12 @@
 import random
 
+
+#what does this thingy doo........ 
+#it guesses the number in your head....
+#paste it into python and see!
+#wooop woop
+
+
 print 'Choose a number in your head, any number at all'
 raw_input("Press enter to continue: ")
 print 'Now, double it (multiple by 2)'
