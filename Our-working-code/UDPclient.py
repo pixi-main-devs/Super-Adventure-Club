@@ -4,7 +4,7 @@ from socket import *
 
 # Set the socket parameters
 host = "localhost"
-port = 21567
+port = 4444
 buf = 1024
 addr = (host,port)
 
