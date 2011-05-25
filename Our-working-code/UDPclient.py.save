@@ -3,8 +3,8 @@
 from socket import *
 
 # Set the socket parameters
-host = "cor-laptop"
-port = 4444
+host = "10.0.1.144"
+port = 21785
 buf = 1024
 addr = (host,port)
 
@@ -13,7 +13,11 @@ UDPSock = socket(AF_INET,SOCK_DGRAM)
 
 def_msg = "===Enter message to send to server===";
 print "\n",def_msg
+()
 
+
+
+asds
 # Send messages
 while (1):
 	data = raw_input('>> ')
