@@ -273,10 +273,11 @@ def MainLoop():
 
 
 
-# execution begins here
+# execution begins here only if started like "python tcpserver.py"
 # call mainloop
-print __name__
-MainLoop()
+if __name__ == '__main__':
+	print __name__
+	MainLoop()
 		
 	
 
