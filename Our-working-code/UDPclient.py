@@ -4,7 +4,8 @@ from socket import *
 
 # Set the socket parameters
 host = "cor-laptop"
-port = 4444
+host = "localhost"
+port = 4445
 buf = 1024
 addr = (host,port)
 
