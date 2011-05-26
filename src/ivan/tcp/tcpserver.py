@@ -1,6 +1,6 @@
 # TCP server Implementation
 #
-# Authors: MorbidChimp
+# Authors: MorbidChimp, Compadre, Maxi
 # Licence: GPLv3
 # if this script is run as a module, ie: "python tcpserver.py" then
 # debugging data will be printed to the screen
