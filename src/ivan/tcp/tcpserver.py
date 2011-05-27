@@ -1,6 +1,6 @@
 # TCP server Implementation
 #
-# Authors: MorbidChimp, Compadre, Maxi
+#
 # Licence: GPLv3
 # if this script is run as a module, ie: "python tcpserver.py" then
 # debugging data will be printed to the screen
@@ -28,7 +28,7 @@ def PDebug(aData):
 # 	   * Add code to detect when a client is disconnected
 # 	   * Add code/classes to allow and keep track of multiple connections
 #	   * Add code/classes to make the server Treadable
-#	   * Create a TCPClient version of the class
+#	   * Create a TCPClient version of the class (DONE: tcpclient.py)
 #	   * add a connection handshake and a protocol and messaging stack
 #	   * Add Exception handling where needed to handle errors better
 #          * Test different methods of sending and recieving data
@@ -267,7 +267,6 @@ def MainLoop():
 		
 		if myServer.data == "q": break
 		if myServer.data == "Q": break
-		if myServer.data == "" : break
 	# close our socket to release the port and stop accepting connections
 	myServer.Close()
 
