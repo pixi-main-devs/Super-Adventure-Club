@@ -29,7 +29,7 @@ def PDebug(aData):
 # 	   * Add code/classes to allow and keep track of multiple connections
 #	   * Add code/classes to make the server Treadable
 #	   * Create a TCPClient version of the class (DONE: tcpclient.py)
-#	   * add a connection handshake and a protocol and messaging stack
+#	   * add a common connection handshake and a protocol and messaging stack
 #	   * Add Exception handling where needed to handle errors better
 #          * Test different methods of sending and recieving data
 #    BUGS: * because right now we don't detect when a client disconnects, we are
