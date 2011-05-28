@@ -22,17 +22,8 @@ from handystuff import _const
 #
 # The UDPSocket can handle different roles
 #   Client              In client mode we connect to a listening UDP socket
-#   Server             We listen for connections from a UDP socket
+#   Server              We listen for connections from a UDP socket
 #
-# By design, a UDP socket is synchronous. This means that B cant do anything 
-# until A has sent a message. Once A has sent and B has received, the opposite 
-# occurs: A cant do anything until B has sent a message. 
-# For a user program this isnt very intuitive, but it is good for "lower" level 
-# communications. 
-# To make an asynchronous connection, requires the use of two sockets. One
-# to read and one to write. 
-
-
 # Define some Defaults
 
 class UDPSocket( threading.Thread ):

@@ -23,7 +23,7 @@ class ThreadPool:
 
         # Initialize the thread pool with numThreads workers  
         self.__threads = []
-	# there will be times when we can't resize, so put in a resizelock
+	# there will be times when we can't resize the pool, so put in a resizelock
         self.__resizeLock = threading.Condition(threading.Lock())
 	# same for tasks
         self.__taskLock = threading.Condition(threading.Lock())
