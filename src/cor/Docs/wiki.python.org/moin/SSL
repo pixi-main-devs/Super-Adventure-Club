@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>SSL - PythonInfo Wiki</title>
+<script type="text/javascript" src="http://wiki.python.org/moin/moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/SSL?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="http://wiki.python.org/moin/moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="http://wiki.python.org/moin/moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="http://wiki.python.org/moin/moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/SSL?action=edit">
+
+<link rel="Start" href="http://wiki.python.org/moin/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/SSL?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/SSL?action=print">
+<link rel="Appendix" title="cacerts.txt" href="http://wiki.python.org/moin/SSL?action=AttachFile&amp;do=view&amp;target=cacerts.txt">
+<link rel="Search" href="http://wiki.python.org/moin/FindPage">
+<link rel="Index" href="http://wiki.python.org/moin/TitleIndex">
+<link rel="Glossary" href="http://wiki.python.org/moin/WordIndex">
+<link rel="Help" href="http://wiki.python.org/moin/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="SSL">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="http://wiki.python.org/moin/FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/SSL?action=fullsearch&amp;context=180&amp;value=linkto%3A%22SSL%22" rel="nofollow" title="Click to do a full-text search for this title">SSL</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="SSL">SSL</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="http://wiki.python.org/moin/FrontPage">FrontPage</a></li><li class="wikilink"><a href="http://wiki.python.org/moin/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="http://wiki.python.org/moin/FindPage">FindPage</a></li><li class="wikilink"><a href="http://wiki.python.org/moin/HelpContents">HelpContents</a></li><li class="current"><a href="SSL">SSL</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/SSL?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="SSL#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/SSL?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/SSL?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="SSL">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/SSL?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line862">SSL stands for <strong>Secure Sockets Layer</strong> and is designed to create secure connection between client and server. Secure means that connection is encrypted and therefore protected from eavesdropping. It also allows to validate server identity. <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867">
+<h3 id="SSL_support_status">SSL support status</h3>
+<span class="anchor" id="line-4"></span><ul><li><p class="line891"><strong>ssl</strong> module (internal for Python 2.6+, external for Python 2.5 - <a class="http" href="http://pypi.python.org/pypi/ssl">http://pypi.python.org/pypi/ssl</a>). Unfortunately, there are no external binaries for Python 2.5 on Windows (and that makes <a href="http://wiki.python.org/moin/AppEngine">AppEngine</a> uploads insecure). <span class="anchor" id="line-5"></span><ul><li style="list-style-type:none"><p class="line891"><strong>ssl</strong> doesn't validate server identity and hence vulnerable to MITM attack by default (read below). <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span></li></ul></li><li class="gap"><p class="line891"><strong>pyOpenSSL</strong>, external module for Python 2.3+, doesn't validate server identity, vulnerable to MITM attack by default. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span></li></ul><p class="line862">There is a serious security issue with <strong>ssl</strong> and <strong>pyOpenSSL</strong> libraries that provide SSL support. They may require valid certificate from server, but do not check it actually belongs to this server. This allows successful Man-in-the-middle attack using valid certificate from other site - <a class="http" href="http://bugs.python.org/issue1589">http://bugs.python.org/issue1589</a>  Libraries validate that certificate is correct and correctly signed by root certificate, but it does not check that site name matches the name specified in certificate. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867">
+<h3 id="Validating_server_identity_with_ssl_module">Validating server identity with ssl module</h3>
+<span class="anchor" id="line-12"></span><p class="line874">Client need to connect to server over SSL, fetch its certificate, check that the certificate is valid (signed properly) and belongs to this server (server name). <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><p class="line862">Let's illustrate <strong>ssl</strong> vulnerability in Python 2.x versions. The following snippet should fail - it replaces HOST "www.google.com" to connect to with its IP address. If you try to use this IP in Chrome like <a class="https" href="https://74.125.232.50">https://74.125.232.50</a> - it will show an error, but <strong>ssl</strong> library will not. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line867"><span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><pre><span class="anchor" id="SSL.line-1"></span>import socket
+<span class="anchor" id="SSL.line-2"></span>import ssl
+<span class="anchor" id="SSL.line-3"></span>
+<span class="anchor" id="SSL.line-4"></span>HOST = "www.google.com"
+<span class="anchor" id="SSL.line-5"></span>PORT = 443
+<span class="anchor" id="SSL.line-6"></span>
+<span class="anchor" id="SSL.line-7"></span># replace HOST name with IP, this should fail connection attempt,
+<span class="anchor" id="SSL.line-8"></span># but it doesn't in Python 2.x
+<span class="anchor" id="SSL.line-9"></span>HOST = socket.getaddrinfo(HOST, PORT)[0][4][0]
+<span class="anchor" id="SSL.line-10"></span>print(HOST)
+<span class="anchor" id="SSL.line-11"></span>
+<span class="anchor" id="SSL.line-12"></span># create socket and connect to server
+<span class="anchor" id="SSL.line-13"></span># server address is specified later in connect() method
+<span class="anchor" id="SSL.line-14"></span>sock = socket.socket()
+<span class="anchor" id="SSL.line-15"></span>sock.connect((HOST, PORT))
+<span class="anchor" id="SSL.line-16"></span>
+<span class="anchor" id="SSL.line-17"></span># wrap socket to add SSL support
+<span class="anchor" id="SSL.line-18"></span>sock = ssl.wrap_socket(sock,
+<span class="anchor" id="SSL.line-19"></span>  # flag that certificate from the other side of connection is required
+<span class="anchor" id="SSL.line-20"></span>  # and should be validated when wrapping 
+<span class="anchor" id="SSL.line-21"></span>  cert_reqs=ssl.CERT_REQUIRED,
+<span class="anchor" id="SSL.line-22"></span>  # file with root certificates
+<span class="anchor" id="SSL.line-23"></span>  ca_certs="cacerts.txt"
+<span class="anchor" id="SSL.line-24"></span>)</pre><span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line862">You will need "cacerts.txt" file that contains root certificates placed alongside the script - feel free to use the one attached to this page or see below how to get an updated list. To check that certificate validation works - use <a class="https" href="https://www.debian-administration.org/">https://www.debian-administration.org/</a> in HOST name. This site's certificate is not signed by any root certificates from "cacerts.txt", so you will get an error. <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line862">To validate that a certificate matches requested site, you need to check <em>commonName</em> field in the <em>subject</em> of the certificate. This information can be accessed with <em>getpeercert()</em> method of wrapped socket. <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><pre><span class="anchor" id="SSL.line-1-1"></span>import socket
+<span class="anchor" id="SSL.line-2-1"></span>import ssl
+<span class="anchor" id="SSL.line-3-1"></span>
+<span class="anchor" id="SSL.line-4-1"></span>HOST = "www.google.com"
+<span class="anchor" id="SSL.line-5-1"></span>PORT = 443
+<span class="anchor" id="SSL.line-6-1"></span>
+<span class="anchor" id="SSL.line-7-1"></span># replace HOST name with IP, this should fail connection attempt
+<span class="anchor" id="SSL.line-8-1"></span>HOST = socket.getaddrinfo(HOST, PORT)[0][4][0]
+<span class="anchor" id="SSL.line-9-1"></span>print(HOST)
+<span class="anchor" id="SSL.line-10-1"></span>
+<span class="anchor" id="SSL.line-11-1"></span># create socket and connect to server
+<span class="anchor" id="SSL.line-12-1"></span># server address is specified later in connect() method
+<span class="anchor" id="SSL.line-13-1"></span>sock = socket.socket()
+<span class="anchor" id="SSL.line-14-1"></span>sock.connect((HOST, PORT))
+<span class="anchor" id="SSL.line-15-1"></span>
+<span class="anchor" id="SSL.line-16-1"></span># wrap socket to add SSL support
+<span class="anchor" id="SSL.line-17-1"></span>sock = ssl.wrap_socket(sock,
+<span class="anchor" id="SSL.line-18-1"></span>  # flag that certificate from the other side of connection is required
+<span class="anchor" id="SSL.line-19-1"></span>  # and should be validated when wrapping 
+<span class="anchor" id="SSL.line-20-1"></span>  cert_reqs=ssl.CERT_REQUIRED,
+<span class="anchor" id="SSL.line-21-1"></span>  # file with root certificates
+<span class="anchor" id="SSL.line-22-1"></span>  ca_certs="cacerts.txt"
+<span class="anchor" id="SSL.line-23-1"></span>)
+<span class="anchor" id="SSL.line-24-1"></span>
+<span class="anchor" id="SSL.line-25"></span># security hole here - there should be an error about mismatched host name
+<span class="anchor" id="SSL.line-26"></span># manual check of hostname
+<span class="anchor" id="SSL.line-27"></span>cert = sock.getpeercert()
+<span class="anchor" id="SSL.line-28"></span>for field in cert['subject']:
+<span class="anchor" id="SSL.line-29"></span>  if field[0][0] == 'commonName':
+<span class="anchor" id="SSL.line-30"></span>    certhost = field[0][1]
+<span class="anchor" id="SSL.line-31"></span>    if certhost != HOST:
+<span class="anchor" id="SSL.line-32"></span>      raise ssl.SSLError("Host name '%s' doesn't match certificate host '%s'"
+<span class="anchor" id="SSL.line-33"></span>                         % (HOST, certhost))</pre><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><p class="line874">That's it. <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><p class="line867">
+<h3 id="Validating_server_certificate_with_pyOpenSSL_module">Validating server certificate with pyOpenSSL module</h3>
+<span class="anchor" id="line-85"></span><p class="line867"><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><pre><span class="anchor" id="SSL.line-1-2"></span>import socket
+<span class="anchor" id="SSL.line-2-2"></span>from OpenSSL import SSL
+<span class="anchor" id="SSL.line-3-2"></span>
+<span class="anchor" id="SSL.line-4-2"></span>HOST = "www.google.com"
+<span class="anchor" id="SSL.line-5-2"></span>PORT = 443
+<span class="anchor" id="SSL.line-6-2"></span>
+<span class="anchor" id="SSL.line-7-2"></span># replace HOST name with IP, this should fail connection attempt,
+<span class="anchor" id="SSL.line-8-2"></span># but it doesn't by default
+<span class="anchor" id="SSL.line-9-2"></span>HOST = socket.getaddrinfo(HOST, PORT)[0][4][0]
+<span class="anchor" id="SSL.line-10-2"></span>print(HOST)
+<span class="anchor" id="SSL.line-11-2"></span>
+<span class="anchor" id="SSL.line-12-2"></span># uses HOST
+<span class="anchor" id="SSL.line-13-2"></span>def verify_cb(conn, x509, errno, errdepth, retcode):
+<span class="anchor" id="SSL.line-14-2"></span>  """
+<span class="anchor" id="SSL.line-15-2"></span>  callback for certificate validation
+<span class="anchor" id="SSL.line-16-2"></span>  should return true if verification passes and false otherwise
+<span class="anchor" id="SSL.line-17-2"></span>  """
+<span class="anchor" id="SSL.line-18-2"></span>  if errno == 0:
+<span class="anchor" id="SSL.line-19-2"></span>    if errdepth != 0:
+<span class="anchor" id="SSL.line-20-2"></span>      # don't validate names of root certificates
+<span class="anchor" id="SSL.line-21-2"></span>      return True
+<span class="anchor" id="SSL.line-22-2"></span>    else:
+<span class="anchor" id="SSL.line-23-2"></span>      if x509.get_subject().commonName != HOST:
+<span class="anchor" id="SSL.line-24-2"></span>        return False
+<span class="anchor" id="SSL.line-25-1"></span>  else:
+<span class="anchor" id="SSL.line-26-1"></span>    return False
+<span class="anchor" id="SSL.line-27-1"></span>
+<span class="anchor" id="SSL.line-28-1"></span>context = SSL.Context(SSL.SSLv23_METHOD)
+<span class="anchor" id="SSL.line-29-1"></span>context.set_verify(SSL.VERIFY_PEER | SSL.VERIFY_FAIL_IF_NO_PEER_CERT, verify_cb)
+<span class="anchor" id="SSL.line-30-1"></span>context.load_verify_locations("cacerts.txt")
+<span class="anchor" id="SSL.line-31-1"></span>
+<span class="anchor" id="SSL.line-32-1"></span># create socket and connect to server
+<span class="anchor" id="SSL.line-33-1"></span>sock = socket.socket()
+<span class="anchor" id="SSL.line-34"></span>sock = SSL.Connection(context, sock)
+<span class="anchor" id="SSL.line-35"></span>sock.connect((HOST, PORT))
+<span class="anchor" id="SSL.line-36"></span>sock.do_handshake()</pre><span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><p class="line867">
+<h3 id="Validate_certificate_expiration">Validate certificate expiration</h3>
+<span class="anchor" id="line-125"></span><p class="line862">Needs to be researched if Python SSL libraries validate certificate expiration times correctly. Entrypoint: certificate fields <em>notBefore</em> and <em>notAfter</em>. <span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><p class="line867">
+<h3 id="Get_updated_list_of_root_certificates">Get updated list of root certificates</h3>
+<span class="anchor" id="line-128"></span><p class="line862">You will need the latest version of certificate data from <a class="http" href="http://hg.mozilla.org/mozilla-central/file/tip/security/nss/lib/ckfw/builtins/certdata.txt">http://hg.mozilla.org/mozilla-central/file/tip/security/nss/lib/ckfw/builtins/certdata.txt</a> and convert it to PEM format by any of available tools. <span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line862">Or just grab the latest version from <a class="http" href="http://curl.haxx.se/ca/cacert.pem">http://curl.haxx.se/ca/cacert.pem</a> <span class="anchor" id="line-131"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">SSL  (last edited 2010-11-21 08:55:53 by <span title="techtonik @ mm-127-247-57-86.leased.line.mgts.by[86.57.247.127]"><a class="nonexistent" href="http://wiki.python.org/moin/techtonik" title="techtonik @ mm-127-247-57-86.leased.line.mgts.by[86.57.247.127]">techtonik</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

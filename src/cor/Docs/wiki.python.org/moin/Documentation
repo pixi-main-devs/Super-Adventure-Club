@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Documentation - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/Documentation?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/Documentation?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/Documentation?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/Documentation?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="Documentation">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/Documentation?action=fullsearch&amp;context=180&amp;value=linkto%3A%22Documentation%22" rel="nofollow" title="Click to do a full-text search for this title">Documentation</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="HelpContents">HelpContents</a></li><li><a href="http://wiki.python.org/moin/PythonImplementations">PythonImplementations</a></li><li><a href="AppsWithPythonScripting">AppsWithPythonScripting</a></li><li><a href="BeginnersGuide">BeginnersGuide</a></li><li><a href="Documentation">Documentation</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="Documentation">Documentation</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/Documentation?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="Documentation#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/Documentation?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/Documentation?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="Documentation">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/Documentation?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Documentation-1">Documentation</h1>
+<span class="anchor" id="line-2"></span><p class="line862">Apart from the main <a class="http" href="http://www.python.org/doc/">python.org documentation pages</a>, a number of other resources exist. <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867">
+<h2 id="Beginners">Beginners</h2>
+<span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line874">Start here if you're new to Python or are considering trying Python after using other languages. <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><ul><li><p class="line891"><a href="BeginnersGuide">Python for Beginners</a> <span class="anchor" id="line-9"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/LanguageComparisons">LanguageComparisons</a> <span class="anchor" id="line-10"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/MovingToPythonFromOtherLanguages">MovingToPythonFromOtherLanguages</a> <span class="anchor" id="line-11"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonGlossary">PythonGlossary</a> <span class="anchor" id="line-12"></span></li><li><p class="line891"><a href="BeginnerErrorsWithPythonProgramming">BeginnerErrorsWithPythonProgramming</a> <span class="anchor" id="line-13"></span></li><li><p class="line891"><a class="http" href="http://www.netbeans.org/kb/docs/python/temperature-converter.html">Introduction to Python EA in NetBeans IDE</a> <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span></li></ul><p class="line867">
+<h2 id="Topic_Guides">Topic Guides</h2>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">If you are developing a particular kind of program or library, you might wish to study some related material. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/CommandlineTools">CommandlineTools</a> <span class="anchor" id="line-20"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/Concurrency">Concurrency</a> <span class="anchor" id="line-21"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/DatabaseProgramming">DatabaseProgramming</a>  <span class="anchor" id="line-22"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/DistributedProgramming">DistributedProgramming</a> <span class="anchor" id="line-23"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/GameProgramming">GameProgramming</a> <span class="anchor" id="line-24"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/GuiProgramming">GuiProgramming</a> <span class="anchor" id="line-25"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/ParallelProcessing">ParallelProcessing</a> <span class="anchor" id="line-26"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/WebProgramming">WebProgramming</a> <span class="anchor" id="line-27"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/WorkingWithTime">WorkingWithTime</a> <span class="anchor" id="line-28"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/Unicode">Unicode</a> <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span></li></ul><p class="line867">
+<h2 id="Advanced_Topics">Advanced Topics</h2>
+<span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/IntegratingPythonWithOtherLanguages">IntegratingPythonWithOtherLanguages</a> <span class="anchor" id="line-33"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PatternProgramming">PatternProgramming</a> <span class="anchor" id="line-34"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/FromFunctionToMethod">FromFunctionToMethod</a> <span class="anchor" id="line-35"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/ComputedAttributesUsingPropertyObjects">ComputedAttributesUsingPropertyObjects</a> <span class="anchor" id="line-36"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/AlternativeDescriptionOfProperty">AlternativeDescriptionOfProperty</a> <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></li></ul><p class="line867">
+<h2 id="Philosophy_and_Wisdom">Philosophy and Wisdom</h2>
+<span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/PythonDevWisdom">PythonDevWisdom</a> <span class="anchor" id="line-41"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonPhilosophy">PythonPhilosophy</a> <span class="anchor" id="line-42"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonSpeed">PythonSpeed</a>  <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span></li></ul><p class="line867">
+<h2 id="Other_Resources">Other Resources</h2>
+<span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><ul><li><p class="line891"><a href="PythonBooks">PythonBooks</a> <span class="anchor" id="line-47"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonPapers">PythonPapers</a> - see also <a href="http://wiki.python.org/moin/PythonPeriodicals">PythonPeriodicals</a> (for "The Python Papers") <span class="anchor" id="line-48"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonPeriodicals">PythonPeriodicals</a> <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span></li></ul><p class="line867">
+<h2 id="Reference_Documentation">Reference Documentation</h2>
+<span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><ul><li><p class="line862">Use the <a href="http://wiki.python.org/moin/GoogleTips">GoogleTips</a> to search the Python website. <span class="anchor" id="line-53"></span></li><li><p class="line891"><a class="http" href="http://www.python.org/doc/">python.org Documentation Central</a> <span class="anchor" id="line-54"></span></li><li><p class="line891"><a class="http" href="http://pydoc.org/">Search the library docstrings with pydoc</a> <span class="anchor" id="line-55"></span></li><li><p class="line891"><a class="http" href="http://pydoc.amk.ca/frame.html">Annotatable Documentation</a> - <em>apparently inactive</em> <span class="anchor" id="line-56"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/DocumentationTools">DocumentationTools</a> describes tools you can use to generate documentation for your own Python programs. <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span></li></ul><p class="line867">
+<h2 id="Working_on_the_Official_Documentation">Working on the Official Documentation</h2>
+<span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/MissingFromDocumentation">MissingFromDocumentation</a> <span class="anchor" id="line-61"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/ModulesThatNeedDocs">ModulesThatNeedDocs</a> <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span></li></ul><p class="line867">
+<h2 id="Discussion">Discussion</h2>
+<span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><p class="line862">Please see <a href="http://wiki.python.org/moin/DocumentationDiscussion">DocumentationDiscussion</a>. <span class="anchor" id="line-66"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">Documentation  (last edited 2010-11-27 23:23:44 by <span title="??? @ 8.pool85-58-4.dynamic.orange.es[85.58.4.8]">8</span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

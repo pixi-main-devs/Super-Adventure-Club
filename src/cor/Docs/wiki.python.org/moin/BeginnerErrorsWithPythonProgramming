@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>BeginnerErrorsWithPythonProgramming - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/BeginnerErrorsWithPythonProgramming?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="BeginnerErrorsWithPythonProgramming">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=fullsearch&amp;context=180&amp;value=linkto%3A%22BeginnerErrorsWithPythonProgramming%22" rel="nofollow" title="Click to do a full-text search for this title">BeginnerErrorsWithPythonProgramming</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="http://wiki.python.org/moin/PythonImplementations">PythonImplementations</a></li><li><a href="AppsWithPythonScripting">AppsWithPythonScripting</a></li><li><a href="BeginnersGuide">BeginnersGuide</a></li><li><a href="Documentation">Documentation</a></li><li><a href="BeginnerErrorsWithPythonProgramming">BeginnerErr...Programming</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="BeginnerErrorsWithPythonProgramming">BeginnerErr...Programming</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="BeginnerErrorsWithPythonProgramming#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="BeginnerErrorsWithPythonProgramming">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line862">Moved from the educational wikis at <a class="http" href="http://coedit.net/">http://coedit.net/</a> to here: <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867">
+<h2 id="Common_Problems_Beginners_Have">Common Problems Beginners Have</h2>
+<span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><ul><li><p class="line862">The <a class="http" href="http://www.alice.org/">Alice</a> 3D project developed a 3D programming environment for beginners.  They used <a href="http://wiki.python.org/moin/Python">Python</a> as the programming language originally (now switched to something else).  There were two Python-specific issues that were problematic for beginners: the case-sensitivity of the language ("variable1" is not the same as "Variable1"), and integer division (a carryover from C, 3/4 = 0, not 0.75 because 0 is an integer and 0.75 is a float).  The latter issue has been fixed, but the former has not and very likely never will.  See this <a class="http" href="http://www.linuxjournal.com/article.php?sid=5028">interview</a> in Linux Journal and this <a class="http" href="http://www.alice.org/advancedtutorial/ConwayDissertation.PDF">dissertation</a> for more details. <span class="anchor" id="line-6"></span><ul><li><p class="line891"><a class="nonexistent" href="http://wiki.python.org/moin/DougHolton">DougHolton</a> is said to have patches to implement both of these features in the <a class="http" href="http://boo.codehaus.org/">Boo</a> programming language, a language with similarities to Python, and they will appear in a release of Boo in the near future. <span class="anchor" id="line-7"></span></li></ul></li><li><p class="line862">This article (<a class="http" href="http://www.onlamp.com/pub/a/python/2004/02/05/learn_python.html">Common Mistakes of Python Programmers</a>) lists other common errors seen in Python training classes.  Many result from the use of Python's interactive prompt and the IDLE text-based python development environment.  Some of these problems might be solved by using IPython instead, but in general I never used (nor currently use) python's interactive prompt to develop applications. <span class="anchor" id="line-8"></span></li><li>Another common error mentioned in the above article is forgetting to add a colon (:) at the end of if statements, class declarations, etc. <span class="anchor" id="line-9"></span></li><li><p class="line862">Subtle errors which may cause some fairly difficult to follow messages happens when built-in type and function names are "shadowed" (ie. redefined). For example, using <tt class="backtick">str</tt> as a variable name in a scope (ie. a function or class) will prevent the built-in function of the same name from being usable, producing an error like this: <tt class="backtick">TypeError:&nbsp;'str'&nbsp;object&nbsp;is&nbsp;not&nbsp;callable</tt> <span class="anchor" id="line-10"></span></li><li><p class="line862">Even for advanced users there are features of the Python language that can cause difficulties.  See <a href="http://wiki.python.org/moin/PythonWarts">PythonWarts</a> for resources and observations on such matters. These observations have in part been used to suggest refinements in future Python versions, notably Python 3000. <span class="anchor" id="line-11"></span></li><li><p class="line862">Some <a href="http://wiki.python.org/moin/Intermediate%20Conundrums">Intermediate Conundrums</a> have been noted with regard to the behaviour of some Python features, although these may be outside the scope of beginner problems. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span></li></ul><p class="line867">
+<h2 id="Comments.2C_Potential_Solutions">Comments, Potential Solutions</h2>
+<span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><ul><li><p class="line862">The <a class="http" href="http://pychecker.sourceforge.net/">PyChecker</a> module can alert users to many common errors.  There also is a tool called <a class="http" href="http://www.logilab.org/projects/pylint">PyLint</a>. <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span></li><li class="gap"><p class="line862">To see languages that have been used successfully with beginners and children, see Logo, Hyper<strong></strong>Talk (used in Hyper<strong></strong>Card and Super<strong></strong>Card), HTML, Java<strong></strong>Script, variants of Basic, etc. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span></li><li class="gap">Are students learning python to "learn programming" or to develop real applications?  Does the IDLE interactive prompt help or hinder either?  <span class="anchor" id="line-20"></span></li></ul><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">BeginnerErrorsWithPythonProgramming  (last edited 2009-08-25 14:15:18 by <span title="Dilettant @ 213.23.87.138[213.23.87.138]"><a href="http://wiki.python.org/moin/StefanDrees" title="Dilettant @ 213.23.87.138[213.23.87.138]">StefanDrees</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

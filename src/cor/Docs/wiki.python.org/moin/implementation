@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="noindex,nofollow">
+
+<title>PythonImplementations - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/PythonImplementations?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/PythonImplementations?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/PythonImplementations?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/PythonImplementations?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="http://wiki.python.org/moin/PythonImplementations">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/PythonImplementations?action=fullsearch&amp;context=180&amp;value=linkto%3A%22PythonImplementations%22" rel="nofollow" title="Click to do a full-text search for this title">PythonImplementations</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="WordIndex">WordIndex</a></li><li><a href="HelpOnFormatting">HelpOnFormatting</a></li><li><a href="RecentChanges">RecentChanges</a></li><li><a href="HelpContents">HelpContents</a></li><li><a href="http://wiki.python.org/moin/PythonImplementations">PythonImplementations</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="http://wiki.python.org/moin/PythonImplementations">PythonImplementations</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/PythonImplementations?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="implementation#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/PythonImplementations?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/PythonImplementations?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="http://wiki.python.org/moin/PythonImplementations">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/PythonImplementations?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+<div id="message">
+<p><div class="info"><strong>Redirected from page "<a href="http://wiki.python.org/moin/implementation?action=show">implementation</a>"</strong><br></div></p><a class="clear-link" href="http://wiki.python.org/moin/PythonImplementations">Clear message</a>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="implementation#Python_Implementations">Python Implementations</a><ol><li>
+<a href="implementation#CPython_Variants">CPython Variants</a></li><li>
+<a href="implementation#Other_Implementations">Other Implementations</a></li><li>
+<a href="implementation#Extensions">Extensions</a></li><li>
+<a href="implementation#Compilers">Compilers</a></li><li>
+<a href="implementation#Similar_but_Distinct_Languages">Similar but Distinct Languages</a></li><li>
+<a href="implementation#Topic_Guides">Topic Guides</a></li><li>
+<a href="implementation#A.28Fun.29_Python_Preprocessors">(Fun) Python Preprocessors</a></li></ol></li></ol></div> <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867">
+<h1 id="Python_Implementations">Python Implementations</h1>
+<span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line874">An "implementation" of Python should be taken to mean a program or environment which provides support for the execution of programs written in the Python language, or some broadly similar dialect of the language. <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line874">There have been and are several distinct software packages providing of what we all recognize as Python, although some of those are more like distributions or variants of some existing implementation than a completely new implementation of the language. <span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867">
+<h2 id="CPython_Variants">CPython Variants</h2>
+<span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/CPython">CPython</a> - the reference Python implementation <span class="anchor" id="line-13"></span></li><li><p class="line891"><a class="http" href="http://crosstwine.com/linker/python.html">CrossTwine Linker</a> - a combination of CPython and an add-on library offering improved performance (currently proprietary) <span class="anchor" id="line-14"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/StacklessPython">Stackless Python</a> - CPython with an emphasis on concurrency using tasklets and channels (used by <a class="https" href="https://www.develer.com/trac/dspython/">dspython</a> for the Nintendo DS) <span class="anchor" id="line-15"></span></li><li><p class="line891"><a class="http" href="http://www.mhuffman.com/resource/index.html">Tiny Python</a> - not to be confused with tinypy, below <span class="anchor" id="line-16"></span></li><li><p class="line891"><a class="http" href="http://code.google.com/p/unladen-swallow/">unladen-swallow</a> - "an optimization branch of CPython, intended to be fully compatible and significantly faster", potentially merging with CPython subject to PEP <a class="interwiki" href="http://www.python.org/dev/peps/pep-3146" title="PEP">3146</a> <span class="anchor" id="line-17"></span></li><li><p class="line891"><a class="http" href="http://code.google.com/p/wpython/">wpython</a> - a re-implementation of CPython using "wordcode" instead of bytecode <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span></li></ul><p class="line867">
+<h2 id="Other_Implementations">Other Implementations</h2>
+<span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><ul><li><p class="line891"><a class="http" href="http://wiki.github.com/bjpop/berp/">Berp</a> - an implementation of Python 3 in Haskell, providing an interactive environment as well as a compiler <span class="anchor" id="line-22"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/CLPython">CLPython</a> - Python in Common Lisp <span class="anchor" id="line-23"></span></li><li><p class="line891"><a class="http" href="http://www.dcs.gla.ac.uk/~marks/">HotPy</a> - a virtual machine for Python supporting bytecode optimisation and translation (to native code) using type information gathered at run-time <span class="anchor" id="line-24"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/IronPython">IronPython</a> - Python in C# for the Common Language Runtime (CLR/.NET) and the <a class="http" href="http://fepy.sourceforge.net/">FePy</a> project's <a href="http://wiki.python.org/moin/IronPython">IronPython</a> Community Edition (IPCE) <span class="anchor" id="line-25"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/Jython">Jython</a> - Python in Java for the Java platform <span class="anchor" id="line-26"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PyMite">PyMite</a> - Python for embedded devices <span class="anchor" id="line-27"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PyPy">PyPy</a> - Python in Python, targeting several environments <span class="anchor" id="line-28"></span></li><li><p class="line891"><a class="http" href="http://pyjs.org/">pyjamas</a> - a Python to JavaScript compiler plus Web/GUI framework <span class="anchor" id="line-29"></span></li><li><p class="line891"><a class="http" href="http://code.google.com/p/pystachio/">Pystacho</a> is, like Skulpt, Python in JavaScript <span class="anchor" id="line-30"></span></li><li><p class="line891"><a class="http" href="http://students.ceid.upatras.gr/~sxanth/pyvm-2.0/">pyvm</a> - a Python-related virtual machine and software suite providing a nearly self-contained "userspace" system <span class="anchor" id="line-31"></span></li><li><p class="line891"><a class="http" href="http://www.skulpt.org/">Skulpt</a> - Python in JavaScript <span class="anchor" id="line-32"></span></li><li><p class="line891"><a class="http" href="http://www.synapse-wireless.com/documents/whte_paper/SNAP_WP_102108.pdf">SNAPpy</a> - "a subset of the Python language that has been optimized for use in low-power embedded devices" (apparently proprietary) <span class="anchor" id="line-33"></span></li><li><p class="line891"><a class="http" href="http://www.tinypy.org/">tinypy</a> - a minimalist implementation of python in 64k of code <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span></li></ul><p class="line867">
+<h2 id="Extensions">Extensions</h2>
+<span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><p class="line874">These are typically part of CPython (or some other implementation) but change the implementation's behaviour: <span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><ul><li><p class="line891"><a class="http" href="http://psyco.sf.net">Psyco</a> - a just-in-time specialising compiler for CPython <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span></li></ul><p class="line867">
+<h2 id="Compilers">Compilers</h2>
+<span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line874">These compilers usually implement something close to Python, although some compilers may impose restrictions that alter the nature of the language: <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><ul><li><p class="line891"><a class="http" href="http://www.grant-olson.net/python/compyler">Compyler</a> - an attempt to "transliterate the bytecode into x86 assembly" <span class="anchor" id="line-46"></span></li><li><p class="line891"><a class="http" href="http://cython.org/">Cython</a> - an optimising Python-to-C compiler, CPython extension module generator, and wrapper language for binding external libraries <span class="anchor" id="line-47"></span></li><li><p class="line891"><a class="http" href="http://kayhayen24x7.homelinux.org/blog/nuitka-a-python-compiler/">Nuitka</a> - a Python-to-C++ compiler using libpython at run-time, attempting some compile-time and run-time optimisations <span class="anchor" id="line-48"></span></li><li><p class="line891"><a class="http" href="http://sourceforge.net/projects/pyc/">Pyc</a> - performs static analysis in order to compile Python programs, uses similar techniques to Shed Skin <span class="anchor" id="line-49"></span></li><li><p class="line891"><a class="http" href="http://code.google.com/p/shedskin/">Shed Skin</a> - a Python-to-C++ compiler <span class="anchor" id="line-50"></span></li><li><p class="line891"><a class="http" href="http://code.google.com/p/unpython/">unPython</a> - a Python to C compiler using type annotations <span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span></li></ul><p class="line867">
+<h2 id="Similar_but_Distinct_Languages">Similar but Distinct Languages</h2>
+<span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><p class="line874">These languages don't attempt to be directly compatible even with a subset of Python, choosing to provide their own set of features: <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><ul><li><p class="line891"><a class="http" href="http://boo.codehaus.org/">Boo</a> <span class="anchor" id="line-57"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/Cobra">Cobra</a> <span class="anchor" id="line-58"></span></li><li><p class="line891"><a class="http" href="http://convergepl.org/">Converge</a> - inspired by Python, Haskell, Icon and Smalltalk, provides macros which can be evaluated at compile-time <span class="anchor" id="line-59"></span></li><li><p class="line891"><a class="http" href="http://delight.sourceforge.net/">Delight</a> - based on the D programming language <span class="anchor" id="line-60"></span></li><li><p class="line891"><a class="http" href="http://live.gnome.org/Genie">Genie</a> - based on the same foundations (Gtk+, GNOME) as the Vala programming language, supposedly inspired by Boo <span class="anchor" id="line-61"></span></li><li><p class="line891"><a class="http" href="http://mython.org/">Mython</a> - an extensible variant of the Python programming language, apparently a front-end for CPython <span class="anchor" id="line-62"></span></li><li><p class="line891"><a class="http" href="http://force7.de/nimrod/">Nimrod</a> - statically typed, compiles to C, features parameterised types, macros, and so on <span class="anchor" id="line-63"></span></li><li><p class="line891"><a class="http" href="http://serpent.sourceforge.net/">Serpent</a> - inspired by Python, supporting real-time garbage collection and multiple virtual machines in separate threads <a class="https" href="https://www.cs.cmu.edu/~music/aura/serpent-info.htm">(more information)</a> <span class="anchor" id="line-64"></span></li><li><p class="line891"><a class="http" href="http://somefancy.com/trylon/">Trylon</a> - inspired heavily by Smalltalk <span class="anchor" id="line-65"></span></li><li><p class="line891"><a class="http" href="http://mathias-kettner.de/wirbel.html">Wirbel</a> - a compilable language with similar restrictions to Shed Skin (statically typed names, lists cannot mix elements of different types) <span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span></li></ul><p class="line874">Comparisons: <span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><ul><li><p class="line862">Comparisons of <a class="http" href="http://jamiemcc.livejournal.com/12009.html?thread=225769#t225769">Genie and Wirbel</a> and <a class="http" href="http://bkhome.org/genie/">Genie and Python</a> by the lead developer of the Puppy Linux distribution <span class="anchor" id="line-70"></span></li><li><p class="line862">Some <a class="http" href="http://code.valaide.org/category/tags/genie">Genie code samples</a> indicating the differences between that language and other Python variants <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span></li></ul><p class="line867">
+<h2 id="Topic_Guides">Topic Guides</h2>
+<span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/EmbeddedPython">EmbeddedPython</a> <span class="anchor" id="line-75"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonDistributions">PythonDistributions</a> <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span></li></ul><p class="line867">
+<h2 id="A.28Fun.29_Python_Preprocessors">(Fun) Python Preprocessors</h2>
+<span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><p class="line874">There are even some tongue-in-cheek dialects of Python which you might find fun. <span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><ul><li><p class="line891"><a class="http" href="http://www.staringispolite.com/likepython/">Like, Python</a> <span class="anchor" id="line-82"></span></li><li><p class="line891"><a class="http" href="http://www.dalkescientific.com/writings/diary/archive/2007/06/01/lolpython.html">LOLPython</a> <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span></li></ul><p class="line874">This page aims to replace one formerly maintained as <span class="anchor" id="line-85"></span>"<a class="http" href="http://phaseit.net/claird/comp.lang.python/python_varieties.html">Cameron Laird's personal notes on varieties of Python implementation</a>".  Also of interest will be <a href="http://wiki.python.org/moin/IntegratingPythonWithOtherLanguages">IntegratingPythonWithOtherLanguages</a>, which, among other variants, mentions <em>embeddings</em> of Python in other languages. <span class="anchor" id="line-86"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">PythonImplementations  (last edited 2011-04-18 13:59:41 by <span title="Q @ ains-202-134-236-18.ains.net.au[202.134.236.18]"><a class="nonexistent" href="http://wiki.python.org/moin/Q" title="Q @ ains-202-134-236-18.ains.net.au[202.134.236.18]">Q</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>Applications - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/Applications?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/Applications?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/Applications?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/Applications?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="Applications">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/Applications?action=fullsearch&amp;context=180&amp;value=linkto%3A%22Applications%22" rel="nofollow" title="Click to do a full-text search for this title">Applications</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="LocalUserGroups">LocalUserGroups</a></li><li><a href="Community">Community</a></li><li><a href="PythonProjects">PythonProjects</a></li><li><a href="DevelopmentTools">DevelopmentTools</a></li><li><a href="Applications">Applications</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="Applications">Applications</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/Applications?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="Applications#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/Applications?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/Applications?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="Applications">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/Applications?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h1 id="Applications_Written_in_Python">Applications Written in Python</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line874">See also: <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><ul><li><p class="line891"><a href="AppsWithPythonScripting">AppsWithPythonScripting</a> <span class="anchor" id="line-7"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonBlogSoftware">PythonBlogSoftware</a> <span class="anchor" id="line-8"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonGames">PythonGames</a> <span class="anchor" id="line-9"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonForSystemsAdministration">PythonForSystemsAdministration</a> <span class="anchor" id="line-10"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonInMusic">PythonInMusic</a> <span class="anchor" id="line-11"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PythonWikiEngines">PythonWikiEngines</a> <span class="anchor" id="line-12"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/WebApplications">WebApplications</a> <span class="anchor" id="line-13"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/WellKnownPythonPrograms">WellKnownPythonPrograms</a> <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span></li></ul><p class="line867">
+<h3 id="A3D_CAD.2BAC8-CAM">3D CAD/CAM</h3>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><ul><li><p class="line862">FreeCAD is an Open Source CAx RAD based on Open Cascade, Qt and Python. It features some key concepts like Macro recording, Workbenches, ability to run as a server and dynamically loadable Application extensions and its designed to be platform independent... <a class="http" href="http://free-cad.sourceforge.net/">http://free-cad.sourceforge.net/</a> <span class="anchor" id="line-18"></span></li><li><p class="line862">Fandango is planned to be a full featured CAD program. It has a C++ core extensible by scripts. Currently the memory core for entity management is ready, scripting works wonderfully thanks to the ease of embedding and extending of Python. A KDE+XML user interface is now in place, controlling the keyboard and mouse. <a class="http" href="http://www.soffernet.com/jaime/fandango/">http://www.soffernet.com/jaime/fandango/</a> <span class="anchor" id="line-19"></span></li><li><p class="line862">PythonCAD is a CAD package written, surprisingly enough, in Python. The PythonCAD project aims to produce a scriptable, open-source, easy to use CAD package for Linux, the various flavors of BSD Unix, commercial Unix, and other platforms to which someone who is interested ports the program. Work began on PythonCAD in July, 2002, and the first public release was on December 21, 2002. In addition it has been ported to winXP <a class="http" href="http://www.pythoncad.org/">http://www.pythoncad.org/</a> <span class="anchor" id="line-20"></span></li><li><p class="line891"><a class="http" href="http://www.blender.org/">Blender</a> is the free open source 3D content creation suite, available for all major operating systems under the GNU General Public License. It only uses Python as a scripting language, however. <span class="anchor" id="line-21"></span></li><li><p class="line862">Vintech RCAM is a CAD/CAM system for true shape nesting and NC programming of laser, plasma, oxy-fuel and water-jet cutting machines. Vintech RCAM is platform independent and now it runs under Windows XP, Windows 7 and Linux. The main programing language of the system is Python, which defines the advanced methodology and the dynamic system development. More information <a class="http" href="http://www.vintech.bg">http://www.vintech.bg</a>. <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></li></ul><p class="line867">
+<h3 id="Audio.2BAC8-Video_Applications">Audio/Video Applications</h3>
+<span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><ul><li><p class="line862">cplay - Curses-based Linux multimedia jukebox <a class="http" href="http://www.tf.hut.fi/~flu/cplay/">http://www.tf.hut.fi/~flu/cplay/</a> <span class="anchor" id="line-26"></span></li><li><p class="line862">Freevo - Linux multimedia jukebox <a class="http" href="http://www.freevo.org">http://www.freevo.org</a> <span class="anchor" id="line-27"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/TimPlayer">TimPlayer</a> - Py-GTK based music player using Gstreamer <a class="http" href="http://creationix.com/OpenSource/TimPlayer/">http://creationix.com/OpenSource/TimPlayer/</a> <span class="anchor" id="line-28"></span></li><li><p class="line862">See also <a href="http://wiki.python.org/moin/AudioVideo">AudioVideo</a> and <a href="http://wiki.python.org/moin/PythonInMusic">PythonInMusic</a>. <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span></li></ul><p class="line867">
+<h3 id="Console_Applications">Console Applications</h3>
+<span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/IPython">IPython</a> - An enhanced Interactive Python shell <span class="anchor" id="line-33"></span></li><li><p class="line891"><a class="http" href="http://pypi.python.org/pypi/sqlpython">SQLPython</a> - interactive Oracle database client (alternative to Oracle's SQL*Plus) <span class="anchor" id="line-34"></span></li><li><p class="line862">See also <a href="http://wiki.python.org/moin/PythonShells">PythonShells</a>. <span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span></li></ul><p class="line867">
+<h3 id="Enterprise_Applications">Enterprise Applications</h3>
+<span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><ul><li><p class="line891"><a class="http" href="http://www.openerp.com/">OpenERP</a> - A complete open source ERP &amp; CRM; accounting, stock management, sales, and modular framework with over 750 modules. Originally called tinyErp, there is also a variant for Medical... see <a class="http" href="http://openerp.com">http://openerp.com</a>. <span class="anchor" id="line-39"></span></li><li><p class="line891"><a class="http" href="http://www.tryton.org/">Tryton</a> - a fork of Tiny ERP providing a three-tier high-level general purpose application platform <span class="anchor" id="line-40"></span></li><li><p class="line891"><a class="http" href="http://www.picalo.org/">Picalo</a> - A data analysis toolkit for DBMS-type of data.  Includes embedded Python scripting and wxWidgets GUI. <span class="anchor" id="line-41"></span></li><li><p class="line891"><a class="http" href="http://www.linotp.org">LinOTP 2</a> - a flexible and modular solution for strong two-factor authentication with one time passwords (OTP). Due to the modular architecture several OTP tokens and different OTP algorithms are supported. <span class="anchor" id="line-42"></span></li><li><p class="line891"><a class="http" href="http://restx.mulesoft.org">RESTx</a> - a RESTful, GPL licensed open-source data publishing and integration platform, which emphasizes simplicity, sane defaults and out-of-the-box usability. No complex configuration, no steep learning curve, instead up and running in 5 minutes. Components for data access or integration logic can be easily written in Python and Java, users create their own RESTful resources by posting parameters for those components or just filling out a small form in their browser. <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span></li></ul><p class="line867">
+<h3 id="File_Formats">File Formats</h3>
+<span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><ul><li><p class="line891"><a class="http" href="http://www.dancingbison.com/products.html">http://www.dancingbison.com/products.html</a> - xtopdf - a PDF creation/conversion toolkit <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span></li></ul><p class="line867">
+<h3 id="Image_Applications">Image Applications</h3>
+<span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><ul><li><p class="line891"><a class="http" href="http://gnofract4d.sourceforge.net/">Gnofract 4D</a> - A flexible fractal generation program <span class="anchor" id="line-51"></span></li><li><p class="line891"><a class="http" href="http://www.goghproject.com/">Gogh</a> - A PyGTK-based painting program (or image editor) with support for pressure-sensitive tablets/devices. This application appears to no longer exists. <span class="anchor" id="line-52"></span></li><li><p class="line891"><a class="http" href="http://www.imgseek.net/">imgSeek</a> - Photo collection manager with content-based search. You simply sketch the image you want to find. <span class="anchor" id="line-53"></span></li><li><p class="line891"><a class="http" href="http://mayavi.sourceforge.net/">MayaVi</a> - Scientific visualization program based on VTK <span class="anchor" id="line-54"></span></li><li><p class="line891"><a class="http" href="http://vpython.org/">VPython</a> - Navigable 3D animations are produced as side effects of computations, making a normally difficult task exceptionally easy. The new 5.0 release candidate offers opacity, local lights, and materials such as wood. <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span></li></ul><p class="line867">
+<h3 id="Internet_Applications">Internet Applications</h3>
+<span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><ul><li><p class="line862">BAOW - A lightweight content manage system based on Python language and SQL database, help you to develop complex web applications. <a class="http" href="http://www.baow.org">http://www.baow.org</a> (<em>Web site seems to be gone</em>) <span class="anchor" id="line-59"></span></li><li><p class="line891">BitTorrent - a scalable centralized <a class="interwiki" href="http://c2.com/cgi/wiki?PeerToPeer" title="Wiki">PeerToPeer</a> application <a class="http" href="http://bittorrent.com/">http://bittorrent.com/</a> <span class="anchor" id="line-60"></span></li><li><p class="line862">Flumotion - Streaming server written on top of Twisted and GStreamer <a class="http" href="http://www.fluendo.com/">http://www.fluendo.com/</a> <span class="anchor" id="line-61"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/HarvestMan">HarvestMan</a> <span class="anchor" id="line-62"></span></li><li><p class="line862">Jogger Publishing Assistant - scaled down Jabber client that simplifies publishing weblog entries in Jogger - "Jabber Powered Weblog" <a class="http" href="http://jpa.berlios.de/">http://jpa.berlios.de/</a> <span class="anchor" id="line-63"></span></li><li><p class="line862">Lamson - a Python SMTP server applying "modern web application framework design" to "e-mail application development" <a class="http" href="http://lamsonproject.org/">http://lamsonproject.org/</a> <span class="anchor" id="line-64"></span></li><li><p class="line891">MacTelnet - a Mac OS X terminal program which, as of version 3.1, is partially implemented in Python <a class="http" href="http://www.mactelnet.com/">http://www.mactelnet.com/</a> <span class="anchor" id="line-65"></span></li><li><p class="line862">Mnet - a scalable decentralized <a class="interwiki" href="http://c2.com/cgi/wiki?PeerToPeer" title="Wiki">PeerToPeer</a> application <a class="http" href="http://www.mnetproject.org/">http://www.mnetproject.org/</a> <span class="anchor" id="line-66"></span></li><li><p class="line862">Neatx - an open source implementation of a server for the <a class="http" href="http://en.wikipedia.org/wiki/NX_technology">NX display technology</a> protocols <a class="http" href="http://code.google.com/p/neatx/">http://code.google.com/p/neatx/</a> <span class="anchor" id="line-67"></span></li><li><p class="line862">Netusage - A simple script to prevent surprise ISP Traffic Bills <a class="http" href="http://www.freenet.org.nz/python/netusage/">http://www.freenet.org.nz/python/netusage/</a> <span class="anchor" id="line-68"></span></li><li><p class="line891"><a class="http" href="http://www.dancingbison.com/products.html">PDFXMLRPC</a> - a library and a corresponding application (consisting of a client and a server) for client-server PDF creation from text over the Internet or an intranet <span class="anchor" id="line-69"></span></li><li><p class="line862">PSST II - Big Frustration for Big Brother - Encrypted Instant Messaging application <a class="http" href="http://www.freenet.org.nz/python/psst/">http://www.freenet.org.nz/python/psst/</a> <span class="anchor" id="line-70"></span></li><li><p class="line891"><a class="http" href="http://restx.mulesoft.org">RESTx</a> - a RESTful data publishing and integration platform. For more details, see RESTx under 'Enterprise Applications'. <span class="anchor" id="line-71"></span></li><li><p class="line891">SpamBayes - One of the best anti-spam tools available <a class="http" href="http://www.spambayes.org/">http://www.spambayes.org/</a> <span class="anchor" id="line-72"></span></li><li><p class="line862">Spamish Inquisition - Retaliates against spammers by causing their machines to slow to a near-standstill (using RFC831 'incomplete response' messages). <a class="http" href="http://www.freenet.org.nz/python/spamishinquisition/">http://www.freenet.org.nz/python/spamishinquisition/</a> <span class="anchor" id="line-73"></span></li><li><p class="line862">Switzerland - a tool to test the integrity of data communications over networks, ISPs and firewalls <a class="http" href="http://www.eff.org/testyourisp/switzerland">http://www.eff.org/testyourisp/switzerland</a> <span class="anchor" id="line-74"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/TheCircle">TheCircle</a> - a scalable decentralized <a class="interwiki" href="http://c2.com/cgi/wiki?PeerToPeer" title="Wiki">PeerToPeer</a> application <a class="http" href="http://thecircle.org.au/">http://thecircle.org.au/</a> <span class="anchor" id="line-75"></span></li><li><p class="line862">Tribler - a peer-to-peer application written in Python, based on the original <a class="nonexistent" href="http://wiki.python.org/moin/BitTorrent">BitTorrent</a> client sources <a class="http" href="http://www.tribler.org/">http://www.tribler.org/</a> <span class="anchor" id="line-76"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/TwistedMatrix">TwistedMatrix</a> - event-driven networking framework. Supports TCP, UDP, SSL/TLS, multicast, Unix sockets, a large number of protocols (including HTTP, NNTP, SSH, IRC, FTP, and others) <a class="http" href="http://www.twistedmatrix.com/">http://www.twistedmatrix.com/</a> <span class="anchor" id="line-77"></span></li><li><p class="line862">Alan Kennedy has compiled a list of <a class="http" href="http://proxies.xhaus.com/python/">HTTP proxies</a> written in Python. <span class="anchor" id="line-78"></span></li><li><p class="line891"><a class="http" href="http://pypi.python.org/pypi/PyWebRun/">PyWebRun</a> Python Web Runner - Running Python scripts over HTTP. <span class="anchor" id="line-79"></span></li><li><p class="line862">See also <a href="http://wiki.python.org/moin/PythonWikiEngines">PythonWikiEngines</a> and <a href="http://wiki.python.org/moin/WebApplications">WebApplications</a>. <span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span></li></ul><p class="line867">
+<h3 id="Mobile_Applications">Mobile Applications</h3>
+<span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><ul><li><p class="line891"><a class="http" href="http://www.roundsolutions.com/aarlogic/index.htm">Aarlogic C05/3</a> - Ready to use GSM /GPS tracking PCB with Python engine on board with support of test server based on Google Maps <a class="http" href="http://track4free.com">http://track4free.com</a> <span class="anchor" id="line-84"></span></li><li><p class="line891"><a class="http" href="http://me.srwz.us/iphone/appbackup">AppBackup</a> - an app for jailbroken iOS devices that lets one back up and restore settings and data from App Store apps <span class="anchor" id="line-85"></span></li><li><p class="line891"><a class="http" href="http://wiki.openstreetmap.org/index.php/Pyroute">Pyroute</a> - a GPS-capable mapping/routing application for mobile devices <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span></li></ul><p class="line867">
+<h3 id="Office_Applications">Office Applications</h3>
+<span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><ul><li><p class="line862">faces - Extendible project management software <a class="http" href="http://faces.homeip.net">http://faces.homeip.net</a>  <span class="anchor" id="line-90"></span></li><li><p class="line891"><a class="http" href="http://notalon.org">Notalon</a> - Note-taking, simplified. Notalon is a note-taking software for students, lifting the burden of formatting so that you can focus on taking notes. <a class="http" href="http://notalon.org">http://notalon.org</a> <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span></li></ul><p class="line867">
+<h3 id="Personal_Information_Managers">Personal Information Managers</h3>
+<span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/BitPim">BitPim</a> - Cell phone data manipulator. Can sync phonebook, calendar, wallpaper, ring tone, etc. <a class="http" href="http://www.bitpim.org/">http://www.bitpim.org/</a> <span class="anchor" id="line-95"></span></li><li><p class="line862">Narval - Personnal Assistants, see <a class="http" href="http://www.logilab.org/narval/">http://www.logilab.org/narval/</a> <span class="anchor" id="line-96"></span></li><li><p class="line891"><a class="http" href="http://prioritiseapp.wordpress.com/">Prioritise</a> - An open source application for the organisation and management of tasks, see <a class="http" href="http://prioritiseapp.wordpress.com/">http://prioritiseapp.wordpress.com/</a> <span class="anchor" id="line-97"></span></li><li><p class="line862">Task Coach - Your friendly task manager, see <a class="http" href="http://www.taskcoach.org/">http://www.taskcoach.org/</a> <span class="anchor" id="line-98"></span></li><li><p class="line891"><a class="http" href="http://sourceforge.net/projects/wikidpad">WikidPad</a> - a wiki-like notebook application (not web-based) <span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span></li></ul><p class="line867">
+<h3 id="Science_and_Education_Applications">Science and Education Applications</h3>
+<span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><ul><li><p class="line891"><a class="http" href="http://PyroRobotics.org">Pyrobot</a> - A complete IDE, set of libraries, simulator, and course materials for exploring robotics in Python. Currently aimed for higher education, but work has begun for use in k-12 as well.  <span class="anchor" id="line-103"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/SimPy">SimPy</a> - a discrete event, object-oriented, simulation package, <a class="http" href="http://simpy.sourceforge.net/">http://simpy.sourceforge.net/</a> <span class="anchor" id="line-104"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/PyChem">PyChem</a> - a multivariate data analysis application for Windows and Unix, including principal components analysis (PCA), partial least squares regression (PLSR) and discriminant analysis (PLS-DA), discrimiant function/canonical correlation analysis (DFA/CVA/CCA), cluster analysis (K-means, HCA), advanced evolutionary methods for variable selection. <a class="http" href="http://pychem.sourceforge.net/">http://pychem.sourceforge.net/</a> <span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span></li></ul><p class="line867">
+<h3 id="Software_Development">Software Development</h3>
+<span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><ul><li><p class="line862">See also <a href="DevelopmentTools">DevelopmentTools</a>. <span class="anchor" id="line-109"></span></li><li>Bug/issue trackers: <span class="anchor" id="line-110"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/RoundUp">Roundup</a> <span class="anchor" id="line-111"></span></li><li><p class="line891"><a class="http" href="http://trac.edgewall.org/">Trac</a> <span class="anchor" id="line-112"></span></li></ul></li><li>Build tools: <span class="anchor" id="line-113"></span><ul><li><p class="line891"><a class="http" href="http://buildbot.sf.net">Buildbot</a> - automated building and testing <span class="anchor" id="line-114"></span></li><li><p class="line891"><a class="http" href="http://www.scons.org/">SCons</a> - software construction tool (comparable to make) <span class="anchor" id="line-115"></span></li><li><p class="line891"><a class="http" href="http://freehackers.org/~tnagy/bksys.html">Waf</a> - software construction tool (comparable to autotools, CMake, SCons, ant) <span class="anchor" id="line-116"></span></li><li><p class="line862">See also <a href="http://wiki.python.org/moin/ConfigurationAndBuildTools">ConfigurationAndBuildTools</a>. <span class="anchor" id="line-117"></span></li></ul></li><li>Version control: <span class="anchor" id="line-118"></span><ul><li><p class="line891"><a class="http" href="http://bazaar-vcs.org/">Bazaar</a> (formerly Bazaar-NG) and <a class="http" href="http://en.wikipedia.org/wiki/Bazaar_(software)">Baz</a> (formerly Bazaar) <span class="anchor" id="line-119"></span></li><li><p class="line891"><a class="http" href="http://www.selenic.com/mercurial/">Mercurial</a> <span class="anchor" id="line-120"></span></li><li><p class="line891"><a class="http" href="http://www.viewvc.org/">ViewVC</a> (formerly ViewCVS) - a repository browser for CVS and Subversion <span class="anchor" id="line-121"></span></li><li><p class="line862">See <a href="http://wiki.python.org/moin/VersionControl">VersionControl</a> for details of version control systems and tools. <span class="anchor" id="line-122"></span></li></ul></li><li>Comparison tools: <span class="anchor" id="line-123"></span><ul><li><p class="line891"><a class="http" href="http://meld.sourceforge.net">Meld : Diff and merge tool</a> <span class="anchor" id="line-124"></span><span class="anchor" id="line-125"></span></li></ul></li></ul><p class="line867">
+<h3 id="System_Administration_Applications">System Administration Applications</h3>
+<span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/Enomalism">Enomalism</a> - The Enomalism Virtualized Management Console (VMC) is a open source web-based systems administrator management tool for XEN hypervisor. Servers with hundreds of multiple isolated virtualized systems can be managed like a standalone server. Enomalism also includes a virtual server creation wizard and templates to facilitate virtualized server configuration, application deployment and centralized software patch management. <a class="http" href="http://www.enomalism.com">http://www.enomalism.com</a> <span class="anchor" id="line-128"></span></li><li><p class="line862">radiusContext - RADIUS log analysis program (user accounting for ISPs) <a class="http" href="http://www.tummy.com/Community/software/radiuscontext">http://www.tummy.com/Community/software/radiuscontext</a> <span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span></li></ul><p class="line867">
+<h3 id="X-Window_Manager">X-Window Manager</h3>
+<span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><ul><li><p class="line862">PLWM - The Pointless Window Manager: a python toolkit for making a wm. It's hostile towards rodents, and ease of configuration is not an objective, not so actively developed, but might be usefull for keyboard-loving hackers. Somebody might even have a use for the code, though PyWM's ideas seem better. <a class="http" href="http://plwm.sourceforge.net/">http://plwm.sourceforge.net/</a> <span class="anchor" id="line-133"></span></li><li><p class="line862">PyWM - a small, simple python-programmable X window manager that's packed with features yet very easy to learn and use. <a class="http" href="http://pywm.sf.net">http://pywm.sf.net</a>(More up-to-date), <a class="http" href="http://www.freenet.org.nz/python/pywm/index.html">http://www.freenet.org.nz/python/pywm/index.html</a> <span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span></li></ul><p class="line867">
+<h3 id="Unclassified">Unclassified</h3>
+<span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><ul><li><p class="line862">Calix - An xwindows gamma calibration tool using Py-GTK and the xgamma command. <a class="http" href="http://creationix.com/OpenSource/Calix/">http://creationix.com/OpenSource/Calix/</a> <span class="anchor" id="line-138"></span></li><li><p class="line862">CD-Store - a data cd archiving (indexing) with full search and browse capabilities using a Py-GTK interface <a class="http" href="http://creationix.com/packages/cdstore.tar.gz">http://creationix.com/packages/cdstore.tar.gz</a> <span class="anchor" id="line-139"></span></li><li><p class="line862">ruleCore - A reactive event-driven rule engine for event pattern detection <a class="http" href="http://www.rulecore.com">http://www.rulecore.com</a> <span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span></li></ul><p class="line867">
+<h2 id="Editorial_Notes">Editorial Notes</h2>
+<span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><p class="line874">The above lists should be arranged in ascending alphabetical order - please respect this when adding new entries. If, as the developer of a listed application, you disagree with the classification of the work, please move it into the appropriate category or create a new category, respecting the ascending alphabetical order of the categories. When specifying release dates please use the format YYYY-MM-DD. <span class="anchor" id="line-144"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">Applications  (last edited 2011-03-17 02:47:37 by <span title="scottywz @ fomhar.srwz.us[2001:470:1f0f:1d2::f]"><a class="nonexistent" href="http://wiki.python.org/moin/scottywz" title="scottywz @ fomhar.srwz.us[2001:470:1f0f:1d2::f]">scottywz</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

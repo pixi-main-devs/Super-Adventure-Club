@@ -1,0 +1,462 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>AppsWithPythonScripting - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/moin/AppsWithPythonScripting?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/wiki" title="Edit" href="http://wiki.python.org/moin/AppsWithPythonScripting?action=edit">
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/AppsWithPythonScripting?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/AppsWithPythonScripting?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="AppsWithPythonScripting">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/AppsWithPythonScripting?action=fullsearch&amp;context=180&amp;value=linkto%3A%22AppsWithPythonScripting%22" rel="nofollow" title="Click to do a full-text search for this title">AppsWithPythonScripting</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="HelpOnFormatting">HelpOnFormatting</a></li><li><a href="RecentChanges">RecentChanges</a></li><li><a href="HelpContents">HelpContents</a></li><li><a href="http://wiki.python.org/moin/PythonImplementations">PythonImplementations</a></li><li><a href="AppsWithPythonScripting">AppsWithPythonScripting</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li><li class="current"><a href="AppsWithPythonScripting">AppsWithPythonScripting</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><a href="http://wiki.python.org/moin/AppsWithPythonScripting?action=edit&amp;editor=text" name="texteditlink" rel="nofollow">Edit (Text)</a></li><li class="toggleCommentsButton" style="display:none;"><a href="AppsWithPythonScripting#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/AppsWithPythonScripting?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/AppsWithPythonScripting?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="AppsWithPythonScripting">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/AppsWithPythonScripting?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">Applications can be written almost completely in Python, but people are slow to change, so a considerable number of desktop applications are still written using C/C++ on Linux and Windows and a combination of C++ and Objective-C on Mac OS X. There has been a sustained trend of the use of Python to provide user automation or scripting, sometimes called macros, for C/C++ applications. This makes a lot of sense: <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><ul><li>Developers don't have to waste time and money inventing their own scripting language. <span class="anchor" id="line-4"></span></li><li>Users don't have to learn a new automation language for every application they use, and can use Python books, exampling, and learning resources. <span class="anchor" id="line-5"></span></li><li><p class="line862">Python is a <a href="http://wiki.python.org/moin/FreeSoftware">Free Software</a> (<a href="http://wiki.python.org/moin/OpenSource">Open Source</a>) solution and can be embedded and distributed without charge, so there are no royalty payments or licensing hassles <span class="anchor" id="line-6"></span></li><li>Python is simple to learn, yet Python and its standard libraries are much more powerful than a proprietary language like VBScript <span class="anchor" id="line-7"></span></li><li>Python is cross-platform <span class="anchor" id="line-8"></span></li><li><p class="line891"><a href="AppsWithPythonScripting#head-3">tools</a> like <a href="http://wiki.python.org/moin/Pyrex">Pyrex</a> and <a href="http://wiki.python.org/moin/BoostPython">BoostPython</a> make it easy to expose part or all of the application programming interface (API) <span class="anchor" id="line-9"></span></li><li>Python scripting can be added to legacy projects just as well as new ones so developers don't have to abandon their old C/C++ code libraries <span class="anchor" id="line-10"></span></li><li><p class="line862">On the Windows platform, Python has an excellent interface to COM (also known as ActiveX) and can be used to interface to almost any COM program (such as the MS-Office suite). Again, Python scripting can be added to enhance a project without change to the existing COM components. (See <a href="http://wiki.python.org/moin/Win32All">Win32All</a>) <span class="anchor" id="line-11"></span></li><li><p class="line891"><a class="http" href="http://pyobjc.sourceforge.net">PyObjC</a> can be used to add scripting to any Cocoa app on Mac OS X <span class="anchor" id="line-12"></span></li><li><p class="line862">Many Mac OS applications provide Apple event-based scripting interfaces, allowing them to be controlled from languages such as <a class="http" href="http://www.apple.com/applescript/">AppleScript</a>, <a class="http" href="http://www.latenightsw.com/freeware/JavaScriptOSA/">JavaScript OSA</a>, Perl (via <a class="http" href="http://search.cpan.org/~cnandor/Mac-Glue/">Mac::Glue</a>), Python (via <a class="http" href="http://freespace.virgin.net/hamish.sanderson/appscript.html">appscript</a>), Tcl and <a class="nonexistent" href="http://wiki.python.org/moin/UserTalk">UserTalk</a>. (See <a href="http://wiki.python.org/moin/MacPython">MacPython</a>) <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span></li></ul><p class="line862">For many of the same reasons, Python is often used as the "glue" language for a project. In the Java world, people are using <a href="http://wiki.python.org/moin/Jython">Jython</a> as the glue and scripting language. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="AppsWithPythonScripting#Applications_and_Toolkits">Applications and Toolkits</a></li><li>
+<a href="AppsWithPythonScripting#Games">Games</a></li><li>
+<a href="AppsWithPythonScripting#Graphics">Graphics</a></li><li>
+<a href="AppsWithPythonScripting#Tools_For_Integrating_Python">Tools For Integrating Python</a></li><li>
+<a href="AppsWithPythonScripting#Articles">Articles</a></li><li>
+<a href="AppsWithPythonScripting#Other_Resources_.28many_apps_from_pages_below_need_to_be_copied_to_this_page.29">Other Resources (many apps from pages below need to be copied to this page)</a></li><li>
+<a href="AppsWithPythonScripting#Additional_Notes">Additional Notes</a></li></ol></li></ol></li></ol></div> <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867"><img alt="(!)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/idea.png" title="(!)" width="16" /> <strong>This page is not for listing those applications primarily built with Python. Try <a class="nonexistent" href="http://wiki.python.org/moin/PythonSoftware">PythonSoftware</a> for those types of apps, tools, and frameworks.</strong> <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><p class="line867"><img alt="(!)" height="16" src="http://wiki.python.org/moin/moin_static193/europython/img/idea.png" title="(!)" width="16" /> <strong>Please keep wiki links as wiki links, use external links only if there is no existing page for the program.</strong> <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><p class="line867">
+<h3 id="Applications_and_Toolkits">Applications and Toolkits</h3>
+<span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><div><table><tbody><tr>  <td style="width: 30%"><p class="line862"> <strong>Name</strong> </td>
+  <td style="width: 15%"><p class="line862"> <strong>Platform</strong> </td>
+  <td style="width: 55%"><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-25"></span><p class="line862"> <a class="http" href="http://www.abaqus.com/">Abaqus</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Finite element analysis, modeling, and visualization. Python is embedded for command scripting and GUI extensibility. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-26"></span><p class="line862"> <a class="http" href="http://www.esri.com/software/arcgis/">ArcGis</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-27"></span><p class="line862"> <a href="http://wiki.python.org/moin/ClearSilver">ClearSilver</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Web application framework </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-28"></span><p class="line862"> <a class="http" href="http://www.codesubwars.org/">CodeSubWars</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> Free programming game. Uses Python as scripting language for submarine robots. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-29"></span><p class="line862"> Emacs, using <a class="http" href="http://pymacs.progiciels-bpi.ca/">Pymacs</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Text editor. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-30"></span><p class="line862"> <a class="http" href="http://www.fontlab.com/">FontLab</a> </td>
+  <td><p class="line862"> Windows, Mac OS </td>
+  <td><p class="line862"> Commercial font editing software, uses Python as a macro language. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-31"></span><p class="line862"> <a class="http" href="http://gxsm.sourceforge.net/">GXSM</a> </td>
+  <td><p class="line862"> Linux, Mac OS X </td>
+  <td><p class="line862">  Gnome X Scanning Microscopy - multi-channel 2D/3D data acquisition and visualization </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-32"></span><p class="line862"> <a class="http" href="http://golly.sourceforge.net/">Golly</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862">  Open source, cross-platform Conway's Game of Life simulator. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-33"></span><p class="line862"> <a class="https" href="https://helixcommunity.org/">Helix DNA</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> The Helix community is a collaborative effort among real, independent developers, and leading companies to extend the Helix DNA platform, the first open multi-format platform for digital media creation, delivery and playback. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-34"></span><p class="line862"> <a class="http" href="http://kahakai.sourceforge.net/">Kahakai Window Manager</a> </td>
+  <td><p class="line862"> POSIX and X11 </td>
+  <td><p class="line862"> Python is used for event and key binding configuration. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-35"></span><p class="line862"> <a class="http" href="http://www.kaydara.com/products/motionbuilder/">Kaydara Motionbuilder</a> </td>
+  <td><p class="line862"> Mac OS X, Windows </td>
+  <td><p class="line862"> Helpful for integrating into production pipelines and allows users to automate repetitive processes. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-36"></span><p class="line862"> <a class="http" href="http://mahogany.sourceforge.net/">Mahogany</a> </td>
+  <td><p class="line862"> Linux, Mac OS X, Windows </td>
+  <td><p class="line862"> <a href="http://wiki.python.org/moin/OpenSource">OpenSource</a> cross-platform mail and news client. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-37"></span><p class="line862"> <a class="http" href="http://www.mindlathe.com/">MindLathe</a> </td>
+  <td><p class="line862"> ? </td>
+  <td><p class="line862"> AI middleware </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-38"></span><p class="line862"> <a class="http" href="http://www.garagecube.com/modul8/">GarageCube Modul8</a> </td>
+  <td><p class="line862"> Mac OS X </td>
+  <td><p class="line862"> Video mixing and compositing for VJs and live performers; uses Python for internal scripting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-39"></span><p class="line862"> <a class="http" href="http://www.mushclient.com/">MUSHclient</a> </td>
+  <td><p class="line862"> Windows &amp; WINE </td>
+  <td><p class="line862"> MUD client </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-40"></span><p class="line862"> <a class="http" href="http://nsis.sourceforge.net/">NSIS2</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> There is an <a class="http" href="http://homepage.hispeed.ch/py430/python/">NSIS Python Plugin</a> for this <a href="http://wiki.python.org/moin/OpenSource">OpenSource</a> installer for Windows. -- Note: <em>makensis</em>, the installer compiler, now compiles and runs on POSIX systems too. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-41"></span><p class="line862"> <a class="http" href="http://www.ogre3d.org/">OGRE</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Object-Oriented Rendering Engine </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-42"></span><p class="line862"> <a class="http" href="http://www.openoffice.org/">OpenOffice</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> <a class="http" href="http://udk.openoffice.org/python/python-bridge.html">Python-UNO bridge</a> for scripting <a class="nonexistent" href="http://wiki.python.org/moin/OpenOffice">OpenOffice</a> with Python </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-43"></span><p class="line862"> Office and Outlook </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> While Microsoft Office apps including Microsoft Outlook were not originally designed to be scripted with Python, <a class="http" href="http://wiki.python.org/moin/PyWin32">PyWin32</a> (formerly <a href="http://wiki.python.org/moin/Win32All">Win32All</a>) makes it possible to script Microsoft Office apps and build plug-ins. Of special note is the <a class="http" href="http://spambayes.sourceforge.net/windows.html">SpamBayes</a> plug-in for Outlook which enables any Outlook user to use <a class="http" href="http://spambayes.sourceforge.net/windows.html">SpamBayes</a> without even knowing anything about Python. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-44"></span><p class="line862"> <a class="http" href="http://magix.fri.uni-lj.si/orange/">Orange</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Orange is a component-based data mining software. It includes a range of preprocessing, modelling and data exploration techniques. It is based on C++ components, that are accessed either directly (not very common), through Python scripts (easier and better), or through GUI objects called Orange Widgets. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-45"></span><p class="line862"> <a class="http" href="http://www.gnome.org/projects/orca/">Orca</a> </td>
+  <td><p class="line862"> GNOME </td>
+  <td><p class="line862">  Accessibility toolkit for applications using GTk+/AT-SPI that provides  speech synthesis, braille, and magnification. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-46"></span><p class="line862"> <a class="http" href="http://www.jasc.com/products/paintshoppro/">Paint Shop Pro 8</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> Photo and graphics editor. <a class="http" href="http://www.jasc.com/support/customercare/articles/psp8components.asp">PSP scripting resources</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-47"></span><p class="line862"> <a class="http" href="http://www.etc.cmu.edu/panda3d/">Panda3D</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Open Source game and simulation engine. Disney is one of the notable users. Check out the <a class="http" href="http://www.python.org/pycon/dc2004/papers/29/Panda3D.htm">PyCon paper on Panda3d</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-48"></span><p class="line862"> <a class="nonexistent" href="http://wiki.python.org/moin/ProScena">ProScena</a> Studio </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> A high-level content-authoring system and runtime for creating real-time interactive 3D simulations for training, education and gaming applications. <a class="http" href="http://www.prnewswire.com/cgi-bin/stories.pl?ACCT=SVBIZINK8.story&amp;STORY=/www/story/03-25-2004/0002134657">press release</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-49"></span><p class="line862"> <a class="http" href="http://www.ciranova.com/products/">Ciranova's PyCell Studio</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> A tool from an Electronic Design Automation company </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-50"></span><p class="line862"> <a class="http" href="http://www.resolversystems.com/products/resolver-one.php">Resolver One</a> </td>
+  <td><p class="line862"> .NET/CLR </td>
+  <td><p class="line862">  Programmable spreadsheet built around <a href="http://wiki.python.org/moin/IronPython">IronPython</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-51"></span><p class="line862"> <a class="http" href="http://www.scorpionvision.com/">Scorpion Vision Software</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> Machine-vision software for industrial use with Python scripting </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-52"></span><p class="line862"> <a class="http" href="http://www.scribus.net/">Scribus</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-53"></span><p class="line862"> <a class="http" href="http://www.silverrun.com/">SilverRun ModelSphere</a> </td>
+  <td><p class="line862"> Windows/Linux/Solaris </td>
+  <td><p class="line862"> A relational data modeling tool with Jython scripting. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-54"></span><p class="line862"> <a class="http" href="http://www.spss.com/devcentral/">SPSS</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> Statistical and data management package for analysts and researchers. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-55"></span><p class="line862"> <a class="http" href="http://www.froglogic.com/squish">Squish</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> An automated GUI testing framework for Qt applications that supports Python scripting </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-56"></span><p class="line862"> <a class="http" href="http://subversion.tigris.org/">Subversion</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> A compelling replacement for CVS. See the <a class="http" href="http://subversion.tigris.org/project_links.html">Project Links</a>, <a class="http" href="http://subversion.tigris.org/bindings.html">Bindings</a> or do a <a class="http" href="http://www.google.com/search?&amp;q=site:subversion%2Etigris%2Eorg+python">Google site search</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-57"></span><p class="line862"> <a class="http" href="http://netdragon.sourceforge.net">SuperKaramba</a> </td>
+  <td><p class="line862"> Linux, KDE </td>
+  <td><p class="line862"> <a class="nonexistent" href="http://wiki.python.org/moin/SuperKaramba">SuperKaramba</a> allows you to create cool dekstop widgets with little to no programming experience. It's similar to "Konfabulator" for the Mac. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-58"></span><p class="line862"> <a class="http" href="http://www.caligari.com/">truSpace</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> 3D modelling/animation package </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-59"></span><p class="line862"> <a class="http" href="http://www.vim.org/">Vim</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Text editor. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-60"></span><p class="line862"> <a class="http" href="http://www.wincvs.org/">WinCvs</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> GUI front-end for CVS </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-61"></span><p class="line862"> <a class="http" href="http://www.xchat.org/">XChat</a> , <a class="http" href="http://www.silverex.info/">SilvereX's free Windows version</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> IRC Client </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><p class="line867">
+<h3 id="Games">Games</h3>
+<span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><div><table><tbody><tr>  <td style="width: 30%"><p class="line862"> <strong>Name</strong> </td>
+  <td style="width: 15%"><p class="line862"> <strong>Platform</strong> </td>
+  <td style="width: 55%"><p class="line862"> <strong>Notes</strong> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-67"></span><p class="line862"> <a class="http" href="http://www.funkidsgames.com/games/byhockey_pc/">Backyard Hockey</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> <a class="http" href="http://onlamp.com/pub/a/python/2002/07/11/pythonnews.html">1</a>, <a class="http" href="http://www.cygnus-software.com/papers/gamescriptinginpython.html">2</a>, <a class="http" href="http://mail.python.org/pipermail/tutor/2003-June/023690.html">3</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-68"></span><p class="line862"> <a class="http" href="http://www.eagames.com/official/battlefield/battlefield2/us/home.jsp">Battlefield 2</a> </td>
+  <td><p class="line862"> Windows? </td>
+  <td><p class="line862"> Scriptable in Python </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-69"></span><p class="line862"> <a class="http" href="http://www.bigworldtech.com/">BigWorld</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> Complete MMOG tool set. The <a class="http" href="http://www.bigworldtech.com/faq.php">FAQ</a>, <a class="http" href="http://www.bigworldtech.com/client/client_object_scripting.htm">Client Engine</a> and <a class="http" href="http://www.bigworldtech.com/server/server_custom_worlds.htm">Server Engine</a> pages highlight how Python is integrated. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-70"></span><p class="line862"> <a class="http" href="http://www.codemasters.com/blade/">Blade of Darkness</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-71"></span><p class="line862"> <a class="http" href="http://butterfly.net/">Butterfly.net</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> "The scalable, reliable and high performance online game platform." Uses Python for advanced interactions between players and non-player characters </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-72"></span><p class="line862"> Cars with Guns </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-73"></span><p class="line862"> <a class="http" href="http://civilization4.net/files/modding/PythonAPI/">Civilization IV</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-74"></span><p class="line862"> <a class="http" href="http://www.earthandbeyond.ea.com/">Earth &amp; Beyond</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-75"></span><p class="line862"> <a class="http" href="http://www.eve-online.com/">Eve-Online</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> Uses <a href="http://wiki.python.org/moin/StacklessPython">StacklessPython</a> for client and server. Description from the web site - EVE: The Second Genesis, is a massively multiplayer, online, persistent world game. perhaps even too real to be called a game, but definitely more fun than reality. Played on the Net, it takes place in a world that is alive and kicking every day, every hour. Players are spaceship captains cruising around the universe, trading, fighting and communicating with other players. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-76"></span><p class="line862"> <a class="http" href="http://www.irrationalgames.com/ff/">Freedom Force</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> <a class="http" href="http://www.google.com/search?q=Freedom+Force+Python">http://www.google.com/search?q=Freedom+Force+Python</a> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-77"></span><p class="line862"> <a class="http" href="http://www.gamerankings.com/htmlpages2/516506.asp">Frequency</a> </td>
+  <td><p class="line862"> PS2 </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-78"></span><p class="line862"> <a class="nonexistent" href="http://wiki.python.org/moin/SpongeBob">SpongeBob</a> Squarepants </td>
+  <td><p class="line862"> PS2 and GameCube </td>
+  <td><p class="line862"> See Jason's <a class="http" href="http://www.asbahr.com/papers.html">paper</a> on the Python-based scripting system. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-79"></span><p class="line862"> <a class="http" href="http://www.bridgecommander.com/">Star Trek Bridge Commander</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-80"></span><p class="line862"> <a class="http" href="http://www.atari.com/toee/">Temple of Elemental Evil</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-81"></span><p class="line862"> <a class="http" href="http://play.toontown.com/">Toontown Online</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> MMORPG. <a class="http" href="http://www.gamasutra.com/features/20040128/goslin_01.shtml">Postmortem: Disney Online's Toontown</a> on Gamasutra. Also see info on Panda3D above. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-82"></span><p class="line862"> <a class="http" href="http://uru.ubi.com/us/">Uru: Ages Beyond Myst</a> </td>
+  <td><p class="line862"> Windows </td>
+  <td><p class="line862"> </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-83"></span><p class="line862"> <a class="http" href="http://vegastrike.sourceforge.net/">Vega Strike</a> </td>
+  <td><p class="line862"> Linux, Mac, Windows </td>
+  <td><p class="line862"> 3D OpenGL Action Space Sim </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-84"></span><p class="line862"> <a class="http" href="http://www.wesnoth.org">Wesnoth</a> </td>
+  <td><p class="line862"> Linux, Mac, Windows </td>
+  <td><p class="line862"> Open-source turn-based-strategy game, uses optional Python AI scripting since version 1.2.0 </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><p class="line867">
+<h3 id="Graphics">Graphics</h3>
+<span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><div><table><tbody><tr>  <td><p class="line862"> <a class="http" href="http://flyingmeat.com/acorn/">Acorn</a> </td>
+  <td><p class="line862"> MacOS X </td>
+  <td><p class="line862"> Image editor. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-89"></span><p class="line862"> <a class="http" href="http://www.blender.org/">Blender</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> <a href="http://wiki.python.org/moin/OpenSource">OpenSource</a> software for 3D modeling, animation, rendering, post-production, interactive creation and playback. <a class="http" href="http://www.blender.org/documentation/245PythonDoc/API_intro-module.html">Blender Python API reference</a> and <a class="http" href="http://www.blender.org/tutorials-help/python/">tutorials</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-90"></span><p class="line862"> <a class="http" href="http://crystal.sourceforge.net/">Crystal Space</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> <a href="http://wiki.python.org/moin/OpenSource">OpenSource</a> 3D SDK </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-91"></span><p class="line862"> <a class="http" href="http://www.gimp.org/">GIMP</a> </td>
+  <td><p class="line862"> multi-platform, GTK </td>
+  <td><p class="line862"> GNU Image Manipulation Program. <a class="http" href="http://www.daa.com.au/~james/software/pygimp/">PyGimp</a> is a package that allows people to write plug-ins for Gimp on Python rather than Script-Fu (Scheme), Perl, Tcl or C. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-92"></span><p class="line862"> <a class="http" href="http://www.sidefx.com">SideFX Houdini</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862">  Professional 3D animation and visual effects software </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-93"></span><p class="line862"> <a class="http" href="http://wiki.inkscape.org/wiki/index.php/PythonEffectTutorial">Inkscape</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Scalable Vector Graphics editor </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-94"></span><p class="line862"> <a class="http" href="http://irrlicht.sourceforge.net/">irrlicht</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> The Irrlicht Engine is an open source high performance realtime 3D engine written and usable in C++ and also available for .NET languages. It is completely cross-platform, using D3D, OpenGL and its own software renderer, and has all of the state-of-the-art features which can be found in commercial 3d engines. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-95"></span><p class="line862"> <a class="http" href="http://www.autodesk.com/us/maya/docs/Maya85/wwhelp/wwhimpl/common/html/wwhelp.htm?context=DeveloperResources&amp;file=Introduction_to_Maya_Python_API.html">Autodesk Maya</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> 3D modeling, animation, effects, and rendering program. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-96"></span><p class="line862"> <a class="http" href="http://oss.sgi.com/projects/inventor/">Open Inventor</a> </td>
+  <td><p class="line862"> multi-platform </td>
+  <td><p class="line862"> Object-oriented 3D toolkit. <a class="http" href="http://pivy.tammura.at/">Pivy</a> is the Python binding for Open Inventor. Check out the <a class="http" href="http://www.python.org/pycon/dc2004/papers/47/pycon-pivy-paper.html">Pycon paper on Pivy</a>. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-97"></span><p class="line862"> <a class="http" href="http://www.curiouslabs.com/">Poser</a> </td>
+  <td><p class="line862"> Windows and Mac OS X </td>
+  <td><p class="line862"> 3D character animation tool </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-98"></span><p class="line862"> <a class="http" href="http://www.e-onsoftware.com/Products/vue5infinite/">Vue Infinite</a> </td>
+  <td><p class="line862"> Multi-platform </td>
+  <td><p class="line862"> Vue is e-on software's award-winning, complete 3D studio to create, render and animate ultra-realistic 3D natural environments. </td>
+</tr>
+<tr>  <td><span class="anchor" id="line-99"></span><p class="line862"> <a class="http" href="http://www.cgw.com/ME2/dirmod.asp?sid=&amp;nm=&amp;type=Publishing&amp;mod=Publications%3A%3AArticle&amp;mid=8F3A7027421841978F18BE895F87F791&amp;tier=4&amp;id=25375C2E874C44A29BFB7FDF86F4FD75">Zeno</a> </td>
+  <td><p class="line862"> </td>
+  <td><p class="line862"> Internal graphics pipeline used by Industrial Light &amp; Magic. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><p class="line867"><span class="anchor" id="head-3"></span> <span class="anchor" id="line-104"></span>
+<h3 id="Tools_For_Integrating_Python">Tools For Integrating Python</h3>
+<span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><ul><li><p class="line891"><a href="http://wiki.python.org/moin/Pyrex">Pyrex</a> <span class="anchor" id="line-107"></span></li><li><p class="line891"><a class="http" href="http://www.swig.org/">SWIG</a> (<a class="interwiki" href="http://c2.com/cgi/wiki?SimplifiedWrapperAndInterfaceGenerator" title="Wiki">SimplifiedWrapperAndInterfaceGenerator</a>) <span class="anchor" id="line-108"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/BoostPython">BoostPython</a> and <a class="http" href="http://www.boost.org/libs/python/doc/index.html">Boost.Python</a> (official page) <span class="anchor" id="line-109"></span></li><li><p class="line891"><a class="http" href="http://pyobjc.sourceforge.net">PyObjC</a> (Mac OS X) <span class="anchor" id="line-110"></span></li><li><p class="line891"><a class="http" href="http://www.riverbankcomputing.co.uk/sip/index.php">SIP</a> <span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span></li></ul><p class="line867">
+<h3 id="Articles">Articles</h3>
+<span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><ul><li><p class="line891"><a class="http" href="http://www.idevnews.com/TipsTricks.asp?ID=107">Devs Using Python to Boost Integration</a> - In this two-part interview, Martelli offers Win32, Java and .NET devs some useful perspectives on Python, and how Python scripting can extend the integration capabilities of their Win32, ASP.Net, Java and C/C++ applications. <span class="anchor" id="line-115"></span></li><li><p class="line862">Embedding Python in Multi-Threaded C/C++ Applications in <a class="http" href="http://www.linuxjournal.com/article.php?sid=3641">LinuxJournal</a> <span class="anchor" id="line-116"></span></li><li><p class="line862">Building Hybrid Systems with Boost.Python in <a class="http" href="http://www.cuj.com/documents/s=8188/cuj0307abrahams/">C/C++ User Journal</a> <span class="anchor" id="line-117"></span></li><li><p class="line891"><a class="http" href="http://www.suttoncourtenay.org.uk/duncan/accu/integratingpython.html">Integrating Python, C and C++</a>, presented at the ACCU conference by Duncan Booth, and his <a class="http" href="http://www.suttoncourtenay.org.uk/duncan/accu/accuconf2003.zip">conference slides</a> <span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span></li></ul><p class="line867">
+<h3 id="Other_Resources_.28many_apps_from_pages_below_need_to_be_copied_to_this_page.29">Other Resources (many apps from pages below need to be copied to this page)</h3>
+<span class="anchor" id="line-120"></span><span class="anchor" id="line-121"></span><ul><li><p class="line891"><a href="PythonEditors">PythonEditors</a> <span class="anchor" id="line-122"></span></li><li><p class="line891"><a class="http" href="http://www.python.org/community/users.html">Organizations and Apps using Python</a> <span class="anchor" id="line-123"></span></li><li><p class="line891"><a class="http" href="http://www.thinkware.se/cgi-bin/thinki.cgi/PythonUsers">http://www.thinkware.se/cgi-bin/thinki.cgi/PythonUsers</a> <span class="anchor" id="line-124"></span></li><li><p class="line891"><a class="http" href="http://www.cygnus-software.com/papers/gamescriptinginpython.html">Game Scripting in Python</a> <span class="anchor" id="line-125"></span></li><li><p class="line891"><a class="http" href="http://www.onlamp.com/pub/a/python/2002/07/11/pythonnews.html">Humongous Games</a> <span class="anchor" id="line-126"></span></li><li><p class="line891"><a href="http://wiki.python.org/moin/IntegratingPythonWithOtherLanguages">IntegratingPythonWithOtherLanguages</a> <span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span></li></ul><p class="line867">
+<h3 id="Additional_Notes">Additional Notes</h3>
+<span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span><p class="line862">After adding Panda3D and Open Inventor I've started to wonder whether those really qualify as apps the way I originally envisioned this list? Perhaps we should have a separate page for C/C++ libraries, frameworks, etc. that have Python bindings? That would include frameworks like GTK, QT, and <a href="http://wiki.python.org/moin/WxWidgets">WxWidgets</a> which have popular Python bindings. Regardless, all the Python bindings available for popular C/C++ tools and frameworks shows the agility of Python. There are great benefits to adding Python bindings to existing C/C++ (and Java) code bases so that you can leverage the power and flexibility of Python without abandoning an existing code base or giving up the speed of C/C++ code. In these cases, Python is a complement rather than a complete replacement for another programming language. -- <a href="http://wiki.python.org/moin/KevinAltis">KevinAltis</a> <span class="anchor" id="line-131"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">AppsWithPythonScripting  (last edited 2011-01-15 13:01:30 by <span title="techtonik @ mm-127-247-57-86.leased.line.mgts.by[86.57.247.127]"><a class="nonexistent" href="http://wiki.python.org/moin/techtonik" title="techtonik @ mm-127-247-57-86.leased.line.mgts.by[86.57.247.127]">techtonik</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+

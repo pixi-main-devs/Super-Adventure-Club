@@ -1,0 +1,409 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,follow">
+
+<title>RecentChanges - PythonInfo Wiki</title>
+<script type="text/javascript" src="moin_static193/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="moin_static193/europython/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="moin_static193/europython/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="moin_static193/europython/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="http://wiki.python.org/moin/moin_static193/europython/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin/moin_static193/europython/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="PythonInfo Wiki Recent Changes" href="http://wiki.python.org/moin/RecentChanges?action=rss_rc&amp;unique=1&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="http://wiki.python.org/moin/RecentChanges?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://wiki.python.org/moin/RecentChanges?action=print">
+<link rel="Search" href="FindPage">
+<link rel="Index" href="TitleIndex">
+<link rel="Glossary" href="WordIndex">
+<link rel="Help" href="HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="RecentChanges">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="FrontPage"><img src="http://www.python.org/images/python-logo.gif" alt="Python" ></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://wiki.python.org/moin/RecentChanges?action=fullsearch&amp;context=180&amp;value=linkto%3A%22RecentChanges%22" rel="nofollow" title="Click to do a full-text search for this title">RecentChanges</a></li>
+</ul>
+
+</div>
+
+<ul id="pagetrail">
+<li><a href="FindPage">FindPage</a></li><li><a href="TitleIndex">TitleIndex</a></li><li><a href="WordIndex">WordIndex</a></li><li><a href="HelpOnFormatting">HelpOnFormatting</a></li><li><a href="RecentChanges">RecentChanges</a></li>
+</ul>
+</div>
+
+<div id="sidebar">
+<div id="star">
+
+</div>
+<div class="sidepanel">
+
+<ul id="navibar">
+<li class="wikilink"><a href="FrontPage">FrontPage</a></li><li class="wikilink current"><a href="RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="FindPage">FindPage</a></li><li class="wikilink"><a href="HelpContents">HelpContents</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="RecentChanges#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://wiki.python.org/moin/RecentChanges?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://wiki.python.org/moin/RecentChanges?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="RecentChanges">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://wiki.python.org/moin/RecentChanges?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><div><table style="width: 99%;  background: #E6EAF0;  font-size: 0.85em;"><tbody><tr>  <td><p class="line862"> <div dir="ltr" id="WikiTipOfTheDay.RandomQuote" lang="en"><span class="anchor" id="WikiTipOfTheDay.top"></span>
+<span class="anchor" id="WikiTipOfTheDay.line-1"></span><p class="line862">The <a class="nonexistent" href="http://wiki.python.org/moin/SpellCheck">SpellCheck</a> link at the bottom of a page allows you to check your spelling (who would've thought of that). <span class="anchor" id="WikiTipOfTheDay.bottom"></span></div></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><div class="recentchanges" lang="en" dir="ltr">
+<div>
+<div class="rcrss"><a href="http://wiki.python.org/moin/RecentChanges?action=rss_rc&amp;unique=1&amp;ddiffs=1"><img alt="[RSS]" height="16" src="moin_static193/europython/img/moin-rss.png" title="[RSS]" width="16" /></a></div><p></p>
+</div>
+<table>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-20</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PyPITestingInfrastructure?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PyPITestingInfrastructure">Py PITesting Infrastructure</a></td>
+<td class="rctime">18:57</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PyPITestingInfrastructure?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="swamiyeswanth @ 115.184.18.64[115.184.18.64]"><a class="nonexistent" href="http://wiki.python.org/moin/swamiyeswanth" title="swamiyeswanth @ 115.184.18.64[115.184.18.64]">swamiyeswanth</a></span>&nbsp;[1-3]</td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PythonEvents?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="PythonEvents">PythonEvents</a></td>
+<td class="rctime">16:20</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PythonEvents?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]">SkipMontanaro</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/LanguageParsing?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/LanguageParsing">LanguageParsing</a></td>
+<td class="rctime">15:48</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/LanguageParsing?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ 190-21-176-79.baf.movistar.cl[190.21.176.79]">190-21-176-79</span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PyGdChart?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PyGdChart">PyGdChart</a></td>
+<td class="rctime">15:39</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PyGdChart?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ c83-253-254-95.bredband.comhem.se[83.253.254.95]">c83-253-254-95</span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PUN/lunatech20110519?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PUN/lunatech20110519">PUN/lunatech20110519</a></td>
+<td class="rctime">06:36</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PUN/lunatech20110519?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ 5ED2B64F.cm-7-3c.dynamic.ziggo.nl[94.210.182.79]">5ED2B64F</span>&nbsp;[1-3]</td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/LocalUserGroups?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="LocalUserGroups">LocalUserGroups</a></td>
+<td class="rctime">05:42</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/LocalUserGroups?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="Juan Gomez @ mta-70-94-220-39.new.res.rr.com[70.94.220.39]"><a class="nonexistent" href="http://wiki.python.org/moin/Juan%20Gomez" title="Juan Gomez @ mta-70-94-220-39.new.res.rr.com[70.94.220.39]">Juan Gomez</a></span></td>
+<td class="rccomment">Adding KCPy to the list!</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PortingPythonToPy3k?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PortingPythonToPy3k">Porting Python To Py3k</a></td>
+<td class="rctime">03:15</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PortingPythonToPy3k?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="BrettCannon @ c-67-188-1-198.hsd1.ca.comcast.net[67.188.1.198]"><a class="nonexistent" href="http://wiki.python.org/moin/BrettCannon" title="BrettCannon @ c-67-188-1-198.hsd1.ca.comcast.net[67.188.1.198]">BrettCannon</a></span></td>
+<td class="rccomment">Add a link to the official HOWTO on porting</td>
+</tr>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-19</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/VanPyZ?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/VanPyZ">VanPyZ</a></td>
+<td class="rctime">16:11</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/VanPyZ?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="AndyMcKay @ d173-180-199-12.bchsia.telus.net[173.180.199.12]"><a class="nonexistent" href="http://wiki.python.org/moin/AndyMcKay" title="AndyMcKay @ d173-180-199-12.bchsia.telus.net[173.180.199.12]">AndyMcKay</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/OtherCommercialHosts?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/OtherCommercialHosts">Other Commercial Hosts</a></td>
+<td class="rctime">10:05</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/OtherCommercialHosts?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ Office.Infrenion.com[213.229.99.32]">Office</span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/TkInter?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/TkInter">TkInter</a></td>
+<td class="rctime">01:55</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/TkInter?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ c-24-12-189-139.hsd1.il.comcast.net[24.12.189.139]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ c-24-12-189-139.hsd1.il.comcast.net[24.12.189.139]">SkipMontanaro</a></span>&nbsp;[1]<br><span title="??? @ 201.sub-174-255-6.myvzw.com[174.255.6.201]">201</span>&nbsp;[2]</td>
+<td class="rccomment"><tt>#01</tt>&nbsp;Attachment 'Distance &amp; Midpoint Formula.py' deleted.<br><tt>#02</tt>&nbsp;Upload of attachment 'Distance &amp; Midpoint Formula.py'.</td>
+</tr>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-18</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PythonTraining?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PythonTraining">PythonTraining</a></td>
+<td class="rctime">11:04</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PythonTraining?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ 60-241-239-146.static.tpgi.com.au[60.241.239.146]">60-241-239-146</span>&nbsp;[1-2]</td>
+<td class="rccomment"><tt>#01</tt>&nbsp;Add me to New Zealand as well<br><tt>#02</tt>&nbsp;Expand my entry</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/BadContent?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/BadContent">BadContent</a></td>
+<td class="rctime">06:56</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/BadContent?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="???">Antispam subsystem</span></td>
+<td class="rccomment"></td>
+</tr>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-17</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PythonDevWisdom?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PythonDevWisdom">PythonDevWisdom</a></td>
+<td class="rctime">15:51</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PythonDevWisdom?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]">SkipMontanaro</a></span>&nbsp;[1]<br><span title="??? @ 116.71.54.219[116.71.54.219]">116</span>&nbsp;[2]</td>
+<td class="rccomment"><tt>#01</tt>&nbsp;Revert to revision 11. undo spam</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/LocalBadContent?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/LocalBadContent">LocalBadContent</a></td>
+<td class="rctime">15:50</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/LocalBadContent?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]">SkipMontanaro</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PythonEditors?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="PythonEditors">PythonEditors</a></td>
+<td class="rctime">15:49</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PythonEditors?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ unreg-65.trdlnk.com[192.160.124.65]">SkipMontanaro</a></span>&nbsp;[1]<br><span title="??? @ 116.71.54.219[116.71.54.219]">116</span>&nbsp;[2]<br><span title="techtonik @ mm-127-247-57-86.leased.line.mgts.by[86.57.247.127]"><a class="nonexistent" href="http://wiki.python.org/moin/techtonik" title="techtonik @ mm-127-247-57-86.leased.line.mgts.by[86.57.247.127]">techtonik</a></span>&nbsp;[3]<br><span title="??? @ 119.155.2.115[119.155.2.115]">119</span>&nbsp;[4]</td>
+<td class="rccomment"><tt>#01</tt>&nbsp;Revert to revision 521. undo spam<br><tt>#03</tt>&nbsp;Revert to revision 519. spam again</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/FormatReference?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/FormatReference">FormatReference</a></td>
+<td class="rctime">15:45</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/FormatReference?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="LionKimbro @ c-174-61-189-219.hsd1.wa.comcast.net[174.61.189.219]"><a href="http://wiki.python.org/moin/LionKimbro" title="LionKimbro @ c-174-61-189-219.hsd1.wa.comcast.net[174.61.189.219]">LionKimbro</a></span>&nbsp;[1]<br><span title="??? @ c-174-61-189-219.hsd1.wa.comcast.net[174.61.189.219]">c-174-61-189-219</span>&nbsp;[2-3]</td>
+<td class="rccomment"><tt>#01</tt>&nbsp;adding a few more details<br><tt>#03</tt>&nbsp;my cheat sheet for .format</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/GuiProgramming?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/GuiProgramming">GuiProgramming</a></td>
+<td class="rctime">15:36</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/GuiProgramming?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="MarcAndreLemburg @ ip-62-143-153-202.unitymediagroup.de[62.143.153.202]"><a href="http://wiki.python.org/moin/MarcAndreLemburg" title="MarcAndreLemburg @ ip-62-143-153-202.unitymediagroup.de[62.143.153.202]">MarcAndreLemburg</a></span>&nbsp;[1]<br><span title="??? @ 116.71.54.219[116.71.54.219]">116</span>&nbsp;[2]</td>
+<td class="rccomment"><tt>#01</tt>&nbsp;Revert to revision 192. Undo spam</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/ChineseLanguage?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/ChineseLanguage">ChineseLanguage</a></td>
+<td class="rctime">06:51</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/ChineseLanguage?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="PYDN @ 210.13.108.117[210.13.108.117]"><a class="nonexistent" href="http://wiki.python.org/moin/PYDN" title="PYDN @ 210.13.108.117[210.13.108.117]">PYDN</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-16</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/AdvancedBooks?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/AdvancedBooks">AdvancedBooks</a></td>
+<td class="rctime">22:00</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/AdvancedBooks?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ c-68-52-213-33.hsd1.tn.comcast.net[68.52.213.33]">c-68-52-213-33</span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/WritingExceptionClasses?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/WritingExceptionClasses">Writing Exception Classes</a></td>
+<td class="rctime">19:13</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/WritingExceptionClasses?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ VPN-18-101-8-113.MIT.EDU[18.101.8.113]">VPN-18-101-8-113</span></td>
+<td class="rccomment">Remind readers that super() doesn't magically mean __init__.</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/WebServices?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/WebServices">WebServices</a></td>
+<td class="rctime">07:56</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/WebServices?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="jakobsg @ 87.51.1.143[87.51.1.143]"><a class="nonexistent" href="http://wiki.python.org/moin/jakobsg" title="jakobsg @ 87.51.1.143[87.51.1.143]">jakobsg</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-15</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PyQt?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PyQt">PyQt</a></td>
+<td class="rctime">17:08</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PyQt?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="PaulBoddie @ cm-84.215.151.0.getinternet.no[84.215.151.0]"><a href="http://wiki.python.org/moin/PaulBoddie" title="PaulBoddie @ cm-84.215.151.0.getinternet.no[84.215.151.0]">PaulBoddie</a></span></td>
+<td class="rccomment">Attachment 'testing' deleted.</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/Firebird?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/Firebird">Firebird</a></td>
+<td class="rctime">13:32</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/Firebird?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ 79-116-76-38.rdsnet.ro[79.116.76.38]">79-116-76-38</span></td>
+<td class="rccomment">added comment related to pure driver</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/VolunteerOpportunities?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/VolunteerOpportunities">Volunteer Opportunities</a></td>
+<td class="rctime">02:49</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/VolunteerOpportunities?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ c-24-12-189-139.hsd1.il.comcast.net[24.12.189.139]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ c-24-12-189-139.hsd1.il.comcast.net[24.12.189.139]">SkipMontanaro</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/BruceJillis?action=diff" rel="nofollow"><img alt="[DELETED]" height="16" src="moin_static193/europython/img/moin-deleted.png" title="[DELETED]" width="16" /></a></td>
+<td class="rcpagelink"><a class="nonexistent" href="http://wiki.python.org/moin/BruceJillis">BruceJillis</a></td>
+<td class="rctime">02:03</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/BruceJillis?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="SkipMontanaro @ c-24-12-189-139.hsd1.il.comcast.net[24.12.189.139]"><a href="http://wiki.python.org/moin/SkipMontanaro" title="SkipMontanaro @ c-24-12-189-139.hsd1.il.comcast.net[24.12.189.139]">SkipMontanaro</a></span></td>
+<td class="rccomment">come back when you have something more pythonic to say</td>
+</tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/WebFrameworks?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/WebFrameworks">WebFrameworks</a></td>
+<td class="rctime">00:41</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/WebFrameworks?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="agronholm @ xdsl-6f298aae1dfffeac80b7.v6.nebulazone.fi[2001:1bc8:102:6f29:8aae:1dff:feac:80b7]"><a class="nonexistent" href="http://wiki.python.org/moin/agronholm" title="agronholm @ xdsl-6f298aae1dfffeac80b7.v6.nebulazone.fi[2001:1bc8:102:6f29:8aae:1dff:feac:80b7]">agronholm</a></span></td>
+<td class="rccomment"></td>
+</tr>
+<tr class="rcdaybreak"><td colspan="6"><strong>2011-05-14</strong></td></tr>
+<tr>
+<td class="rcicon1"><a href="http://wiki.python.org/moin/PyGobject?action=diff" rel="nofollow"><img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /></a></td>
+<td class="rcpagelink"><a href="http://wiki.python.org/moin/PyGobject">PyGobject</a></td>
+<td class="rctime">20:23</td>
+<td class="rcicon2"><a href="http://wiki.python.org/moin/PyGobject?action=info" rel="nofollow"><img alt="[INFO]" height="16" src="moin_static193/europython/img/moin-info.png" title="[INFO]" width="16" /></a></td>
+<td class="rceditor"><span title="??? @ iad-69-171-176-124.evdo.leapwireless.net[69.171.176.124]">iad-69-171-176-124</span></td>
+<td class="rccomment"></td>
+</tr>
+</table>
+</div>
+ <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line867"><span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><div><table><tbody><tr>  <td style="text-align: center"><p class="line862"> <img alt="[DIFF]" height="16" src="moin_static193/europython/img/moin-diff.png" title="[DIFF]" width="16" /> </td>
+  <td><p class="line862"> marks older pages that have at least one backup version stored (click for an author diff)</td>
+</tr>
+<tr>  <td style="text-align: center"><span class="anchor" id="line-14"></span><p class="line862"> <img alt="[UPDATED]" height="16" src="moin_static193/europython/img/moin-updated.png" title="[UPDATED]" width="16" /> </td>
+  <td><p class="line862"> marks pages edited since you set your bookmark (click for a bookmark diff)</td>
+</tr>
+<tr>  <td style="text-align: center"><span class="anchor" id="line-15"></span><p class="line862"> <img alt="[NEW]" height="16" src="moin_static193/europython/img/moin-new.png" title="[NEW]" width="16" /> </td>
+  <td><p class="line862"> marks pages created since you set your bookmark, and were not edited after creation</td>
+</tr>
+<tr>  <td style="text-align: center"><span class="anchor" id="line-16"></span><p class="line862"> <img alt="[DELETED]" height="16" src="moin_static193/europython/img/moin-deleted.png" title="[DELETED]" width="16" /> </td>
+  <td><p class="line862"> marks page deletions</td>
+</tr>
+<tr>  <td style="text-align: center"><span class="anchor" id="line-17"></span><p class="line862"> <img alt="[RENAMED]" height="16" src="moin_static193/europython/img/moin-renamed.png" title="[RENAMED]" width="16" /> </td>
+  <td><p class="line862"> marks page renames</td>
+</tr>
+<tr>  <td style="text-align: center"><span class="anchor" id="line-18"></span><p class="line862"> <img alt="[CONFLICT]" height="16" src="moin_static193/europython/img/moin-conflict.png" title="[CONFLICT]" width="16" /> </td>
+  <td><p class="line862"> An editing conflict happened, please resolve it by merging both versions of the problematic paragraphs together. </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-19"></span><span class="anchor" id="bottom"></span></div>
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
