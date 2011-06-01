@@ -1,10 +1,6 @@
 import threading
 from time import sleep
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1083f6ab7be07aaee4cc2bf62fcd03c953a946a6
 class ThreadPool:
 
     """Flexible thread pool class.  Creates a pool of threads, then
