@@ -1,3 +1,12 @@
 localhost - - [01/Jun/2011 01:07:07] "GET / HTTP/1.1" 200 -
 localhost - - [01/Jun/2011 01:08:36] "GET / HTTP/1.0" 200 -
 localhost - - [01/Jun/2011 01:08:42] "GET /httpserver.py HTTP/1.0" 200 -
+localhost - - [01/Jun/2011 01:17:48] "GET /start.py HTTP/1.1" 200 -
+localhost - - [01/Jun/2011 01:17:50] "GET /httpserver.py HTTP/1.1" 200 -
+localhost - - [01/Jun/2011 01:17:54] "GET / HTTP/1.1" 200 -
+localhost - - [01/Jun/2011 01:18:00] "GET / HTTP/1.1" 200 -
+localhost - - [01/Jun/2011 01:18:04] "GET / HTTP/1.1" 200 -
+localhost - - [01/Jun/2011 01:18:17] "GET / HTTP/1.1" 200 -
+localhost - - [01/Jun/2011 01:18:22] code 404, message File not found
+localhost - - [01/Jun/2011 01:18:22] "GET /home HTTP/1.1" 404 -
+localhost - - [01/Jun/2011 01:54:19] "GET / HTTP/1.1" 200 -
