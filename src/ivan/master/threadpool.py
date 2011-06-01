@@ -1,3 +1,7 @@
+import threading
+from time import sleep
+
+
 class ThreadPool:
 
     """Flexible thread pool class.  Creates a pool of threads, then

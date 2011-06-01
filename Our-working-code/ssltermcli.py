@@ -1,8 +1,8 @@
 from subprocess import call
 from socket import socket
 import ssl, sys
-rhost = 'morbidchimp'
-rport = 4444
+rhost = 'cor-laptop'
+rport = 4433
 
 def sendmessage(data):
    s = socket()
