@@ -33,3 +33,4 @@ server.register_instance(MyFuncs())
 
 # Run the server's main loop
 server.serve_forever()
+
